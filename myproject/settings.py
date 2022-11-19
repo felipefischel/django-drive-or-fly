@@ -17,7 +17,7 @@ SECRET_KEY = env("SECRET_KEY")
 # If defined, add service URL to Django security settings
 CLOUDRUN_SERVICE_URL = env("CLOUDRUN_SERVICE_URL", default=None)
 if CLOUDRUN_SERVICE_URL:
-    ALLOWED_HOSTS = [urlparse(CLOUDRUN_SERVICE_URL).netloc]
+    ALLOWED_HOSTS = [urlparse(CLOUDRUN_SERVICE_URL).netloc,"127.0.0.1"]
     CSRF_TRUSTED_ORIGINS = [CLOUDRUN_SERVICE_URL]
 else:
     ALLOWED_HOSTS = ["*"]
@@ -31,7 +31,7 @@ DATABASES = {"default": env.db()}
 # Change database settings if using the Cloud SQL Auth Proxy
 if os.getenv("USE_CLOUD_SQL_AUTH_PROXY", None):
     DATABASES["default"]["HOST"] = "127.0.0.1"
-    DATABASES["default"]["PORT"] = 5432
+    DATABASES["default"]["PORT"] = 3306
 
 if "myproject" not in INSTALLED_APPS:
      INSTALLED_APPS += ["myproject"] # for custom data migration
