@@ -1,5 +1,0 @@
-DATABASE_URL="postgres://djuser:Omx7AmRX1gRaB2wPCz3SHMHGiH4t7p@//cloudsql/drive-or-fly-368123:us-central1:myinstance/mydatabase"
-GS_BUCKET_NAME="drive-or-fly-368123-media"
-SECRET_KEY="6EQQtsAUpLY6GJVoSyGXwxjLRfwVpK2g44PdFNpZAqRTvHjJQy"
-DEBUG="True"
-CLOUDRUN_SERVICE_URL="https://django-cloudrun-65qhk7fwvq-uc.a.run.app"
