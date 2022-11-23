@@ -42,3 +42,11 @@ STATICFILES_DIRS = []
 DEFAULT_FILE_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"
 STATICFILES_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"
 GS_DEFAULT_ACL = "publicRead"
+
+
+DATE_INPUT_FORMATS = ['%Y-%m-%d']
+
+GOOGLE_MAPS_API_KEY=os.getenv('GOOGLE_MAPS_API_KEY')
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
