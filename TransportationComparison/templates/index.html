@@ -1,0 +1,6 @@
+<h1>Drive or Fly</h1>
+<form action="{% url 'comparison:compare'%}" method="post">
+  {% csrf_token %}
+  {{form}}
+  <input type="submit" value="Search">
+</form>
