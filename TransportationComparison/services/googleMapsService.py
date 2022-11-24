@@ -1,9 +1,7 @@
 import googlemaps
-import os
-from dotenv import load_dotenv
+from django.conf import settings
 
-load_dotenv()
-gmaps = googlemaps.Client(key=os.getenv('GOOGLE_MAPS_API_KEY'))
+gmaps = googlemaps.Client(key=settings.GOOGLE_MAPS_API_KEY)
 
 
 def getLongAndLat(address):
