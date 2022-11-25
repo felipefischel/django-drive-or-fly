@@ -1,10 +1,8 @@
 from urllib.request import urlopen
 from amadeus import Client, ResponseError
-import os
 import ssl
-from dotenv import load_dotenv
+from django.conf import settings
 
-load_dotenv()
 
 #only  needed for running  the api call locally
 def ssl_disabled_urlopen(endpoint):
@@ -13,8 +11,8 @@ def ssl_disabled_urlopen(endpoint):
 
 
 amadeus = Client(
-    client_id=os.getenv("AMADEUS_API_KEY"),
-    client_secret=os.getenv("AMADEUS_API_SECRET"),
+    client_id=settings.AMADEUS_API_KEY,
+    client_secret=settings.AMADEUS_API_SECRET,
     http=ssl_disabled_urlopen
 )
 

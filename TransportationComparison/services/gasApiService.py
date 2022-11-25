@@ -1,19 +1,18 @@
 import http.client
 import os
 import json
-from dotenv import load_dotenv
+from django.conf import settings
 
 
 
 #returns $ per gallon
 def getGasPricesByUSState():
 
-  load_dotenv()
   conn = http.client.HTTPSConnection("api.collectapi.com")
   
   headers = {
       'content-type': "application/json",
-      'authorization': os.getenv('COLLECT_API_KEY')
+      'authorization': settings.COLLECT_API_KEY
   }
   
   conn.request("GET", "/gasPrice/stateUsaPrice?state=WA", headers=headers)
