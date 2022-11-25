@@ -1,0 +1,7 @@
+TO RUN THE PROGRAM LOCALLY
+
+1. Run the Cloud SQL Auth Proxy in one terminal tab:
+./cloud_sql_proxy --instances=drive-or-fly-368123:us-central1:myinstance=tcp:3306
+
+2. In a new tab, run the following command, using these local settings and setting the proxy flag:
+USE_CLOUD_SQL_AUTH_PROXY=true APPLICATION_SETTINGS=$(cat .env) python manage.py runserver
