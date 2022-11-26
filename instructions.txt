@@ -1,7 +1,24 @@
-TO RUN THE PROGRAM LOCALLY
+TO RUN THE PROGRAM LOCALLY:
 
 1. Run the Cloud SQL Auth Proxy in one terminal tab:
 ./cloud_sql_proxy --instances=drive-or-fly-368123:us-central1:myinstance=tcp:3306
 
 2. In a new tab, run the following command, using these local settings and setting the proxy flag:
 USE_CLOUD_SQL_AUTH_PROXY=true APPLICATION_SETTINGS=$(cat .env) python manage.py runserver
+
+-------------------------
+
+FOR FIRST TIME USAGE:
+
+1. Install GCLOUD CLI:
+https://cloud.google.com/sdk/docs/install
+
+2. Install Cloud SQL Auth Proxy:
+https://cloud.google.com/python/django/run#connect_sql_locally
+
+3. Create a virtualenv:
+virtualenv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+4. Setup .env file with secrets.
