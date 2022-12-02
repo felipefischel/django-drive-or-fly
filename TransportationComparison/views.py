@@ -62,8 +62,11 @@ def Compare(request):
             print(date_start)
 
     # if a GET (or any other method) we'll create a blank form
+        else:
+            return render(request, "index.html", {'form':form}) 
     else:
-        raise Http404("Form is not valid")
+        form = TripForm(None)
+        return render(request, "index.html", {'form':form})
 
     car_cost_and_distance = priceCalculationManager.calculateCarCostAndDistanceAndDuration(starting_destination,final_destination)
     flight_cost_and_distance  = priceCalculationManager.calculateFlightCostAndHours(starting_destination, final_destination,date_start)
