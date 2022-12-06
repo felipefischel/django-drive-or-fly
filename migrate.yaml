@@ -20,7 +20,7 @@ steps:
     args: 
       - "bash"
       - "-c"
-      - "(/cloudsql/cloud_sql_proxy -instances=${_INSTANCE_CONNECTION_NAME}=tcp:5432 & sleep 2) && 
+      - "(/cloudsql/cloud_sql_proxy -instances=${_INSTANCE_CONNECTION_NAME}=tcp:3306 & sleep 2) && 
           python3 manage.py migrate && 
           python3 manage.py collectstatic --noinput"
 
@@ -38,3 +38,7 @@ availableSecrets:
 
 options:
   dynamicSubstitutions: true
+
+
+
+      
