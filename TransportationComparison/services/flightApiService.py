@@ -2,6 +2,8 @@ from urllib.request import urlopen
 from amadeus import Client, ResponseError
 import ssl
 from django.conf import settings
+import datetime
+
 
 
 #only  needed for running  the api call locally
@@ -26,11 +28,22 @@ def getFlights(startPlace, destination,  date):
         departureDate=date,
         adults=1)
     flights = map(getFlightInformation, response.data[0]['itineraries'][0]['segments'] )
-   
+    listOfFlights = list(flights)   
+    departureTime = listOfFlights[0]['departureTime']
+    arrivalTime = listOfFlights[-1]['arrivalTime']
+    format_str = "%Y-%m-%dT%H:%M:%S"
+    departureDateTime = datetime.datetime.strptime(departureTime, format_str)
+    arrivalDateTime =datetime.datetime.strptime(arrivalTime, format_str)
+    duration = arrivalDateTime - departureDateTime
+    print("internal")
+    print(listOfFlights)
+    duration_in_s = duration.total_seconds()  
+    hours = duration_in_s/3600
 
     return {
       "totalPrice":response.data[0]['price']['grandTotal'],
-      "flights":list(flights)
+      "flights":list(flights),
+      "duration":hours
     }
     
   except ResponseError as error:

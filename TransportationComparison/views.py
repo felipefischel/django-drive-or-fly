@@ -54,7 +54,6 @@ def Compare(request):
             # process the data in form.cleaned_data as required
             # ...
 
-            print(form)
             starting_destination = form.data['starting_destination']
             final_destination = form.data['final_destination'] 
             date_start = form.data['date_start']
@@ -70,21 +69,13 @@ def Compare(request):
 
     car_cost_and_distance = priceCalculationManager.calculateCarCostAndDistanceAndDuration(starting_destination,final_destination)
     flight_cost_and_distance  = priceCalculationManager.calculateFlightCostAndHours(starting_destination, final_destination,date_start)
-    print(flight_cost_and_distance)
-    format_str = '%Y-%m-%d'
-    date_start_datetime = datetime.datetime.strptime(date_start, format_str)
-    date_end_datetime = datetime.datetime.strptime(date_end, format_str)
-    
-    duration = date_end_datetime - date_start_datetime
-    duration_in_s = duration.total_seconds()  
-    hours = divmod(duration_in_s, 3600)[0] 
-    tripOutput = TripOutput(flight_cost=flight_cost_and_distance['totalPrice'],drive_cost=car_cost_and_distance['cost'],flight_duration=hours,drive_duration=car_cost_and_distance['duration']/60)
+
+    tripOutput = TripOutput(
+      flight_cost=round(float(flight_cost_and_distance['totalPrice']),2),
+      drive_cost=round(float(car_cost_and_distance['cost']),2),
+      flight_duration=round(float(flight_cost_and_distance['duration']),2),
+      drive_duration=round(float(car_cost_and_distance['duration']/3600 ),2)
+      )
     tripOutput.save()
-    #hacer los api calls;
 
-    #guardar el resultado en un TripOutput con key = tripOutput_id;
-
-    #redireccionar a Result pasando el valor de tripOutput_id;
-
-    #return HttpResponseRedirect(reverse('comparison:results', args=(trip_output.id,)))
     return HttpResponseRedirect(reverse('comparison:result', args=(tripOutput.id, )))
