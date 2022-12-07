@@ -1,9 +1,12 @@
 {% extends 'base.html' %}
 {% load bootstrap5 %}
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'TransportationComparison/style.css' %}">
 
 
 {% block content %}
-    <div class="container">
+    <div class="container main-form-div">
         <div class="row my-5">
             <div class="col-md-12">
               <form action="{% url 'comparison:compare'%}" method="post">
@@ -17,8 +20,3 @@
         </div>
     </div>
 {% endblock %}
-
-
-
-
-
