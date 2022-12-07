@@ -18,6 +18,7 @@ amadeus = Client(
 
 #date formaat is YYYY-MM-DD
 #currency is EURO
+#might need to do a manual conversion
 def getFlights(startPlace, destination,  date):
   try:
     response = amadeus.shopping.flight_offers_search.get(
