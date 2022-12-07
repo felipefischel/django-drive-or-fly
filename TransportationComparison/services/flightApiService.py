@@ -13,10 +13,8 @@ def ssl_disabled_urlopen(endpoint):
 
 
 amadeus = Client(
-    client_id ="vuMGY8Z1EZBvYViFCcF3UOhu0y0KU32u",
-    client_secret="zTPXkOJ1HdcFy7ge",
-    #client_id=settings.AMADEUS_API_KEY,
-    #client_secret=settings.AMADEUS_API_SECRET,
+    client_id=settings.AMADEUS_API_KEY,
+    client_secret=settings.AMADEUS_API_SECRET,
     http=ssl_disabled_urlopen
 )
 
