@@ -17,13 +17,13 @@ from .services import priceCalculationManager
 
 
 def Index(request):
-    template = loader.get_template('index.html')
+    template = loader.get_template('TransportationComparison/index.html')
     form = TripForm()
     context = {'form':form}
 
     return HttpResponse(template.render(context, request))
 
-def autocomplete(request):       
+def autocomplete(request):
     return render(request, 'googleMap.html', {'google_maps_api_key': settings.GOOGLE_MAPS_API_KEY})
 
 
@@ -32,8 +32,8 @@ def Result(request, trip_output_id):
       trip = TripOutput.objects.get(pk=trip_output_id)
     except TripOutput.DoesNotExist:
       raise Http404("Trip does not exist")
-  
-    template = loader.get_template('result.html')
+
+    template = loader.get_template('TransportationComparison/result.html')
     #leemos la base de datos y la guardamos en una variable X
     context = {
         "flightDuration":trip.flight_duration,
@@ -55,17 +55,17 @@ def Compare(request):
             # ...
 
             starting_destination = form.data['starting_destination']
-            final_destination = form.data['final_destination'] 
+            final_destination = form.data['final_destination']
             date_start = form.data['date_start']
             date_end = form.data['date_end']
             print(date_start)
 
     # if a GET (or any other method) we'll create a blank form
         else:
-            return render(request, "index.html", {'form':form}) 
+            return render(request, "TransportationComparison/index.html", {'form':form})
     else:
         form = TripForm(None)
-        return render(request, "index.html", {'form':form})
+        return render(request, "TransportationComparison/index.html", {'form':form})
 
     car_cost_and_distance = priceCalculationManager.calculateCarCostAndDistanceAndDuration(starting_destination,final_destination)
     flight_cost_and_distance  = priceCalculationManager.calculateFlightCostAndHours(starting_destination, final_destination,date_start)
