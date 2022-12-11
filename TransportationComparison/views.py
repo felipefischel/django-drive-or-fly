@@ -34,8 +34,6 @@ def Result(request, trip_output_id):
       raise Http404("Trip does not exist")
 
     template = loader.get_template('TransportationComparison/result.html')
-    print("bbbbbbb")
-    print(trip.flights)
     #leemos la base de datos y la guardamos en una variable X
     context = {
         "flightDuration":trip.flight_duration,
@@ -82,12 +80,7 @@ def Compare(request):
 
 
     tripOutput.save()
-    print("111111")
-    print(flight_cost_and_distance)
     for flight in flight_cost_and_distance['flights']:
-      print("aaaaaaaaaa")
-      #datetime.strptime(a[0]['departureTime'],format_str).time()
-      print(flight)
       flightModel = Flight(
         starting_airport_code=flight['departureAirport'],
         destination_airport_code=flight['arrivalAirport'],
