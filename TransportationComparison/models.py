@@ -1,6 +1,13 @@
 from django.db import models
 
-# Create your models here.
+
+class Flight(models.Model):
+  starting_airport_code = models.CharField(max_length = 500)
+  destination_airport_code = models.CharField(max_length = 500)
+  departure = models.DateTimeField()
+  arrival = models.DateTimeField()
+  airline_code = models.CharField(max_length = 500)
+
 class TripInput(models.Model):
   starting_address = models.CharField(max_length = 500) 
   destination_address = models.CharField(max_length = 500)
@@ -13,5 +20,6 @@ class TripOutput(models.Model):
   flight_duration = models.FloatField()
   drive_cost = models.FloatField()
   drive_duration = models.FloatField()
+  flights = models.ManyToManyField(Flight)
 
   

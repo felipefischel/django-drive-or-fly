@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
 from django.template import loader
 from django.urls import reverse
-from .models import TripOutput
+from .models import TripOutput, Flight
 from django.http import Http404
 import datetime
 from .services import gasApiService
@@ -34,12 +34,15 @@ def Result(request, trip_output_id):
       raise Http404("Trip does not exist")
 
     template = loader.get_template('TransportationComparison/result.html')
+    print("bbbbbbb")
+    print(trip.flights)
     #leemos la base de datos y la guardamos en una variable X
     context = {
         "flightDuration":trip.flight_duration,
         "driveDuration":trip.drive_duration,
         "flightCost":trip.flight_cost,
-        "driveCost":trip.drive_cost
+        "driveCost":trip.drive_cost,
+        "flights":trip.flights.all()
     }
     return HttpResponse(template.render(context, request))
 
@@ -76,6 +79,27 @@ def Compare(request):
       flight_duration=round(float(flight_cost_and_distance['duration']),2),
       drive_duration=round(float(car_cost_and_distance['duration']/3600 ),2)
       )
+
+
     tripOutput.save()
+    print("111111")
+    print(flight_cost_and_distance)
+    for flight in flight_cost_and_distance['flights']:
+      print("aaaaaaaaaa")
+      #datetime.strptime(a[0]['departureTime'],format_str).time()
+      print(flight)
+      flightModel = Flight(
+        starting_airport_code=flight['departureAirport'],
+        destination_airport_code=flight['arrivalAirport'],
+        departure=flight['departureTime'],
+        arrival=flight['arrivalTime'],
+        airline_code=flight['carrierCode']
+      )
+      flightModel.save()
+      tripOutput.flights.add(flightModel)
+      tripOutput.save()
+
+    
+
 
     return HttpResponseRedirect(reverse('comparison:result', args=(tripOutput.id, )))
