@@ -8,5 +8,17 @@
   <h1>Drive duration: {{driveDuration}} hours</h1>
   <h1>Flight Cost: ${{flightCost}}</h1>
   <h1>Drive Cost: ${{driveCost}}</h1>
+  <h1>Flights:</h1>
+  <ul>
+    {% for flight in flights %}
+      <li>
+        <h6>Departing airport: {{ flight.starting_airport_code }}</h6>
+        <h6>Arriving airport:{{ flight.destination_airport_code }}</h6>
+        <h6>Departure: {{ flight.departure }} UTC</h6>
+        <h6>Arrival: {{ flight.arrival }} UTC</h6>
+        <h6>Airline: {{ flight.airline_code }}</h6>        
+      </li>
+    {% endfor %}
+  </ul>
 </div>
 {% endblock %}

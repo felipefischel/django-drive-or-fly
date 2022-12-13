@@ -42,7 +42,7 @@ def getFlights(startPlace, destination,  date):
 
     return {
       "totalPrice":response.data[0]['price']['grandTotal'],
-      "flights":list(flights),
+      "flights":listOfFlights,
       "duration":hours
     }
     
@@ -69,7 +69,7 @@ def getFlightInformation(flight):
   return {
     "departureAirport": flight['departure']['iataCode'],
     "departureTime": flight['departure']['at'],
-    "arrivlAirport": flight['arrival']['iataCode'],
+    "arrivalAirport": flight['arrival']['iataCode'],
     "arrivalTime": flight['arrival']['at'],
     "carrierCode": flight['carrierCode']
   }

@@ -23,3 +23,5 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 4. Setup .env file with secrets.
+
+5. Run gcloud auth application-default login to allow the app to use the gcloud auth.
