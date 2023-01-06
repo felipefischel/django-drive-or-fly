@@ -23,7 +23,8 @@ else:
     ALLOWED_HOSTS = ["*"]
 
 # Default false. True allows default landing pages to be visible
-DEBUG = env("DEBUG", default=True)
+DEBUG = env("DEBUG", default=False)
+
 
 # Set this value from django-environ
 DATABASES = {"default": env.db()}

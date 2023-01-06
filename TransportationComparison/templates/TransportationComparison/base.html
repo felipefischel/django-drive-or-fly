@@ -1,4 +1,5 @@
-{% load static %}
+<!-- {% load static %} -->
+{% load sass_tags %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -15,7 +16,7 @@
 
       {% bootstrap_messages %}
 
-      <link rel="stylesheet" type="text/css" href="{% static 'TransportationComparison/css/style.css' %}"/>
+      <link rel="stylesheet" type="text/css" href="{% sass_src 'TransportationComparison/css/style.scss' %}"/>
   </head>
 
   <body>
