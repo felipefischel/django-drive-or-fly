@@ -8,3 +8,4 @@ psycopg2-binary==2.9.5
 django-storages[google]==1.12.3
 django-environ==0.8.1
 django-bootstrap-v5==1.0.11
+django-sass-processor==1.2.2
