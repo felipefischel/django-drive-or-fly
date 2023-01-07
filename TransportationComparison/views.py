@@ -58,8 +58,6 @@ def Compare(request):
             starting_destination = form.data['starting_destination']
             final_destination = form.data['final_destination']
             date_start = form.data['date_start']
-            date_end = form.data['date_end']
-            print(date_start)
 
     # if a GET (or any other method) we'll create a blank form
         else:
