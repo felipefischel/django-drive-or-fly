@@ -6,7 +6,7 @@
 {% block content %}
     <div class="container main-form-div">
         <div class="row my-5 main-form-interior-div">
-            <div class="col-md-12">
+            <div class="col-md-12 main-form-grid-container">
               <form action="{% url 'comparison:compare'%}" method="post">
                     {% csrf_token %}
                     {% bootstrap_form form %}
