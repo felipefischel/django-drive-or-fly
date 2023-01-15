@@ -23,7 +23,7 @@ else:
     ALLOWED_HOSTS = ["*"]
 
 # Default false. True allows default landing pages to be visible
-DEBUG = env("DEBUG", default=False)
+DEBUG = env("DEBUG", default=True)
 
 
 # Set this value from django-environ
@@ -38,13 +38,21 @@ if "myproject" not in INSTALLED_APPS:
      INSTALLED_APPS += ["myproject"] # for custom data migration
 
 # Define static storage via django-storages[google]
-GS_BUCKET_NAME = env("GS_BUCKET_NAME")
-STATICFILES_DIRS = [
-    'TransportationComparison/static/',
+
+# GS_BUCKET_NAME = env("GS_BUCKET_NAME")
+# STATICFILES_DIRS = [
+#     'TransportationComparison/static/',
+# ]
+# DEFAULT_FILE_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"
+# STATICFILES_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"
+# GS_DEFAULT_ACL = "publicRead"
+
+STATICFILES_FINDERS = [
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'sass_processor.finders.CssFinder'
+
 ]
-DEFAULT_FILE_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"
-STATICFILES_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"
-GS_DEFAULT_ACL = "publicRead"
 
 
 DATE_INPUT_FORMATS = ['%Y-%m-%d']
@@ -55,4 +63,9 @@ AMADEUS_API_KEY=env("AMADEUS_API_KEY")
 AMADEUS_API_SECRET=env("AMADEUS_API_SECRET")
 
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'TransportationComparison/static/TransportationComparison/')
+
+
+SASS_PROCESSOR_ENABLED = True
+SASS_PROCESSOR_ROOT = os.path.join(BASE_DIR, 'TransportationComparison/static/TransportationComparison/')
+SASS_PROCESSOR_OUTPUT_DIR = os.path.join(BASE_DIR, 'TransportationComparison/static/TransportationComparison/')
