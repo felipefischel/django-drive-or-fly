@@ -19,8 +19,8 @@ from .services import priceCalculationManager
 def Index(request):
     template = loader.get_template('TransportationComparison/index.html')
     form = TripForm()
-    context = {'form':form}
-
+    backgroundimage = 'https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg'
+    context = {'form':form, 'backgroundimage': backgroundimage}
     return HttpResponse(template.render(context, request))
 
 def autocomplete(request):
@@ -90,7 +90,7 @@ def Compare(request):
       tripOutput.flights.add(flightModel)
       tripOutput.save()
 
-    
+
 
 
     return HttpResponseRedirect(reverse('comparison:result', args=(tripOutput.id, )))
