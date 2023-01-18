@@ -3,6 +3,7 @@ from amadeus import Client, ResponseError
 import ssl
 from django.conf import settings
 import datetime
+import json
 
 
 
@@ -71,11 +72,19 @@ def getFlightInformation(flight):
     "departureTime": flight['departure']['at'],
     "arrivalAirport": flight['arrival']['iataCode'],
     "arrivalTime": flight['arrival']['at'],
+    #"carrierCode": getCarrierName(flight['carrierCode'])
     "carrierCode": flight['carrierCode']
   }
 
 
 
+def getCarrierName(carrierCode):
+    jsonReader = open('../static/TransportationComparison/data/airlines.json')
+    carrierData = json.load(jsonReader)
+    return carrierData[carrierCode]['Description']
+
+
+  
 
 #EXAMPLE API CALLS:
 
