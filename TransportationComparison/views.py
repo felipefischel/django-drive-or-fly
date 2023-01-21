@@ -9,6 +9,8 @@ from .services import gasApiService
 from .forms import TripForm
 from django.conf import settings
 from .services import priceCalculationManager
+from django.template.response import TemplateResponse
+
 
 
 
@@ -19,9 +21,11 @@ from .services import priceCalculationManager
 def Index(request):
     template = loader.get_template('TransportationComparison/index.html')
     form = TripForm()
-    backgroundimage = 'https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg'
+    backgroundimage = "url('https://www.alistdaily.com/wp-content/uploads/2019/05/WeTransferNewBranding_Feature.jpg')"
+    #TODO: Make  backroundImage pull from an image from gcloud randomly
     context = {'form':form, 'backgroundimage': backgroundimage}
     return HttpResponse(template.render(context, request))
+
 
 def autocomplete(request):
     return render(request, 'googleMap.html', {'google_maps_api_key': settings.GOOGLE_MAPS_API_KEY})
@@ -34,18 +38,23 @@ def Result(request, trip_output_id):
       raise Http404("Trip does not exist")
 
     template = loader.get_template('TransportationComparison/result.html')
+    backgroundimage = "url('https://www.alistdaily.com/wp-content/uploads/2019/05/WeTransferNewBranding_Feature.jpg')"
+
     #leemos la base de datos y la guardamos en una variable X
     context = {
         "flightDuration":trip.flight_duration,
         "driveDuration":trip.drive_duration,
         "flightCost":trip.flight_cost,
         "driveCost":trip.drive_cost,
-        "flights":trip.flights.all()
+        "flights":trip.flights.all(),
+        "backgroundimage":backgroundimage
     }
     return HttpResponse(template.render(context, request))
 
 
 def Compare(request):
+    backgroundimage = "url('https://www.alistdaily.com/wp-content/uploads/2019/05/WeTransferNewBranding_Feature.jpg')"
+    #TODO: Make  backroundImage pull from an image from gcloud randomly
   # if this is a POST request we need to process the form data
     if request.method == 'POST':
         # create a form instance and populate it with data from the request:
@@ -61,10 +70,10 @@ def Compare(request):
 
     # if a GET (or any other method) we'll create a blank form
         else:
-            return render(request, "TransportationComparison/index.html", {'form':form})
+            return render(request, "TransportationComparison/index.html", {'form':form, 'backgroundimage': backgroundimage})
     else:
         form = TripForm(None)
-        return render(request, "TransportationComparison/index.html", {'form':form})
+        return render(request, "TransportationComparison/index.html",{'form':form, 'backgroundimage': backgroundimage})
 
     car_cost_and_distance = priceCalculationManager.calculateCarCostAndDistanceAndDuration(starting_destination,final_destination)
     flight_cost_and_distance  = priceCalculationManager.calculateFlightCostAndHours(starting_destination, final_destination,date_start)
@@ -93,4 +102,4 @@ def Compare(request):
 
 
 
-    return HttpResponseRedirect(reverse('comparison:result', args=(tripOutput.id, )))
+    return HttpResponseRedirect(reverse('comparison:result', args=( tripOutput.id, )))

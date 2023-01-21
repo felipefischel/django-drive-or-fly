@@ -4,7 +4,8 @@
 {% block title %} Home {% endblock %}
 
 {% block content %}
-  <div class="background-ad-image" style="background-image: url('https://www.alistdaily.com/wp-content/uploads/2019/05/WeTransferNewBranding_Feature.jpg')">
+
+      <div class="background-ad-image" style="background-image: {{backgroundimage}}">
     <div class="main-form-container">
       <form action="{% url 'comparison:compare'%}" method="post">
         {% csrf_token %}
