@@ -5,25 +5,23 @@
 
 {% block content %}
   <div class="background-ad-image" style="background-image: url('https://www.alistdaily.com/wp-content/uploads/2019/05/WeTransferNewBranding_Feature.jpg')">
-    <div class="container main-form-div">
-        <div class="main-form-container">
-            <form action="{% url 'comparison:compare'%}" method="post">
-                  {% csrf_token %}
-                  <div class="main-form-inputs-container">
-                    {% for field in form %}
-                      <div class="main-form-fields">
-                          {{ field.errors }}
-                          {{ field.label_tag }} {{ field }}
-                      </div>
-                    {% endfor %}
-                  </div>
-                  <div class="main-form-btn-container">
-                    {% buttons %}
-                    <button type="submit" class="btn btn-primary main-form-btn">Drive or Fly?</button>
-                    {% endbuttons %}
-                  </div>
-            </form>
+    <div class="main-form-container">
+      <form action="{% url 'comparison:compare'%}" method="post">
+        {% csrf_token %}
+        <div class="main-form-inputs-container">
+          {% for field in form %}
+            <div class="main-form-fields">
+              {{ field.errors }}
+              {{ field.label_tag }} {{ field }}
+            </div>
+          {% endfor %}
         </div>
+        <div class="main-form-btn-container">
+          {% buttons %}
+          <button type="submit" class="btn btn-primary main-form-btn">Drive or Fly?</button>
+          {% endbuttons %}
+        </div>
+      </form>
     </div>
   </div>
 {% endblock %}
