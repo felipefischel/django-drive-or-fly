@@ -5,8 +5,6 @@ from django.conf import settings
 import datetime
 import json
 
-
-
 #only  needed for running  the api call locally
 def ssl_disabled_urlopen(endpoint):
     context = ssl._create_unverified_context()
@@ -29,7 +27,7 @@ def getFlights(startPlace, destination,  date):
         departureDate=date,
         adults=1)
     flights = map(getFlightInformation, response.data[0]['itineraries'][0]['segments'] )
-    listOfFlights = list(flights)   
+    listOfFlights = list(flights)
     departureTime = listOfFlights[0]['departureTime']
     arrivalTime = listOfFlights[-1]['arrivalTime']
     format_str = "%Y-%m-%dT%H:%M:%S"
@@ -38,7 +36,7 @@ def getFlights(startPlace, destination,  date):
     duration = arrivalDateTime - departureDateTime
     print("internal")
     print(listOfFlights)
-    duration_in_s = duration.total_seconds()  
+    duration_in_s = duration.total_seconds()
     hours = duration_in_s/3600
 
     return {
@@ -46,7 +44,7 @@ def getFlights(startPlace, destination,  date):
       "flights":listOfFlights,
       "duration":hours
     }
-    
+
   except ResponseError as error:
     print(error)
 
@@ -55,11 +53,14 @@ def getAirports(lat, long):
   response =  amadeus.reference_data.locations.airports.get(
     longitude=long,
     latitude=lat)
-  
+
   airportCodes = map(getAirportCode, response.data)
 
   return list(airportCodes)
-  
+
+
+
+
 
 
 def getAirportCode(airportInfo):
@@ -72,11 +73,9 @@ def getFlightInformation(flight):
     "departureTime": flight['departure']['at'],
     "arrivalAirport": flight['arrival']['iataCode'],
     "arrivalTime": flight['arrival']['at'],
-    #"carrierCode": getCarrierName(flight['carrierCode'])
-    "carrierCode": flight['carrierCode']
+    "carrierCode": getCarrierName(flight['carrierCode'])
+    # "carrierCode": flight['carrierCode']
   }
-
-
 
 def getCarrierName(carrierCode):
     jsonReader = open('../static/TransportationComparison/data/airlines.json')
@@ -84,7 +83,6 @@ def getCarrierName(carrierCode):
     return carrierData[carrierCode]['Description']
 
 
-  
 
 #EXAMPLE API CALLS:
 
@@ -94,4 +92,3 @@ def getCarrierName(carrierCode):
 #{'lat': 28.5317408697085, 'lng': -81.3328855802915}
 
 #https://api.flightapi.io/onewaytrip/6338e52003fdff3db04ceabd/LHR/LAX/2019-10-11/2/0/1/Economy/USD
-

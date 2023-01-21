@@ -8,7 +8,6 @@ from django.conf import settings
 #returns $ per gallon
 def getGasPricesByUSState():
 
-
   # conn = http.client.HTTPSConnection("api.collectapi.com")
   
   # headers = {
@@ -24,4 +23,3 @@ def getGasPricesByUSState():
 
   # return data_as_json['result']['state']['gasoline']
   return 3.217
-  

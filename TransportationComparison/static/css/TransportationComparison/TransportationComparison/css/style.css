@@ -1,5 +1,5 @@
 .background-ad-image {
-  height: 90vh;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
@@ -66,12 +66,16 @@
   padding: 20px;
   border-radius: 8px;
   width: 480px;
-  height: 400px; }
+  height: auto; }
 
 .result-icons-div, .result-time-div, .result-price-div, .result-extra-info-div {
   text-align: center;
   align-items: center;
   margin-bottom: 10px;
   font-size: 14px; }
+
+.icon-result {
+  width: 60px;
+  height: 60px; }
 
 /*# sourceMappingURL=style.css.map */
