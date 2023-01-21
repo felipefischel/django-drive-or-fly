@@ -1,0 +1,17 @@
+.result-main-container{
+  position:absolute;
+  margin-left: 50px;
+  margin-top: 120px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 480px;
+  height: 400px;
+}
+
+.result-icons-div, .result-time-div, .result-price-div, .result-extra-info-div{
+  text-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+}

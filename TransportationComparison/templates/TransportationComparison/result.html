@@ -1,24 +1,36 @@
 {% extends 'TransportationComparison/base.html' %}
-
+{% load bootstrap5 %}
+{% load static %}
+{% block title %} Result {% endblock %}
 
 {% block content %}
-<div>
-  <h1 >TEST</h1>
-  <h1>Flight Duration: {{flightDuration}} hours</h1>
-  <h1>Drive duration: {{driveDuration}} hours</h1>
-  <h1>Flight Cost: ${{flightCost}}</h1>
-  <h1>Drive Cost: ${{driveCost}}</h1>
-  <h1>Flights:</h1>
-  <ul>
-    {% for flight in flights %}
-      <li>
-        <h6>Departing airport: {{ flight.starting_airport_code }}</h6>
-        <h6>Arriving airport:{{ flight.destination_airport_code }}</h6>
-        <h6>Departure: {{ flight.departure }} UTC</h6>
-        <h6>Arrival: {{ flight.arrival }} UTC</h6>
-        <h6>Airline: {{ flight.airline_code }}</h6>        
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+  <div class="background-ad-image" style="background-image: url('https://www.alistdaily.com/wp-content/uploads/2019/05/WeTransferNewBranding_Feature.jpg')">
+    <div class="container result-main-container">
+      <div class="row result-icons-div">
+        <div class="col-sm-6 drive-icon-div"><h1>Drive:</h1></div>
+        <div class="col-sm-6 fly-icon-div"><h1>Fly:</h1></div>
+      </div>
+      <div class="row result-time-div">
+        <div class="col-sm-6 drive-time-div"><h2>{{driveDuration}} hrs</h2></div>
+        <div class="col-sm-6 fly-time-div"><h2>{{flightDuration}} hrs</h2></div>
+      </div>
+      <div class="row result-price-div">
+        <div class="col-sm-6 drive-price-div"><h2>${{driveCost}}</h2></div>
+        <div class="col-sm-6 fly-price-div"><h2>${{flightCost}}</h2></div>
+      </div>
+      <div class="row result-extra-info-div">
+        <div class="col-sm-6 drive-extra-info-div"></div>
+        <div class="col-sm-6 fly-extra-info-div">
+          {% for flight in flights %}
+            <h6>Departing airport: {{ flight.starting_airport_code }}</h6>
+            <h6>Arriving airport:{{ flight.destination_airport_code }}</h6>
+            <h6>Departure: {{ flight.departure }} UTC</h6>
+            <h6>Arrival: {{ flight.arrival }} UTC</h6>
+            <h6>Airline: {{ flight.airline_code }}</h6>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
 {% endblock %}

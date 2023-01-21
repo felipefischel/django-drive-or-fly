@@ -1,0 +1,65 @@
+.background-ad-image{
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-form-container{
+  position:absolute;
+  margin-left: 50px;
+  margin-top: 120px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 280px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-form-inputs-container{
+  margin-bottom: 15px;
+  border-width: 5px;
+  color: black;
+}
+
+.main-form-fields{
+  padding: 10px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+#id_date_start, #id_starting_destination, #id_final_destination, #id_date_end{
+  height:46px;
+  width: 180px;
+  padding: 15px;
+  border: 1px solid grey;
+  box-shadow: 0 0 2px grey;
+  border-radius: 4px;
+}
+
+.main-form-btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.main-form-btn{
+  background-color: cornflowerblue;
+  border-radius: 6px;
+  width: 180px;
+  height: 46px;
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+}
