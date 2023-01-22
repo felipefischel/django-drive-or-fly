@@ -1,0 +1,6286 @@
+{
+    "02Q": {
+        "Code": "02Q",
+        "Description": "Titan Airways"
+    },
+    "04Q": {
+        "Code": "04Q",
+        "Description": "Tradewind Aviation"
+    },
+    "05Q": {
+        "Code": "05Q",
+        "Description": "Comlux Aviation, AG"
+    },
+    "06Q": {
+        "Code": "06Q",
+        "Description": "Master Top Linhas Aereas Ltd."
+    },
+    "07Q": {
+        "Code": "07Q",
+        "Description": "Flair Airlines Ltd."
+    },
+    "09Q": {
+        "Code": "09Q",
+        "Description": "Swift Air, LLC"
+    },
+    "0BQ": {
+        "Code": "0BQ",
+        "Description": "DCA"
+    },
+    "0CQ": {
+        "Code": "0CQ",
+        "Description": "ACM AIR CHARTER GmbH"
+    },
+    "0GQ": {
+        "Code": "0GQ",
+        "Description": "Inter Island Airways, d/b/a Inter Island Air"
+    },
+    "0HQ": {
+        "Code": "0HQ",
+        "Description": "Polar Airlines de Mexico d/b/a Nova Air"
+    },
+    "0J": {
+        "Code": "0J",
+        "Description": "JetClub AG"
+    },
+    "0JQ": {
+        "Code": "0JQ",
+        "Description": "Vision Airlines"
+    },
+    "0LQ": {
+        "Code": "0LQ",
+        "Description": "Metropix UK, LLP."
+    },
+    "0MQ": {
+        "Code": "0MQ",
+        "Description": "Multi-Aero, Inc. d/b/a Air Choice One"
+    },
+    "0OQ": {
+        "Code": "0OQ",
+        "Description": "Open Skies"
+    },
+    "0Q": {
+        "Code": "0Q",
+        "Description": "Flying Service N.V."
+    },
+    "0QQ": {
+        "Code": "0QQ",
+        "Description": "TAG Aviation (UK) Ltd."
+    },
+    "0RQ": {
+        "Code": "0RQ",
+        "Description": "TAG Aviation Espana S.L."
+    },
+    "0TQ": {
+        "Code": "0TQ",
+        "Description": "Corporatejets, XXI"
+    },
+    "0UQ": {
+        "Code": "0UQ",
+        "Description": "Comlux Malta, Ltd."
+    },
+    "0VQ": {
+        "Code": "0VQ",
+        "Description": "Ocean Sky (UK) Limited"
+    },
+    "0WQ": {
+        "Code": "0WQ",
+        "Description": "Avjet Corporation"
+    },
+    "0YQ": {
+        "Code": "0YQ",
+        "Description": "Comlux Malta Ltd."
+    },
+    "10Q": {
+        "Code": "10Q",
+        "Description": "Swiss Air Ambulance"
+    },
+    "12Q": {
+        "Code": "12Q",
+        "Description": "Unijet"
+    },
+    "13Q": {
+        "Code": "13Q",
+        "Description": "Chartright Air Inc."
+    },
+    "14Q": {
+        "Code": "14Q",
+        "Description": "London Air Services Limited"
+    },
+    "15Q": {
+        "Code": "15Q",
+        "Description": "Air Alsie A/S"
+    },
+    "16": {
+        "Code": "16",
+        "Description": "PSA Airlines Inc."
+    },
+    "17": {
+        "Code": "17",
+        "Description": "Piedmont Airlines"
+    },
+    "17Q": {
+        "Code": "17Q",
+        "Description": "Albinati Aeronautics SA"
+    },
+    "1AQ": {
+        "Code": "1AQ",
+        "Description": "Charter Air Transport, Inc."
+    },
+    "1BQ": {
+        "Code": "1BQ",
+        "Description": "Dynamic Airways, LLC"
+    },
+    "1DQ": {
+        "Code": "1DQ",
+        "Description": "Island Airlines LLC"
+    },
+    "1EQ": {
+        "Code": "1EQ",
+        "Description": "KaiserAir, Inc."
+    },
+    "1FQ": {
+        "Code": "1FQ",
+        "Description": "Alsek Air"
+    },
+    "1HQ": {
+        "Code": "1HQ",
+        "Description": "International Jet Management GmbH"
+    },
+    "1I": {
+        "Code": "1I",
+        "Description": "Sky Trek International Airlines"
+    },
+    "1IQ": {
+        "Code": "1IQ",
+        "Description": "Jet link AG"
+    },
+    "1JQ": {
+        "Code": "1JQ",
+        "Description": "Exec Direct Aviation Services Limited"
+    },
+    "1LQ": {
+        "Code": "1LQ",
+        "Description": "Bertelsmann Aviation GmbH"
+    },
+    "1MQ": {
+        "Code": "1MQ",
+        "Description": "Twin Cities Air Service LLC"
+    },
+    "1NQ": {
+        "Code": "1NQ",
+        "Description": "JSC The 224th Flight Unit State Airlines"
+    },
+    "1PQ": {
+        "Code": "1PQ",
+        "Description": "Makani Kai Air Charters"
+    },
+    "1QQ": {
+        "Code": "1QQ",
+        "Description": "City Wings Inc dba Seaflight"
+    },
+    "1RQ": {
+        "Code": "1RQ",
+        "Description": "Sun Air Express LLC dba Sun Air International"
+    },
+    "1SQ": {
+        "Code": "1SQ",
+        "Description": "Star Marianas Air Inc."
+    },
+    "1TQ": {
+        "Code": "1TQ",
+        "Description": "Rhoades Aviation dba Transair"
+    },
+    "1UQ": {
+        "Code": "1UQ",
+        "Description": "Gainjet Aviation SA"
+    },
+    "1VQ": {
+        "Code": "1VQ",
+        "Description": "Scott Air LLC dba Island Air Express"
+    },
+    "1WQ": {
+        "Code": "1WQ",
+        "Description": "Ultimate JetCharters LLC dba Ultimate Air Shuttle"
+    },
+    "1XQ": {
+        "Code": "1XQ",
+        "Description": "Dassault Falcon Service"
+    },
+    "2E": {
+        "Code": "2E",
+        "Description": "Smokey Bay Air Inc."
+    },
+    "2F": {
+        "Code": "2F",
+        "Description": "Frontier Flying Service"
+    },
+    "2K": {
+        "Code": "2K",
+        "Description": "Aerolineas Galapagos S A Aerogal"
+    },
+    "2M": {
+        "Code": "2M",
+        "Description": "Midway Express Airlines"
+    },
+    "2O": {
+        "Code": "2O",
+        "Description": "Island Air Service"
+    },
+    "2R": {
+        "Code": "2R",
+        "Description": "Regal Air"
+    },
+    "2T": {
+        "Code": "2T",
+        "Description": "Canada 3000 Airlines Ltd."
+    },
+    "2U": {
+        "Code": "2U",
+        "Description": "Valley Air Express Inc."
+    },
+    "37": {
+        "Code": "37",
+        "Description": "Zeal 320"
+    },
+    "3C": {
+        "Code": "3C",
+        "Description": "Regions Air, Inc."
+    },
+    "3F": {
+        "Code": "3F",
+        "Description": "Pacific Airways, Inc."
+    },
+    "3M": {
+        "Code": "3M",
+        "Description": "Silver Airways"
+    },
+    "3S": {
+        "Code": "3S",
+        "Description": "AeroLogic GmbH"
+    },
+    "3U": {
+        "Code": "3U",
+        "Description": "Sichuan Airlines Co Ltd."
+    },
+    "4B": {
+        "Code": "4B",
+        "Description": "Boutique Air"
+    },
+    "4B (1)": {
+        "Code": "4B (1)",
+        "Description": "Olson Air Service"
+    },
+    "4C": {
+        "Code": "4C",
+        "Description": "Aerovias de Intergracian Regional"
+    },
+    "4E": {
+        "Code": "4E",
+        "Description": "Tanana Air Service"
+    },
+    "4E (1)": {
+        "Code": "4E (1)",
+        "Description": "British Airtours Limited"
+    },
+    "4H": {
+        "Code": "4H",
+        "Description": "Belize Trans Air"
+    },
+    "4M": {
+        "Code": "4M",
+        "Description": "LAN Argentina"
+    },
+    "4M (1)": {
+        "Code": "4M (1)",
+        "Description": "Lan Dominica"
+    },
+    "4N": {
+        "Code": "4N",
+        "Description": "Air North"
+    },
+    "4O": {
+        "Code": "4O",
+        "Description": "ABC Aerolineas SA de CV dba Interjet"
+    },
+    "4R": {
+        "Code": "4R",
+        "Description": "Regent Air Corporation"
+    },
+    "4S": {
+        "Code": "4S",
+        "Description": "Sol Air (Aero Hunduras)"
+    },
+    "4S (1)": {
+        "Code": "4S (1)",
+        "Description": "Conner Air Lines Inc."
+    },
+    "4T": {
+        "Code": "4T",
+        "Description": "Belair Airlines Ltd."
+    },
+    "4W": {
+        "Code": "4W",
+        "Description": "Warbelow"
+    },
+    "4Y": {
+        "Code": "4Y",
+        "Description": "Yute Air Aka Flight Alaska"
+    },
+    "5B": {
+        "Code": "5B",
+        "Description": "Bellair Inc."
+    },
+    "5C": {
+        "Code": "5C",
+        "Description": "C.A.L Cargo Airlines"
+    },
+    "5D": {
+        "Code": "5D",
+        "Description": "Aerolitoral"
+    },
+    "5F": {
+        "Code": "5F",
+        "Description": "Arctic Circle Air Service"
+    },
+    "5G": {
+        "Code": "5G",
+        "Description": "Skyservice Airlines, Inc."
+    },
+    "5G (1)": {
+        "Code": "5G (1)",
+        "Description": "Queen Air"
+    },
+    "5J": {
+        "Code": "5J",
+        "Description": "Private Jet Expeditions"
+    },
+    "5L": {
+        "Code": "5L",
+        "Description": "Aerosur"
+    },
+    "5V": {
+        "Code": "5V",
+        "Description": "Tatonduk Outfitters Limited d/b/a Everts Air Alaska and Everts Air Cargo"
+    },
+    "5X": {
+        "Code": "5X",
+        "Description": "United Parcel Service"
+    },
+    "5Y": {
+        "Code": "5Y",
+        "Description": "Atlas Air Inc."
+    },
+    "6A": {
+        "Code": "6A",
+        "Description": "Aviacsa Airlines"
+    },
+    "6B": {
+        "Code": "6B",
+        "Description": "TUIfly Nordic A.B."
+    },
+    "6C": {
+        "Code": "6C",
+        "Description": "Cape Smythe Air Service"
+    },
+    "6F": {
+        "Code": "6F",
+        "Description": "Laker Airways Inc."
+    },
+    "6H": {
+        "Code": "6H",
+        "Description": "Israir Airlines"
+    },
+    "6P": {
+        "Code": "6P",
+        "Description": "Pacific East Air Inc."
+    },
+    "6R": {
+        "Code": "6R",
+        "Description": "Aerounion Aerotransporte de Carga Union SA de CV"
+    },
+    "6U": {
+        "Code": "6U",
+        "Description": "Air Ukraine"
+    },
+    "6Y": {
+        "Code": "6Y",
+        "Description": "Nicaraguense De Aviacion Sa"
+    },
+    "7B": {
+        "Code": "7B",
+        "Description": "Krasair"
+    },
+    "7C": {
+        "Code": "7C",
+        "Description": "Jeju Air Co Ltd."
+    },
+    "7F": {
+        "Code": "7F",
+        "Description": "First Air"
+    },
+    "7G": {
+        "Code": "7G",
+        "Description": "MK Airlines Ltd."
+    },
+    "7G (1)": {
+        "Code": "7G (1)",
+        "Description": "Bellair Inc. (1)"
+    },
+    "7H": {
+        "Code": "7H",
+        "Description": "Era Aviation"
+    },
+    "7I": {
+        "Code": "7I",
+        "Description": "Insel Air International B V"
+    },
+    "7M": {
+        "Code": "7M",
+        "Description": "Aeromonterrey S.A."
+    },
+    "7N": {
+        "Code": "7N",
+        "Description": "Inland Aviation Services"
+    },
+    "7P": {
+        "Code": "7P",
+        "Description": "Apa International Air S.A."
+    },
+    "7Q": {
+        "Code": "7Q",
+        "Description": "Pan American World Airways Dominicana"
+    },
+    "7S": {
+        "Code": "7S",
+        "Description": "Arctic Transportation"
+    },
+    "7S (1)": {
+        "Code": "7S (1)",
+        "Description": "Skystar International Inc."
+    },
+    "7Z": {
+        "Code": "7Z",
+        "Description": "Lb Limited"
+    },
+    "8C": {
+        "Code": "8C",
+        "Description": "Air Transport International"
+    },
+    "8D": {
+        "Code": "8D",
+        "Description": "Servant Air Inc."
+    },
+    "8E": {
+        "Code": "8E",
+        "Description": "Bering Air Inc."
+    },
+    "8F": {
+        "Code": "8F",
+        "Description": "Wilburs Inc."
+    },
+    "8J": {
+        "Code": "8J",
+        "Description": "Jetall Airways"
+    },
+    "8L": {
+        "Code": "8L",
+        "Description": "Servicio Aereo Leo Lopez"
+    },
+    "8N": {
+        "Code": "8N",
+        "Description": "Flagship Airlines Inc."
+    },
+    "8Q": {
+        "Code": "8Q",
+        "Description": "Baker Aviation Inc."
+    },
+    "8R": {
+        "Code": "8R",
+        "Description": "Edelweiss Air Ag"
+    },
+    "8V": {
+        "Code": "8V",
+        "Description": "Wright Air Service"
+    },
+    "9E": {
+        "Code": "9E",
+        "Description": "Endeavor Air Inc."
+    },
+    "9J": {
+        "Code": "9J",
+        "Description": "Pacific Island Aviation"
+    },
+    "9K": {
+        "Code": "9K",
+        "Description": "Cape Air"
+    },
+    "9L": {
+        "Code": "9L",
+        "Description": "Colgan Air"
+    },
+    "9M": {
+        "Code": "9M",
+        "Description": "Central Mountain Air"
+    },
+    "9N": {
+        "Code": "9N",
+        "Description": "ANA & JP Express Co. Ltd."
+    },
+    "9R": {
+        "Code": "9R",
+        "Description": "Flagship Express Services"
+    },
+    "9S": {
+        "Code": "9S",
+        "Description": "Southern Air Inc."
+    },
+    "9T": {
+        "Code": "9T",
+        "Description": "TravelspanGT, Inc. S.A."
+    },
+    "9V": {
+        "Code": "9V",
+        "Description": "Avior Airlines, C.A."
+    },
+    "9W": {
+        "Code": "9W",
+        "Description": "Jet Airways (India) Limited"
+    },
+    "A0": {
+        "Code": "A0",
+        "Description": "Elysair d/b/a L'Avion"
+    },
+    "A2": {
+        "Code": "A2",
+        "Description": "Cielos De Peru"
+    },
+    "A4": {
+        "Code": "A4",
+        "Description": "Southern Wind Airlines"
+    },
+    "A7": {
+        "Code": "A7",
+        "Description": "Air Comet S.A."
+    },
+    "A7 (1)": {
+        "Code": "A7 (1)",
+        "Description": "Air 21"
+    },
+    "AA": {
+        "Code": "AA",
+        "Description": "American Airlines Inc."
+    },
+    "AAA": {
+        "Code": "AAA",
+        "Description": "Associated Aviation Act."
+    },
+    "AAB": {
+        "Code": "AAB",
+        "Description": "Antilles Air Boats Inc."
+    },
+    "AAE": {
+        "Code": "AAE",
+        "Description": "AAA Airlines"
+    },
+    "AAI": {
+        "Code": "AAI",
+        "Description": "Audi Air Inc."
+    },
+    "AAL": {
+        "Code": "AAL",
+        "Description": "Argosy Air Lines Inc."
+    },
+    "AAP": {
+        "Code": "AAP",
+        "Description": "Armstrong Air Service Inc."
+    },
+    "AAQ": {
+        "Code": "AAQ",
+        "Description": "Advance Air Charters"
+    },
+    "AAR": {
+        "Code": "AAR",
+        "Description": "Altair Airlines Inc."
+    },
+    "AAT": {
+        "Code": "AAT",
+        "Description": "Air Sunshine Inc."
+    },
+    "AAV": {
+        "Code": "AAV",
+        "Description": "Alpine Air"
+    },
+    "AAZ": {
+        "Code": "AAZ",
+        "Description": "Alaska Aeronautical Indust."
+    },
+    "AB": {
+        "Code": "AB",
+        "Description": "Air Berlin PLC and CO"
+    },
+    "ABH": {
+        "Code": "ABH",
+        "Description": "Air Bahia"
+    },
+    "ABI": {
+        "Code": "ABI",
+        "Description": "Airbama Incorporated"
+    },
+    "ABO": {
+        "Code": "ABO",
+        "Description": "Aeronaves Boringuena Inc."
+    },
+    "ABX": {
+        "Code": "ABX",
+        "Description": "ABX Air, Inc."
+    },
+    "AC": {
+        "Code": "AC",
+        "Description": "Air Canada"
+    },
+    "ACA": {
+        "Code": "ACA",
+        "Description": "Alaska Central Airways Inc."
+    },
+    "ACD": {
+        "Code": "ACD",
+        "Description": "Academy Airlines"
+    },
+    "ACG": {
+        "Code": "ACG",
+        "Description": "Air Cargo Express Inc."
+    },
+    "ACH": {
+        "Code": "ACH",
+        "Description": "Island Airlines Hawaii Inc."
+    },
+    "ACI": {
+        "Code": "ACI",
+        "Description": "AAA-Action Air Carrier Inc."
+    },
+    "ACJ": {
+        "Code": "ACJ",
+        "Description": "Atlantic Coast Jet Inc."
+    },
+    "ACK": {
+        "Code": "ACK",
+        "Description": "Air Central Inc."
+    },
+    "ACL": {
+        "Code": "ACL",
+        "Description": "Check-Air Inc."
+    },
+    "ACN": {
+        "Code": "ACN",
+        "Description": "Alliance Airlines"
+    },
+    "ACO": {
+        "Code": "ACO",
+        "Description": "Air Cargo Enterprises Inc."
+    },
+    "ACP": {
+        "Code": "ACP",
+        "Description": "Air Chaparral Inc."
+    },
+    "ACQ": {
+        "Code": "ACQ",
+        "Description": "Aeronautica De Cancun"
+    },
+    "ACS": {
+        "Code": "ACS",
+        "Description": "Alamo Commuter Airlines"
+    },
+    "ACT": {
+        "Code": "ACT",
+        "Description": "Air Central Inc. (1)"
+    },
+    "ACW": {
+        "Code": "ACW",
+        "Description": "Transwest Air Express"
+    },
+    "AD": {
+        "Code": "AD",
+        "Description": "Avia Leasing Company"
+    },
+    "ADB": {
+        "Code": "ADB",
+        "Description": "Antonov Company"
+    },
+    "ADQ": {
+        "Code": "ADQ",
+        "Description": "Aeronaves Del Peru"
+    },
+    "ADR": {
+        "Code": "ADR",
+        "Description": "Adirondack Airlines"
+    },
+    "ADV": {
+        "Code": "ADV",
+        "Description": "Advantage Airlines"
+    },
+    "AE": {
+        "Code": "AE",
+        "Description": "Air Europe Limited"
+    },
+    "AEC": {
+        "Code": "AEC",
+        "Description": "Astec Air East Inc."
+    },
+    "AED": {
+        "Code": "AED",
+        "Description": "Air East Of Delaware Inc."
+    },
+    "AEF": {
+        "Code": "AEF",
+        "Description": "Aero Freight"
+    },
+    "AEO": {
+        "Code": "AEO",
+        "Description": "Aero Coach"
+    },
+    "AEQ": {
+        "Code": "AEQ",
+        "Description": "Air Caravane Inc."
+    },
+    "AEX": {
+        "Code": "AEX",
+        "Description": "Air Excursions LLC (1)"
+    },
+    "AF": {
+        "Code": "AF",
+        "Description": "Compagnie Natl Air France"
+    },
+    "AFA": {
+        "Code": "AFA",
+        "Description": "American Flag Airlines Inc."
+    },
+    "AFE": {
+        "Code": "AFE",
+        "Description": "Air Florida Express"
+    },
+    "AFG": {
+        "Code": "AFG",
+        "Description": "American Flight Group"
+    },
+    "AFQ": {
+        "Code": "AFQ",
+        "Description": "Aero B Venezuela C.A."
+    },
+    "AFS": {
+        "Code": "AFS",
+        "Description": "Arcata Flying Service"
+    },
+    "AGA": {
+        "Code": "AGA",
+        "Description": "Air Cargo America Inc."
+    },
+    "AGQ": {
+        "Code": "AGQ",
+        "Description": "Argo S. A."
+    },
+    "AHA": {
+        "Code": "AHA",
+        "Description": "Air Alpha"
+    },
+    "AHC": {
+        "Code": "AHC",
+        "Description": "Air Hawaii"
+    },
+    "AHQ": {
+        "Code": "AHQ",
+        "Description": "Air National"
+    },
+    "AI": {
+        "Code": "AI",
+        "Description": "National Aviation Company of India Limited d/b/a Air India"
+    },
+    "AIA": {
+        "Code": "AIA",
+        "Description": "All Island Air"
+    },
+    "AIC": {
+        "Code": "AIC",
+        "Description": "Air Caribbean"
+    },
+    "AIE": {
+        "Code": "AIE",
+        "Description": "Air Express Inc."
+    },
+    "AIG": {
+        "Code": "AIG",
+        "Description": "Airgo Inc."
+    },
+    "AIK": {
+        "Code": "AIK",
+        "Description": "Air Ketchum Idaho Inc."
+    },
+    "AIM": {
+        "Code": "AIM",
+        "Description": "Air Mont. Inc."
+    },
+    "AIN": {
+        "Code": "AIN",
+        "Description": "Air Indiana"
+    },
+    "AIQ": {
+        "Code": "AIQ",
+        "Description": "Norontair"
+    },
+    "AIT": {
+        "Code": "AIT",
+        "Description": "Airways International"
+    },
+    "AIY": {
+        "Code": "AIY",
+        "Description": "Alliance Air"
+    },
+    "AJ": {
+        "Code": "AJ",
+        "Description": "Air Micronesia Inc."
+    },
+    "AJQ": {
+        "Code": "AJQ",
+        "Description": "Aerodynamics Inc."
+    },
+    "AKQ": {
+        "Code": "AKQ",
+        "Description": "Airmark Airlines Inc."
+    },
+    "AL": {
+        "Code": "AL",
+        "Description": "Skyway Airlines"
+    },
+    "ALD": {
+        "Code": "ALD",
+        "Description": "Allied Airlines"
+    },
+    "ALE": {
+        "Code": "ALE",
+        "Description": "Air-Lift Associates Inc."
+    },
+    "ALI": {
+        "Code": "ALI",
+        "Description": "Brandt Air"
+    },
+    "ALK": {
+        "Code": "ALK",
+        "Description": "Air Link Airways"
+    },
+    "ALL": {
+        "Code": "ALL",
+        "Description": "All Seasons Air Pacific"
+    },
+    "ALQ": {
+        "Code": "ALQ",
+        "Description": "Alberta Northern Airlines"
+    },
+    "ALS": {
+        "Code": "ALS",
+        "Description": "Air L.A."
+    },
+    "ALT": {
+        "Code": "ALT",
+        "Description": "Altus Airlines"
+    },
+    "ALU": {
+        "Code": "ALU",
+        "Description": "Aleutian Air"
+    },
+    "ALX": {
+        "Code": "ALX",
+        "Description": "Atlanta Express"
+    },
+    "AM": {
+        "Code": "AM",
+        "Description": "Aeromexico"
+    },
+    "AMA": {
+        "Code": "AMA",
+        "Description": "North American Airlines Inc."
+    },
+    "AME": {
+        "Code": "AME",
+        "Description": "Americair Inc."
+    },
+    "AMI": {
+        "Code": "AMI",
+        "Description": "American Inter-Island Inc."
+    },
+    "AMQ": {
+        "Code": "AMQ",
+        "Description": "Ameristar Air Cargo"
+    },
+    "AMR": {
+        "Code": "AMR",
+        "Description": "AvAir"
+    },
+    "AMT": {
+        "Code": "AMT",
+        "Description": "American Air Transport"
+    },
+    "ANB": {
+        "Code": "ANB",
+        "Description": "Air Nebraska Inc."
+    },
+    "ANC": {
+        "Code": "ANC",
+        "Description": "Atlantic Air"
+    },
+    "AND": {
+        "Code": "AND",
+        "Description": "Southcentral Air Inc."
+    },
+    "ANI": {
+        "Code": "ANI",
+        "Description": "Dash Air Corporation"
+    },
+    "ANM": {
+        "Code": "ANM",
+        "Description": "Airways Of New Mexico Inc."
+    },
+    "ANO": {
+        "Code": "ANO",
+        "Description": "Metro Air Northeast Vermont"
+    },
+    "ANT": {
+        "Code": "ANT",
+        "Description": "Air North/Nenana"
+    },
+    "AO": {
+        "Code": "AO",
+        "Description": "Aviacion Y Comercio S.A."
+    },
+    "AOI": {
+        "Code": "AOI",
+        "Description": "Trans New York"
+    },
+    "AON": {
+        "Code": "AON",
+        "Description": "Action Airlines"
+    },
+    "AOQ": {
+        "Code": "AOQ",
+        "Description": "Aerovias S.A."
+    },
+    "AOR": {
+        "Code": "AOR",
+        "Description": "Air New Orleans"
+    },
+    "APE": {
+        "Code": "APE",
+        "Description": "Air Cape"
+    },
+    "APH": {
+        "Code": "APH",
+        "Description": "Alpha Air"
+    },
+    "API": {
+        "Code": "API",
+        "Description": "Arizona Pacific Inc."
+    },
+    "APL": {
+        "Code": "APL",
+        "Description": "Appalachian Flying Service"
+    },
+    "APN": {
+        "Code": "APN",
+        "Description": "Aspen Airways Inc."
+    },
+    "APQ": {
+        "Code": "APQ",
+        "Description": "Alas De Transporte International"
+    },
+    "APS": {
+        "Code": "APS",
+        "Description": "Air Spirit Inc."
+    },
+    "APY": {
+        "Code": "APY",
+        "Description": "Air Polynesia Inc."
+    },
+    "AQQ": {
+        "Code": "AQQ",
+        "Description": "Air Charter (Safa)"
+    },
+    "AR": {
+        "Code": "AR",
+        "Description": "Aerolineas Argentinas"
+    },
+    "ARA": {
+        "Code": "ARA",
+        "Description": "Air Resorts Airlines"
+    },
+    "ARB": {
+        "Code": "ARB",
+        "Description": "Air Caribe International"
+    },
+    "ARD": {
+        "Code": "ARD",
+        "Description": "Airlift International"
+    },
+    "ARI": {
+        "Code": "ARI",
+        "Description": "Arizona Aero Corp."
+    },
+    "ARM": {
+        "Code": "ARM",
+        "Description": "Airmarc Airlines Inc."
+    },
+    "ARN": {
+        "Code": "ARN",
+        "Description": "Arnold Aviation"
+    },
+    "ARO": {
+        "Code": "ARO",
+        "Description": "Air Oregon"
+    },
+    "ARP": {
+        "Code": "ARP",
+        "Description": "Airspur Helicopters Inc."
+    },
+    "ARQ": {
+        "Code": "ARQ",
+        "Description": "Aerovias Colombianas Arca"
+    },
+    "ARR": {
+        "Code": "ARR",
+        "Description": "Arrowhead Airways Inc."
+    },
+    "ARS": {
+        "Code": "ARS",
+        "Description": "Air Sedona"
+    },
+    "ARZ": {
+        "Code": "ARZ",
+        "Description": "Arizona Airways"
+    },
+    "AS": {
+        "Code": "AS",
+        "Description": "Alaska Airlines Inc."
+    },
+    "ASC": {
+        "Code": "ASC",
+        "Description": "Air South Inc."
+    },
+    "ASD": {
+        "Code": "ASD",
+        "Description": "Amistad Airlines"
+    },
+    "ASH": {
+        "Code": "ASH",
+        "Description": "Air South"
+    },
+    "ASI": {
+        "Code": "ASI",
+        "Description": "Alpine Air Services Inc."
+    },
+    "ASN": {
+        "Code": "ASN",
+        "Description": "Air Casino"
+    },
+    "ASP": {
+        "Code": "ASP",
+        "Description": "Asap Air Inc."
+    },
+    "ASQ": {
+        "Code": "ASQ",
+        "Description": "Aerosur (1)"
+    },
+    "ASR": {
+        "Code": "ASR",
+        "Description": "Astor Air"
+    },
+    "AST": {
+        "Code": "AST",
+        "Description": "Astro Airways"
+    },
+    "ASU": {
+        "Code": "ASU",
+        "Description": "Air South (1)"
+    },
+    "ASW": {
+        "Code": "ASW",
+        "Description": "Sunrise Airlines Inc."
+    },
+    "AT": {
+        "Code": "AT",
+        "Description": "Royal Air Maroc"
+    },
+    "ATH": {
+        "Code": "ATH",
+        "Description": "Air Southeast"
+    },
+    "ATN": {
+        "Code": "ATN",
+        "Description": "Air Atlantic Airlines Inc."
+    },
+    "ATO": {
+        "Code": "ATO",
+        "Description": "Pacific National Airways"
+    },
+    "ATQ": {
+        "Code": "ATQ",
+        "Description": "Aero Tranportes Panamenos"
+    },
+    "ATS": {
+        "Code": "ATS",
+        "Description": "Atlantis Airlines Inc."
+    },
+    "ATT": {
+        "Code": "ATT",
+        "Description": "Aerotransit Inc."
+    },
+    "ATX": {
+        "Code": "ATX",
+        "Description": "Air Carolina"
+    },
+    "AUX": {
+        "Code": "AUX",
+        "Description": "Austin Express Inc."
+    },
+    "AV": {
+        "Code": "AV",
+        "Description": "Aerovias Nacl De Colombia"
+    },
+    "AVA": {
+        "Code": "AVA",
+        "Description": "Air Vectors Airways"
+    },
+    "AVC": {
+        "Code": "AVC",
+        "Description": "Av Center Inc."
+    },
+    "AVG": {
+        "Code": "AVG",
+        "Description": "Airvantage"
+    },
+    "AVI": {
+        "Code": "AVI",
+        "Description": "Aero Virgin Islands Corp."
+    },
+    "AVL": {
+        "Code": "AVL",
+        "Description": "Aviation Sales"
+    },
+    "AVQ": {
+        "Code": "AVQ",
+        "Description": "Aero Laguna S.A. De C.V."
+    },
+    "AVR": {
+        "Code": "AVR",
+        "Description": "Air Vermont Inc."
+    },
+    "AVS": {
+        "Code": "AVS",
+        "Description": "Aviation Services"
+    },
+    "AVZ": {
+        "Code": "AVZ",
+        "Description": "Southern Jersey Airways"
+    },
+    "AWA": {
+        "Code": "AWA",
+        "Description": "Air West Airlines"
+    },
+    "AWQ": {
+        "Code": "AWQ",
+        "Description": "Aermediterranea S.P.A."
+    },
+    "AX": {
+        "Code": "AX",
+        "Description": "Trans States Airlines"
+    },
+    "AXQ": {
+        "Code": "AXQ",
+        "Description": "Aeron International Airlines Inc."
+    },
+    "AY": {
+        "Code": "AY",
+        "Description": "Finnair Oy"
+    },
+    "AYQ": {
+        "Code": "AYQ",
+        "Description": "Aerodan S.A. De C.V."
+    },
+    "AZ": {
+        "Code": "AZ",
+        "Description": "Compagnia Aerea Italiana"
+    },
+    "AZP": {
+        "Code": "AZP",
+        "Description": "Arizona Pacific Airways"
+    },
+    "AZQ": {
+        "Code": "AZQ",
+        "Description": "Anglo Airlines Ltd."
+    },
+    "B6": {
+        "Code": "B6",
+        "Description": "JetBlue Airways"
+    },
+    "BA": {
+        "Code": "BA",
+        "Description": "British Airways Plc"
+    },
+    "BAA": {
+        "Code": "BAA",
+        "Description": "Aero International Airlines"
+    },
+    "BAC": {
+        "Code": "BAC",
+        "Description": "Business Aircraft Corp."
+    },
+    "BAH": {
+        "Code": "BAH",
+        "Description": "Brennan & Hargreaves Inc."
+    },
+    "BAK": {
+        "Code": "BAK",
+        "Description": "Bankair Inc."
+    },
+    "BAN": {
+        "Code": "BAN",
+        "Description": "Bangor International Air"
+    },
+    "BAQ": {
+        "Code": "BAQ",
+        "Description": "Aero Rentas De Coahuila S.A. De C.V."
+    },
+    "BAR": {
+        "Code": "BAR",
+        "Description": "Bard-Air Corp."
+    },
+    "BAT": {
+        "Code": "BAT",
+        "Description": "West Penn Commuter"
+    },
+    "BAY": {
+        "Code": "BAY",
+        "Description": "Burlington Aeroplane Co."
+    },
+    "BBQ": {
+        "Code": "BBQ",
+        "Description": "Balair Ag"
+    },
+    "BC": {
+        "Code": "BC",
+        "Description": "Skymark Airlines Inc."
+    },
+    "BCA": {
+        "Code": "BCA",
+        "Description": "Baja Cortez Airlines"
+    },
+    "BCQ": {
+        "Code": "BCQ",
+        "Description": "Bradley Air Services Ltd."
+    },
+    "BD": {
+        "Code": "BD",
+        "Description": "British Midland Airways Ltd."
+    },
+    "BDE": {
+        "Code": "BDE",
+        "Description": "Jet Express"
+    },
+    "BDQ": {
+        "Code": "BDQ",
+        "Description": "Aerotaxis De Aguascalientes S.A. De C.V."
+    },
+    "BE": {
+        "Code": "BE",
+        "Description": "Braniff International Airlines Inc."
+    },
+    "BEA": {
+        "Code": "BEA",
+        "Description": "Business Express Airlines"
+    },
+    "BEN": {
+        "Code": "BEN",
+        "Description": "Bennington Aviation Inc."
+    },
+    "BEQ": {
+        "Code": "BEQ",
+        "Description": "Air Belgium"
+    },
+    "BES": {
+        "Code": "BES",
+        "Description": "Aeroservices Executive"
+    },
+    "BEY": {
+        "Code": "BEY",
+        "Description": "Beyer Aviation"
+    },
+    "BF": {
+        "Code": "BF",
+        "Description": "Markair Inc."
+    },
+    "BFG": {
+        "Code": "BFG",
+        "Description": "Million Air"
+    },
+    "BFQ": {
+        "Code": "BFQ",
+        "Description": "Buffalo Airways Inc."
+    },
+    "BG": {
+        "Code": "BG",
+        "Description": "Biman Bangladesh Airlines"
+    },
+    "BGQ": {
+        "Code": "BGQ",
+        "Description": "Airbus Transport Internat'l"
+    },
+    "BHK": {
+        "Code": "BHK",
+        "Description": "Blackhawk Airways Inc."
+    },
+    "BHO": {
+        "Code": "BHO",
+        "Description": "Bighorn Airways Inc."
+    },
+    "BHQ": {
+        "Code": "BHQ",
+        "Description": "Turks Air Ltd. (1)"
+    },
+    "BIA": {
+        "Code": "BIA",
+        "Description": "Big Island Air"
+    },
+    "BIQ": {
+        "Code": "BIQ",
+        "Description": "Servicios Aeronauticos Z S.A. De C.V."
+    },
+    "BIR": {
+        "Code": "BIR",
+        "Description": "Birchwood Air Service"
+    },
+    "BJQ": {
+        "Code": "BJQ",
+        "Description": "Taxirey S.A. De C.V."
+    },
+    "BLQ": {
+        "Code": "BLQ",
+        "Description": "Air Bvi Limited"
+    },
+    "BM": {
+        "Code": "BM",
+        "Description": "Belize Air International Ltd."
+    },
+    "BMT": {
+        "Code": "BMT",
+        "Description": "Bremerton Aviation Inc."
+    },
+    "BN": {
+        "Code": "BN",
+        "Description": "Britannia Airways GmbH"
+    },
+    "BN (1)": {
+        "Code": "BN (1)",
+        "Description": "Braniff Inc."
+    },
+    "BNQ": {
+        "Code": "BNQ",
+        "Description": "NetJets Large Aircraft Company L.L.C."
+    },
+    "BOA": {
+        "Code": "BOA",
+        "Description": "Boise Air Service"
+    },
+    "BOI": {
+        "Code": "BOI",
+        "Description": "Bo-S-Aire Airlines Inc."
+    },
+    "BOQ": {
+        "Code": "BOQ",
+        "Description": "Transp. Aereos Bolivianos"
+    },
+    "BQ": {
+        "Code": "BQ",
+        "Description": "Aeromar C. Por A."
+    },
+    "BR": {
+        "Code": "BR",
+        "Description": "Eva Airways Corporation"
+    },
+    "BR (1)": {
+        "Code": "BR (1)",
+        "Description": "Cal Air International Ltd."
+    },
+    "BRK": {
+        "Code": "BRK",
+        "Description": "Barken International"
+    },
+    "BRO": {
+        "Code": "BRO",
+        "Description": "Brower Airways Inc."
+    },
+    "BRW": {
+        "Code": "BRW",
+        "Description": "Barrow Air"
+    },
+    "BTQ": {
+        "Code": "BTQ",
+        "Description": "Brasair Transportes Aereos"
+    },
+    "BUH": {
+        "Code": "BUH",
+        "Description": "Business Helicopters"
+    },
+    "BUQ": {
+        "Code": "BUQ",
+        "Description": "Wrangler Aviation Inc."
+    },
+    "BUQ (1)": {
+        "Code": "BUQ (1)",
+        "Description": "Blue Bell Inc."
+    },
+    "BUR": {
+        "Code": "BUR",
+        "Description": "Burlington Airways Inc."
+    },
+    "BW": {
+        "Code": "BW",
+        "Description": "Caribbean Airlines Limited"
+    },
+    "BXQ": {
+        "Code": "BXQ",
+        "Description": "Spantax S. A."
+    },
+    "BY": {
+        "Code": "BY",
+        "Description": "Britannia Airways Ltd."
+    },
+    "BYA": {
+        "Code": "BYA",
+        "Description": "Bay Air"
+    },
+    "BZQ": {
+        "Code": "BZQ",
+        "Description": "Abaco Air, Ltd."
+    },
+    "C5": {
+        "Code": "C5",
+        "Description": "Commutair Aka Champlain Enterprises, Inc."
+    },
+    "C6": {
+        "Code": "C6",
+        "Description": "Canjet Airlines"
+    },
+    "C8": {
+        "Code": "C8",
+        "Description": "Cargolux Italia SpA"
+    },
+    "C8 (1)": {
+        "Code": "C8 (1)",
+        "Description": "Chicago Express Airlines"
+    },
+    "CA": {
+        "Code": "CA",
+        "Description": "Air China"
+    },
+    "CAC": {
+        "Code": "CAC",
+        "Description": "Coleman Air Transport"
+    },
+    "CAF": {
+        "Code": "CAF",
+        "Description": "California Seaboard"
+    },
+    "CAI": {
+        "Code": "CAI",
+        "Description": "Crawford Aviation Inc."
+    },
+    "CAM": {
+        "Code": "CAM",
+        "Description": "C & M Airlines"
+    },
+    "CAP": {
+        "Code": "CAP",
+        "Description": "Metro Air Northeast N Y"
+    },
+    "CAQ": {
+        "Code": "CAQ",
+        "Description": "Challenge Air Luftverkehrs GmbH"
+    },
+    "CAT": {
+        "Code": "CAT",
+        "Description": "Catalina Airlines Inc."
+    },
+    "CAV": {
+        "Code": "CAV",
+        "Description": "Air Virginia"
+    },
+    "CAZ": {
+        "Code": "CAZ",
+        "Description": "CAT Aviation"
+    },
+    "CB": {
+        "Code": "CB",
+        "Description": "Air One Inc."
+    },
+    "CBA": {
+        "Code": "CBA",
+        "Description": "Carriba Air Inc."
+    },
+    "CC": {
+        "Code": "CC",
+        "Description": "Air Atlanta Icelandic"
+    },
+    "CC (1)": {
+        "Code": "CC (1)",
+        "Description": "Air Atlanta Inc."
+    },
+    "CCA": {
+        "Code": "CCA",
+        "Description": "Cityhop"
+    },
+    "CCO": {
+        "Code": "CCO",
+        "Description": "Chester County Aviation"
+    },
+    "CDQ": {
+        "Code": "CDQ",
+        "Description": "Kitty Hawk International"
+    },
+    "CEN": {
+        "Code": "CEN",
+        "Description": "Cen-Tex Airlines Inc."
+    },
+    "CEQ": {
+        "Code": "CEQ",
+        "Description": "All Canada Express"
+    },
+    "CET": {
+        "Code": "CET",
+        "Description": "Century Airlines (Cal)"
+    },
+    "CF": {
+        "Code": "CF",
+        "Description": "Compan. De Aviacion Faucett"
+    },
+    "CGA": {
+        "Code": "CGA",
+        "Description": "Chicago Airlines"
+    },
+    "CGL": {
+        "Code": "CGL",
+        "Description": "Viking International Airlines Inc."
+    },
+    "CGO": {
+        "Code": "CGO",
+        "Description": "Chicago Air Taxi"
+    },
+    "CH": {
+        "Code": "CH",
+        "Description": "Bemidji Airlines"
+    },
+    "CHD": {
+        "Code": "CHD",
+        "Description": "Chandler Flyer"
+    },
+    "CHE": {
+        "Code": "CHE",
+        "Description": "Charter Airlines"
+    },
+    "CHF": {
+        "Code": "CHF",
+        "Description": "Hammonds Commuter Air Serv."
+    },
+    "CHI": {
+        "Code": "CHI",
+        "Description": "Chitina Air Service"
+    },
+    "CHL": {
+        "Code": "CHL",
+        "Description": "Channel Flying Inc."
+    },
+    "CHO": {
+        "Code": "CHO",
+        "Description": "Choi Aviation Inc."
+    },
+    "CHS": {
+        "Code": "CHS",
+        "Description": "Christman Air System"
+    },
+    "CHT": {
+        "Code": "CHT",
+        "Description": "Charter One"
+    },
+    "CI": {
+        "Code": "CI",
+        "Description": "China Airlines Ltd."
+    },
+    "CIQ": {
+        "Code": "CIQ",
+        "Description": "A/S Conair"
+    },
+    "CIS": {
+        "Code": "CIS",
+        "Description": "Cal Sierra Airlines"
+    },
+    "CJ": {
+        "Code": "CJ",
+        "Description": "Colgan Airways Inc."
+    },
+    "CK": {
+        "Code": "CK",
+        "Description": "China Cargo Airline"
+    },
+    "CKI": {
+        "Code": "CKI",
+        "Description": "Inlet Airlines"
+    },
+    "CL": {
+        "Code": "CL",
+        "Description": "Capitol International Inc."
+    },
+    "CLB": {
+        "Code": "CLB",
+        "Description": "Columbia Pacific Airlines"
+    },
+    "CLD": {
+        "Code": "CLD",
+        "Description": "Hawaii Pacific Helicopters"
+    },
+    "CLF": {
+        "Code": "CLF",
+        "Description": "California Air Shuttle"
+    },
+    "CLQ": {
+        "Code": "CLQ",
+        "Description": "Aero Transcolombiana"
+    },
+    "CM": {
+        "Code": "CM",
+        "Description": "Compania Panamena (Copa)"
+    },
+    "CMB": {
+        "Code": "CMB",
+        "Description": "Combs Airways Inc."
+    },
+    "CMD": {
+        "Code": "CMD",
+        "Description": "Command Airways Inc."
+    },
+    "CMQ": {
+        "Code": "CMQ",
+        "Description": "Servicio De Carga Aerea Sa"
+    },
+    "CMR": {
+        "Code": "CMR",
+        "Description": "Commuter Airlines (Ca)"
+    },
+    "CNN": {
+        "Code": "CNN",
+        "Description": "Centennial Airlines"
+    },
+    "CO": {
+        "Code": "CO",
+        "Description": "Continental Air Lines Inc."
+    },
+    "COB": {
+        "Code": "COB",
+        "Description": "Cotton Belt Aviation Inc."
+    },
+    "COC": {
+        "Code": "COC",
+        "Description": "Cochise Airlines Inc."
+    },
+    "COK": {
+        "Code": "COK",
+        "Description": "Coker Aviation Inc."
+    },
+    "COL": {
+        "Code": "COL",
+        "Description": "Presidential Express"
+    },
+    "COM": {
+        "Code": "COM",
+        "Description": "Commutair"
+    },
+    "COR": {
+        "Code": "COR",
+        "Description": "Coral Air Inc."
+    },
+    "COS": {
+        "Code": "COS",
+        "Description": "Cosmopolitan Comm. Airline"
+    },
+    "COT": {
+        "Code": "COT",
+        "Description": "Southeastern Commuter"
+    },
+    "COU": {
+        "Code": "COU",
+        "Description": "Courtesy Air Service Inc."
+    },
+    "CP": {
+        "Code": "CP",
+        "Description": "Compass Airlines"
+    },
+    "CP (1)": {
+        "Code": "CP (1)",
+        "Description": "Canadian Airlines International Ltd."
+    },
+    "CPA": {
+        "Code": "CPA",
+        "Description": "Capitol Air Lines"
+    },
+    "CPC": {
+        "Code": "CPC",
+        "Description": "Coastal Plains Commuter Inc."
+    },
+    "CPQ": {
+        "Code": "CPQ",
+        "Description": "Capitol Air Express Inc."
+    },
+    "CPT": {
+        "Code": "CPT",
+        "Description": "Capitol Air"
+    },
+    "CQI": {
+        "Code": "CQI",
+        "Description": "Conquest Airline Corp."
+    },
+    "CRA": {
+        "Code": "CRA",
+        "Description": "Commuter Airlines"
+    },
+    "CRB": {
+        "Code": "CRB",
+        "Description": "Caribair"
+    },
+    "CRE": {
+        "Code": "CRE",
+        "Description": "Caribbean Express Inc."
+    },
+    "CRH": {
+        "Code": "CRH",
+        "Description": "Cresent Medivac"
+    },
+    "CRN": {
+        "Code": "CRN",
+        "Description": "Crown Aviaiton Inc."
+    },
+    "CRO": {
+        "Code": "CRO",
+        "Description": "Crown Airways Inc."
+    },
+    "CRP": {
+        "Code": "CRP",
+        "Description": "Corporate Air"
+    },
+    "CRT": {
+        "Code": "CRT",
+        "Description": "Crested Butte Air Service"
+    },
+    "CRV": {
+        "Code": "CRV",
+        "Description": "Acropolis Aviation Ltd."
+    },
+    "CS": {
+        "Code": "CS",
+        "Description": "Continental Micronesia"
+    },
+    "CSA": {
+        "Code": "CSA",
+        "Description": "Casino Airlines"
+    },
+    "CSK": {
+        "Code": "CSK",
+        "Description": "Catskill Airways Inc."
+    },
+    "CSL": {
+        "Code": "CSL",
+        "Description": "Central States Air Lines"
+    },
+    "CSM": {
+        "Code": "CSM",
+        "Description": "Chisum Flying Service"
+    },
+    "CSN": {
+        "Code": "CSN",
+        "Description": "Casino Airlines (1)"
+    },
+    "CSQ": {
+        "Code": "CSQ",
+        "Description": "Celtic Tech Jet Ltd."
+    },
+    "CTA": {
+        "Code": "CTA",
+        "Description": "Century Airlines"
+    },
+    "CTH": {
+        "Code": "CTH",
+        "Description": "Cothron Aviation"
+    },
+    "CTL": {
+        "Code": "CTL",
+        "Description": "Coastal Air Transport"
+    },
+    "CTQ": {
+        "Code": "CTQ",
+        "Description": "Custom Air Transport"
+    },
+    "CTR": {
+        "Code": "CTR",
+        "Description": "Chartair"
+    },
+    "CUQ": {
+        "Code": "CUQ",
+        "Description": "Caicos Caribbean Airways"
+    },
+    "CUS": {
+        "Code": "CUS",
+        "Description": "Custom Air Service"
+    },
+    "CV": {
+        "Code": "CV",
+        "Description": "Cargolux Airlines International S.A"
+    },
+    "CVA": {
+        "Code": "CVA",
+        "Description": "Catalina-Vegas Airlines"
+    },
+    "CVQ": {
+        "Code": "CVQ",
+        "Description": "Caraven S.A."
+    },
+    "CW": {
+        "Code": "CW",
+        "Description": "Air Marshall Islands Inc."
+    },
+    "CWQ": {
+        "Code": "CWQ",
+        "Description": "Canadian Aviation Express"
+    },
+    "CX": {
+        "Code": "CX",
+        "Description": "Cathay Pacific Airways Ltd."
+    },
+    "CYQ": {
+        "Code": "CYQ",
+        "Description": "Corse Air International"
+    },
+    "CZ": {
+        "Code": "CZ",
+        "Description": "China Southern Airlines"
+    },
+    "CZ (1)": {
+        "Code": "CZ (1)",
+        "Description": "Cascade Airways Inc."
+    },
+    "CZQ": {
+        "Code": "CZQ",
+        "Description": "Aviation Concepts"
+    },
+    "DA": {
+        "Code": "DA",
+        "Description": "Dan Air Services"
+    },
+    "DAN": {
+        "Code": "DAN",
+        "Description": "Danbury Airlines"
+    },
+    "DAU": {
+        "Code": "DAU",
+        "Description": "Dauphin Island Airways"
+    },
+    "DC": {
+        "Code": "DC",
+        "Description": "Caribbean Air Cargo Co Ltd."
+    },
+    "DE": {
+        "Code": "DE",
+        "Description": "Condor Flugdienst"
+    },
+    "DEA": {
+        "Code": "DEA",
+        "Description": "Downeast Airlines Inc."
+    },
+    "DEC": {
+        "Code": "DEC",
+        "Description": "Decatur Aviation"
+    },
+    "DFS": {
+        "Code": "DFS",
+        "Description": "Downeast Flying Service"
+    },
+    "DH": {
+        "Code": "DH",
+        "Description": "Independence Air"
+    },
+    "DH (1)": {
+        "Code": "DH (1)",
+        "Description": "Discovery Airways Inc."
+    },
+    "DHL": {
+        "Code": "DHL",
+        "Description": "DHL Airlines Inc."
+    },
+    "DHQ": {
+        "Code": "DHQ",
+        "Description": "DHL Aero Expresso"
+    },
+    "DIA": {
+        "Code": "DIA",
+        "Description": "Drummond Island Air"
+    },
+    "DIC": {
+        "Code": "DIC",
+        "Description": "Dickman Aviation Services"
+    },
+    "DIR": {
+        "Code": "DIR",
+        "Description": "Northern Star"
+    },
+    "DL": {
+        "Code": "DL",
+        "Description": "Delta Air Lines Inc."
+    },
+    "DM": {
+        "Code": "DM",
+        "Description": "Maersk Air I/S"
+    },
+    "DO": {
+        "Code": "DO",
+        "Description": "Compania Dominicana De Avia"
+    },
+    "DOL": {
+        "Code": "DOL",
+        "Description": "Dolphin Airways Inc."
+    },
+    "DOQ": {
+        "Code": "DOQ",
+        "Description": "Aerolineas Dominicanas S A"
+    },
+    "DPA": {
+        "Code": "DPA",
+        "Description": "Desert Pacific Airways"
+    },
+    "DPI": {
+        "Code": "DPI",
+        "Description": "Desert Pacific Airlines Inc."
+    },
+    "DQQ": {
+        "Code": "DQQ",
+        "Description": "Caribwest Airways Ltd."
+    },
+    "DSA": {
+        "Code": "DSA",
+        "Description": "Desert Sun Airlines"
+    },
+    "DST": {
+        "Code": "DST",
+        "Description": "Desert Airlines"
+    },
+    "DUL": {
+        "Code": "DUL",
+        "Description": "Dulles Express"
+    },
+    "DUZ": {
+        "Code": "DUZ",
+        "Description": "Summit Airlines Inc."
+    },
+    "DVO": {
+        "Code": "DVO",
+        "Description": "Devoe Airlines"
+    },
+    "DWN": {
+        "Code": "DWN",
+        "Description": "Dawn Air"
+    },
+    "DXA": {
+        "Code": "DXA",
+        "Description": "Dolphin Express"
+    },
+    "DY": {
+        "Code": "DY",
+        "Description": "Norwegian Air Shuttle ASA"
+    },
+    "E0": {
+        "Code": "E0",
+        "Description": "EOS Airlines, Inc."
+    },
+    "E7": {
+        "Code": "E7",
+        "Description": "Estafeta Carga Aereas"
+    },
+    "E72": {
+        "Code": "E72",
+        "Description": "European Aviation Air Charter"
+    },
+    "E8": {
+        "Code": "E8",
+        "Description": "USAfrica Airways Inc."
+    },
+    "E9": {
+        "Code": "E9",
+        "Description": "Boston-Maine Airways"
+    },
+    "EA": {
+        "Code": "EA",
+        "Description": "Eastern Air Lines Inc."
+    },
+    "EAI": {
+        "Code": "EAI",
+        "Description": "Executive Aviation Inc."
+    },
+    "EAQ": {
+        "Code": "EAQ",
+        "Description": "Executive Airlines, SL"
+    },
+    "EAS": {
+        "Code": "EAS",
+        "Description": "Eastern Caribbean Airways"
+    },
+    "EAT": {
+        "Code": "EAT",
+        "Description": "Eastman Airways Inc."
+    },
+    "EBQ": {
+        "Code": "EBQ",
+        "Description": "Execaire Aviation Ltd."
+    },
+    "ECA": {
+        "Code": "ECA",
+        "Description": "Eagle Airlines (1)"
+    },
+    "ECI": {
+        "Code": "ECI",
+        "Description": "Eastern Carolina Aviation"
+    },
+    "ECL": {
+        "Code": "ECL",
+        "Description": "Eclipse Airlines"
+    },
+    "ECQ": {
+        "Code": "ECQ",
+        "Description": "Trans American Charter"
+    },
+    "ECR": {
+        "Code": "ECR",
+        "Description": "East Coast Airways"
+    },
+    "ED": {
+        "Code": "ED",
+        "Description": "Andes"
+    },
+    "EDE": {
+        "Code": "EDE",
+        "Description": "Ede Aire"
+    },
+    "EET": {
+        "Code": "EET",
+        "Description": "Exec Express II"
+    },
+    "EEX": {
+        "Code": "EEX",
+        "Description": "Exec Express"
+    },
+    "EEZ": {
+        "Code": "EEZ",
+        "Description": "Eagle Aviation Inc."
+    },
+    "EFA": {
+        "Code": "EFA",
+        "Description": "Executive Four Winds"
+    },
+    "EFQ": {
+        "Code": "EFQ",
+        "Description": "Trans Europ. Airways France"
+    },
+    "EGA": {
+        "Code": "EGA",
+        "Description": "Eagle Airline"
+    },
+    "EGJ": {
+        "Code": "EGJ",
+        "Description": "Eagle Jet Charter"
+    },
+    "EGL": {
+        "Code": "EGL",
+        "Description": "Eagle Commuter Airlines Inc."
+    },
+    "EH": {
+        "Code": "EH",
+        "Description": "Saeta Airlines"
+    },
+    "EHA": {
+        "Code": "EHA",
+        "Description": "East Hampton Aire Inc."
+    },
+    "EI": {
+        "Code": "EI",
+        "Description": "Aer Lingus Plc"
+    },
+    "EIA": {
+        "Code": "EIA",
+        "Description": "East. Indiana Aviation Sale"
+    },
+    "EJQ": {
+        "Code": "EJQ",
+        "Description": "Aeroejecutivos C.A."
+    },
+    "EK": {
+        "Code": "EK",
+        "Description": "Emirates"
+    },
+    "EKA": {
+        "Code": "EKA",
+        "Description": "Air Pacific Inc."
+    },
+    "ELL": {
+        "Code": "ELL",
+        "Description": "Ellis Air Taxi Inc."
+    },
+    "EM": {
+        "Code": "EM",
+        "Description": "Empire Airlines Inc."
+    },
+    "EMA": {
+        "Code": "EMA",
+        "Description": "Emerald Airlines"
+    },
+    "EME": {
+        "Code": "EME",
+        "Description": "Metro Express"
+    },
+    "EMP": {
+        "Code": "EMP",
+        "Description": "Empire Airlines Inc. (2)"
+    },
+    "ENT": {
+        "Code": "ENT",
+        "Description": "Enterprise Airlines Inc."
+    },
+    "EOQ": {
+        "Code": "EOQ",
+        "Description": "Aeroservicios Ecuatorianos"
+    },
+    "EP": {
+        "Code": "EP",
+        "Description": "All Star Airlines Inc."
+    },
+    "EQ": {
+        "Code": "EQ",
+        "Description": "Tame Linea Aerea del Ecuador Tme EP"
+    },
+    "ER": {
+        "Code": "ER",
+        "Description": "Astar USA, LLC"
+    },
+    "ERI": {
+        "Code": "ERI",
+        "Description": "Erie Airways Inc."
+    },
+    "ERO": {
+        "Code": "ERO",
+        "Description": "Empire Aero Service"
+    },
+    "ERQ": {
+        "Code": "ERQ",
+        "Description": "Aero Trades (Western) Ltd."
+    },
+    "ESQ": {
+        "Code": "ESQ",
+        "Description": "Seagreen Air Transport"
+    },
+    "ET": {
+        "Code": "ET",
+        "Description": "Ethiopian Airlines"
+    },
+    "EU": {
+        "Code": "EU",
+        "Description": "Ecuatoriana De Aviacion"
+    },
+    "EUQ": {
+        "Code": "EUQ",
+        "Description": "Air Atlanta Europe"
+    },
+    "EV": {
+        "Code": "EV",
+        "Description": "ExpressJet Airlines Inc."
+    },
+    "EVA": {
+        "Code": "EVA",
+        "Description": "Evanston Aviation"
+    },
+    "EWA": {
+        "Code": "EWA",
+        "Description": "Rio Grande Air"
+    },
+    "EXA": {
+        "Code": "EXA",
+        "Description": "Columbia Pacific Airlines (1)"
+    },
+    "EXC": {
+        "Code": "EXC",
+        "Description": "Hapag-Lloyd Executive GmbH"
+    },
+    "EXC (1)": {
+        "Code": "EXC (1)",
+        "Description": "Executive Charter"
+    },
+    "EXP": {
+        "Code": "EXP",
+        "Description": "Express Airlines II"
+    },
+    "EXQ": {
+        "Code": "EXQ",
+        "Description": "Export Air Del Peru S.A."
+    },
+    "EXR": {
+        "Code": "EXR",
+        "Description": "Executive Transport"
+    },
+    "EY": {
+        "Code": "EY",
+        "Description": "Etihad Airways"
+    },
+    "EZ": {
+        "Code": "EZ",
+        "Description": "Evergreen International Inc."
+    },
+    "F2": {
+        "Code": "F2",
+        "Description": "Omega Air Holdings d/b/a Focus Air"
+    },
+    "F8": {
+        "Code": "F8",
+        "Description": "Freedom Airlines d/b/a HP Expr"
+    },
+    "F9": {
+        "Code": "F9",
+        "Description": "Frontier Airlines Inc."
+    },
+    "FAA": {
+        "Code": "FAA",
+        "Description": "Falwell Aviation Inc."
+    },
+    "FAC": {
+        "Code": "FAC",
+        "Description": "Falcon Airways Inc."
+    },
+    "FAQ": {
+        "Code": "FAQ",
+        "Description": "Fast Air Carrier Ltd. (1)"
+    },
+    "FAR": {
+        "Code": "FAR",
+        "Description": "Federal Armored Service Inc."
+    },
+    "FB": {
+        "Code": "FB",
+        "Description": "Translift Airways Limited"
+    },
+    "FBI": {
+        "Code": "FBI",
+        "Description": "Young Flying Service"
+    },
+    "FCA": {
+        "Code": "FCA",
+        "Description": "Southern Airlines Inc."
+    },
+    "FCQ": {
+        "Code": "FCQ",
+        "Description": "Falcon Air Express"
+    },
+    "FD": {
+        "Code": "FD",
+        "Description": "Air Puerto Rico Airlines"
+    },
+    "FDA": {
+        "Code": "FDA",
+        "Description": "Florida Airlines Inc."
+    },
+    "FDM": {
+        "Code": "FDM",
+        "Description": "Freedom Airlines Inc."
+    },
+    "FDQ": {
+        "Code": "FDQ",
+        "Description": "Great American Airways"
+    },
+    "FE": {
+        "Code": "FE",
+        "Description": "Primaris Airlines Inc."
+    },
+    "FF": {
+        "Code": "FF",
+        "Description": "Tower Air Inc."
+    },
+    "FFQ": {
+        "Code": "FFQ",
+        "Description": "Five Star Airlines"
+    },
+    "FH": {
+        "Code": "FH",
+        "Description": "Frontier Horizon Inc."
+    },
+    "FI": {
+        "Code": "FI",
+        "Description": "Icelandair"
+    },
+    "FJ": {
+        "Code": "FJ",
+        "Description": "Air Pacific Ltd."
+    },
+    "FJ (1)": {
+        "Code": "FJ (1)",
+        "Description": "Air Pacific Ltd. (1)"
+    },
+    "FL": {
+        "Code": "FL",
+        "Description": "AirTran Airways Corporation"
+    },
+    "FL (1)": {
+        "Code": "FL (1)",
+        "Description": "Frontier Airlines Inc. (1)"
+    },
+    "FLA": {
+        "Code": "FLA",
+        "Description": "Florida Air"
+    },
+    "FLM": {
+        "Code": "FLM",
+        "Description": "Flamenco Airways Inc."
+    },
+    "FLR": {
+        "Code": "FLR",
+        "Description": "Flirite Inc."
+    },
+    "FNQ": {
+        "Code": "FNQ",
+        "Description": "Fine Airlines Inc."
+    },
+    "FOR": {
+        "Code": "FOR",
+        "Description": "Ford-Aire Inc."
+    },
+    "FOS": {
+        "Code": "FOS",
+        "Description": "Foster Aviation"
+    },
+    "FP": {
+        "Code": "FP",
+        "Description": "TAG Aviation S.A."
+    },
+    "FQ": {
+        "Code": "FQ",
+        "Description": "Air Aruba"
+    },
+    "FRA": {
+        "Code": "FRA",
+        "Description": "Freedom Air"
+    },
+    "FRS": {
+        "Code": "FRS",
+        "Description": "Four Star Aviation"
+    },
+    "FRT": {
+        "Code": "FRT",
+        "Description": "Frontier Commuter"
+    },
+    "FRW": {
+        "Code": "FRW",
+        "Description": "Farwest Airlines"
+    },
+    "FS": {
+        "Code": "FS",
+        "Description": "Serv De Trans Aereos Fuegui"
+    },
+    "FSA": {
+        "Code": "FSA",
+        "Description": "F.S. Air Service"
+    },
+    "FT": {
+        "Code": "FT",
+        "Description": "Flying Tiger Line Inc."
+    },
+    "FTI": {
+        "Code": "FTI",
+        "Description": "Southern Airways"
+    },
+    "FVA": {
+        "Code": "FVA",
+        "Description": "Skycraft Inc."
+    },
+    "FW": {
+        "Code": "FW",
+        "Description": "Skybus Inc."
+    },
+    "FWA": {
+        "Code": "FWA",
+        "Description": "Far West Airlines"
+    },
+    "FX": {
+        "Code": "FX",
+        "Description": "Federal Express Corporation"
+    },
+    "FYB": {
+        "Code": "FYB",
+        "Description": "Flying Boat"
+    },
+    "G3": {
+        "Code": "G3",
+        "Description": "VRG Linhas Aereas S A"
+    },
+    "G3 (1)": {
+        "Code": "G3 (1)",
+        "Description": "Aerochago S.A."
+    },
+    "G4": {
+        "Code": "G4",
+        "Description": "Allegiant Air"
+    },
+    "G7": {
+        "Code": "G7",
+        "Description": "GoJet Airlines, LLC d/b/a United Express"
+    },
+    "GA": {
+        "Code": "GA",
+        "Description": "P.T. Garuda Indonesian Arwy"
+    },
+    "GAL": {
+        "Code": "GAL",
+        "Description": "Galena Air Service"
+    },
+    "GAQ": {
+        "Code": "GAQ",
+        "Description": "Galaxy Airlines Inc."
+    },
+    "GAS": {
+        "Code": "GAS",
+        "Description": "General Aviation Inc."
+    },
+    "GAT": {
+        "Code": "GAT",
+        "Description": "Gulf Air Taxi"
+    },
+    "GAV": {
+        "Code": "GAV",
+        "Description": "Gromer Aviation Inc."
+    },
+    "GBA": {
+        "Code": "GBA",
+        "Description": "Central States Airline"
+    },
+    "GBQ": {
+        "Code": "GBQ",
+        "Description": "G5 Executive Ag"
+    },
+    "GCA": {
+        "Code": "GCA",
+        "Description": "Golden Carriage Aire"
+    },
+    "GCH": {
+        "Code": "GCH",
+        "Description": "Grand Canyon Helicopters"
+    },
+    "GCQ": {
+        "Code": "GCQ",
+        "Description": "General Air Cargo"
+    },
+    "GCS": {
+        "Code": "GCS",
+        "Description": "Midway Commuter"
+    },
+    "GD": {
+        "Code": "GD",
+        "Description": "Transp. Aereos Ejecutivos"
+    },
+    "GDW": {
+        "Code": "GDW",
+        "Description": "Golden West Airlines Inc."
+    },
+    "GE": {
+        "Code": "GE",
+        "Description": "Lufthansa Cargo Airlines"
+    },
+    "GF": {
+        "Code": "GF",
+        "Description": "Gulf Air Company"
+    },
+    "GF (1)": {
+        "Code": "GF (1)",
+        "Description": "Gulf Air Transport Inc."
+    },
+    "GFC": {
+        "Code": "GFC",
+        "Description": "Gulf Flite Center"
+    },
+    "GFQ": {
+        "Code": "GFQ",
+        "Description": "Gulf And Caribbean Cargo"
+    },
+    "GG": {
+        "Code": "GG",
+        "Description": "Cargo 360, Inc."
+    },
+    "GG (1)": {
+        "Code": "GG (1)",
+        "Description": "Tropical Airways Inc."
+    },
+    "GG (2)": {
+        "Code": "GG (2)",
+        "Description": "Grenada Airways Ltd."
+    },
+    "GH": {
+        "Code": "GH",
+        "Description": "Ghana Airways Corporation"
+    },
+    "GHA": {
+        "Code": "GHA",
+        "Description": "Green Hills Aviation Ltd."
+    },
+    "GIQ": {
+        "Code": "GIQ",
+        "Description": "Global International Airways Corp."
+    },
+    "GJ": {
+        "Code": "GJ",
+        "Description": "Eurofly S.p.A"
+    },
+    "GJ (1)": {
+        "Code": "GJ (1)",
+        "Description": "Mexicargo"
+    },
+    "GKQ": {
+        "Code": "GKQ",
+        "Description": "Laker Airways"
+    },
+    "GL": {
+        "Code": "GL",
+        "Description": "Miami Air International"
+    },
+    "GLW": {
+        "Code": "GLW",
+        "Description": "Golden West Airlines Co."
+    },
+    "GM": {
+        "Code": "GM",
+        "Description": "Air America"
+    },
+    "GMA": {
+        "Code": "GMA",
+        "Description": "Green Mountain Airlines Ltd."
+    },
+    "GOF": {
+        "Code": "GOF",
+        "Description": "Copper State Airlines"
+    },
+    "GPA": {
+        "Code": "GPA",
+        "Description": "GP Express Airlines"
+    },
+    "GQ": {
+        "Code": "GQ",
+        "Description": "Big Sky Airlines Inc."
+    },
+    "GR": {
+        "Code": "GR",
+        "Description": "Gemini Air Cargo Airways"
+    },
+    "GRA": {
+        "Code": "GRA",
+        "Description": "Gorda Aero Service"
+    },
+    "GRD": {
+        "Code": "GRD",
+        "Description": "Grand Canyon Airlines"
+    },
+    "GRO": {
+        "Code": "GRO",
+        "Description": "Isle Royale Seaplane Serv."
+    },
+    "GS": {
+        "Code": "GS",
+        "Description": "Air Foyle Limited"
+    },
+    "GSA": {
+        "Code": "GSA",
+        "Description": "Golden Gate Airlines Inc."
+    },
+    "GSC": {
+        "Code": "GSC",
+        "Description": "GCS Air Service"
+    },
+    "GSL": {
+        "Code": "GSL",
+        "Description": "Golden South Airlines Inc."
+    },
+    "GSQ": {
+        "Code": "GSQ",
+        "Description": "Global Supply System"
+    },
+    "GST": {
+        "Code": "GST",
+        "Description": "Golden State Airlines"
+    },
+    "GU": {
+        "Code": "GU",
+        "Description": "Aviateca"
+    },
+    "GUL": {
+        "Code": "GUL",
+        "Description": "Gull Air Inc."
+    },
+    "GUN": {
+        "Code": "GUN",
+        "Description": "Gunnel Aviation Inc."
+    },
+    "GV": {
+        "Code": "GV",
+        "Description": "Grant Aviation"
+    },
+    "GW": {
+        "Code": "GW",
+        "Description": "Central American Airlines"
+    },
+    "GWA": {
+        "Code": "GWA",
+        "Description": "Great Western Aviation"
+    },
+    "GWE": {
+        "Code": "GWE",
+        "Description": "Ross Aviation Inc."
+    },
+    "GX": {
+        "Code": "GX",
+        "Description": "Air Ontario Limited"
+    },
+    "GY": {
+        "Code": "GY",
+        "Description": "Guyana Airways Corporation"
+    },
+    "H2": {
+        "Code": "H2",
+        "Description": "City Bird"
+    },
+    "H5": {
+        "Code": "H5",
+        "Description": "Magadan Airlines"
+    },
+    "H6": {
+        "Code": "H6",
+        "Description": "Hageland Aviation Service"
+    },
+    "HA": {
+        "Code": "HA",
+        "Description": "Hawaiian Airlines Inc."
+    },
+    "HAQ": {
+        "Code": "HAQ",
+        "Description": "Hapag Lloyd Flug."
+    },
+    "HAR": {
+        "Code": "HAR",
+        "Description": "Friendship Air Alaska"
+    },
+    "HB": {
+        "Code": "HB",
+        "Description": "Homer Air"
+    },
+    "HB (1)": {
+        "Code": "HB (1)",
+        "Description": "Air Club International"
+    },
+    "HBQ": {
+        "Code": "HBQ",
+        "Description": "Harris Air Services"
+    },
+    "HCQ": {
+        "Code": "HCQ",
+        "Description": "Av Atlantic"
+    },
+    "HEL": {
+        "Code": "HEL",
+        "Description": "Helitrans"
+    },
+    "HEP": {
+        "Code": "HEP",
+        "Description": "Hub Express"
+    },
+    "HER": {
+        "Code": "HER",
+        "Description": "Markair Express"
+    },
+    "HET": {
+        "Code": "HET",
+        "Description": "Helitac Aviation"
+    },
+    "HEU": {
+        "Code": "HEU",
+        "Description": "Heussler Air Service Corp"
+    },
+    "HFQ": {
+        "Code": "HFQ",
+        "Description": "Haiti Air Freight Intl"
+    },
+    "HFS": {
+        "Code": "HFS",
+        "Description": "Hensley Flying Service Inc."
+    },
+    "HIQ": {
+        "Code": "HIQ",
+        "Description": "Business Flights Ltd."
+    },
+    "HJ": {
+        "Code": "HJ",
+        "Description": "Air Haiti S. A."
+    },
+    "HK": {
+        "Code": "HK",
+        "Description": "Time Air Sweden Ab"
+    },
+    "HLQ": {
+        "Code": "HLQ",
+        "Description": "Heavylift Cargo Airlines Lt"
+    },
+    "HMZ": {
+        "Code": "HMZ",
+        "Description": "Long Island Airlines"
+    },
+    "HNS": {
+        "Code": "HNS",
+        "Description": "Haines Airways"
+    },
+    "HOL": {
+        "Code": "HOL",
+        "Description": "Holiday Airlines Inc."
+    },
+    "HOQ": {
+        "Code": "HOQ",
+        "Description": "Holidair Airways"
+    },
+    "HOR": {
+        "Code": "HOR",
+        "Description": "Iowa Airlines"
+    },
+    "HP": {
+        "Code": "HP",
+        "Description": "America West Airlines Inc. (Merged with US Airways 9/05. Stopped reporting 10/07.)"
+    },
+    "HPZ": {
+        "Code": "HPZ",
+        "Description": "Pacific Coast Airlines"
+    },
+    "HQ": {
+        "Code": "HQ",
+        "Description": "Harmony Airways"
+    },
+    "HQ (1)": {
+        "Code": "HQ (1)",
+        "Description": "Business Express"
+    },
+    "HQQ": {
+        "Code": "HQQ",
+        "Description": "Harlequin Air Corporation"
+    },
+    "HRA": {
+        "Code": "HRA",
+        "Description": "Trans-National Airlines Haw"
+    },
+    "HRG": {
+        "Code": "HRG",
+        "Description": "Heritage Airlines"
+    },
+    "HRQ": {
+        "Code": "HRQ",
+        "Description": "Tar Airlines"
+    },
+    "HRZ": {
+        "Code": "HRZ",
+        "Description": "Allegheny Airlines"
+    },
+    "HSV": {
+        "Code": "HSV",
+        "Description": "Harbor Air Service"
+    },
+    "HSZ": {
+        "Code": "HSZ",
+        "Description": "Scenic Airlines Inc."
+    },
+    "HU": {
+        "Code": "HU",
+        "Description": "Hainan Airlines Company Limited"
+    },
+    "HUB": {
+        "Code": "HUB",
+        "Description": "Skystream Airlines"
+    },
+    "HVQ": {
+        "Code": "HVQ",
+        "Description": "Transavia Holland B. V."
+    },
+    "HWK": {
+        "Code": "HWK",
+        "Description": "Hawking Corporation"
+    },
+    "HX": {
+        "Code": "HX",
+        "Description": "Guy-America Airways Inc."
+    },
+    "HY": {
+        "Code": "HY",
+        "Description": "Uzbekistan Airways"
+    },
+    "HYA": {
+        "Code": "HYA",
+        "Description": "Hyannis Aviation"
+    },
+    "IA": {
+        "Code": "IA",
+        "Description": "Iraqi Airways"
+    },
+    "IB": {
+        "Code": "IB",
+        "Description": "Iberia Air Lines Of Spain"
+    },
+    "ICF": {
+        "Code": "ICF",
+        "Description": "Iowa City Flying Service"
+    },
+    "ICH": {
+        "Code": "ICH",
+        "Description": "Island Air Charters"
+    },
+    "ICQ": {
+        "Code": "ICQ",
+        "Description": "Iscargo Hf"
+    },
+    "IDQ": {
+        "Code": "IDQ",
+        "Description": "Intl Air Service Co. Ltd."
+    },
+    "IEX": {
+        "Code": "IEX",
+        "Description": "Island Air Express"
+    },
+    "IG": {
+        "Code": "IG",
+        "Description": "Meridiana S.p.A"
+    },
+    "IGA": {
+        "Code": "IGA",
+        "Description": "Global Jet Austria, GmbH"
+    },
+    "III": {
+        "Code": "III",
+        "Description": "Idee Industries Inc."
+    },
+    "IJ": {
+        "Code": "IJ",
+        "Description": "Great Wall Airlines Company Limited"
+    },
+    "IKQ": {
+        "Code": "IKQ",
+        "Description": "Tradewinds Airways Ltd."
+    },
+    "IMP": {
+        "Code": "IMP",
+        "Description": "Imperial Airlines Inc."
+    },
+    "IN": {
+        "Code": "IN",
+        "Description": "Aerlinte Eireann Teoranta"
+    },
+    "INA": {
+        "Code": "INA",
+        "Description": "Inland Empire Airlines Inc."
+    },
+    "IND": {
+        "Code": "IND",
+        "Description": "Indiana Airways Inc. (Pa)"
+    },
+    "INQ": {
+        "Code": "INQ",
+        "Description": "Independent Air Inc."
+    },
+    "IOW": {
+        "Code": "IOW",
+        "Description": "Iowa Airways"
+    },
+    "IPI": {
+        "Code": "IPI",
+        "Description": "Indo-Pacific International"
+    },
+    "IPQ": {
+        "Code": "IPQ",
+        "Description": "Aruba Cargo"
+    },
+    "IPS": {
+        "Code": "IPS",
+        "Description": "Island Express"
+    },
+    "IR": {
+        "Code": "IR",
+        "Description": "Iran National Airlines Corp"
+    },
+    "IRQ": {
+        "Code": "IRQ",
+        "Description": "Interstate Airlines Inc."
+    },
+    "ISL": {
+        "Code": "ISL",
+        "Description": "Island Airlines"
+    },
+    "ITQ": {
+        "Code": "ITQ",
+        "Description": "Interamericana De Aviacion"
+    },
+    "IW": {
+        "Code": "IW",
+        "Description": "Air Liberte Aka Aom Minerve"
+    },
+    "IW (1)": {
+        "Code": "IW (1)",
+        "Description": "Best Airlines Inc."
+    },
+    "IXQ": {
+        "Code": "IXQ",
+        "Description": "Inair"
+    },
+    "J5": {
+        "Code": "J5",
+        "Description": "Alaska Seaplane Service"
+    },
+    "J6": {
+        "Code": "J6",
+        "Description": "Larrys Flying Service"
+    },
+    "J7": {
+        "Code": "J7",
+        "Description": "Valujet Airlines Inc."
+    },
+    "JAG": {
+        "Code": "JAG",
+        "Description": "JetAlliance Flugbetriebs d/b/a JAF Airservice"
+    },
+    "JAM": {
+        "Code": "JAM",
+        "Description": "Sunbelt Airlines Inc."
+    },
+    "JAQ": {
+        "Code": "JAQ",
+        "Description": "Jamaica Air Freighters"
+    },
+    "JB": {
+        "Code": "JB",
+        "Description": "Helijet International Inc."
+    },
+    "JCM": {
+        "Code": "JCM",
+        "Description": "Air Chico"
+    },
+    "JCQ": {
+        "Code": "JCQ",
+        "Description": "Jet Connection Businessflight Ag"
+    },
+    "JCZ": {
+        "Code": "JCZ",
+        "Description": "Rocky Mountain Airways Inc."
+    },
+    "JD": {
+        "Code": "JD",
+        "Description": "Japan Air System Co. Ltd."
+    },
+    "JER": {
+        "Code": "JER",
+        "Description": "Jer-Don Air"
+    },
+    "JF": {
+        "Code": "JF",
+        "Description": "L.A.B. Flying Service Inc."
+    },
+    "JI": {
+        "Code": "JI",
+        "Description": "Jade Cargo International"
+    },
+    "JI (1)": {
+        "Code": "JI (1)",
+        "Description": "Midway Airlines Inc."
+    },
+    "JIQ": {
+        "Code": "JIQ",
+        "Description": "Jet Fleet Intl. Airlines"
+    },
+    "JJ": {
+        "Code": "JJ",
+        "Description": "Transportes Aeros Meridiona"
+    },
+    "JK": {
+        "Code": "JK",
+        "Description": "Spanair S.A."
+    },
+    "JK (1)": {
+        "Code": "JK (1)",
+        "Description": "Sunworld International Airways Inc."
+    },
+    "JKQ": {
+        "Code": "JKQ",
+        "Description": "Express One International Inc."
+    },
+    "JL": {
+        "Code": "JL",
+        "Description": "Japan Air Lines Co. Ltd."
+    },
+    "JM": {
+        "Code": "JM",
+        "Description": "Air Jamaica Limited"
+    },
+    "JMA": {
+        "Code": "JMA",
+        "Description": "Jim Air Inc."
+    },
+    "JN": {
+        "Code": "JN",
+        "Description": "Excel Airways"
+    },
+    "JO": {
+        "Code": "JO",
+        "Description": "Jalways Co. Ltd."
+    },
+    "JQ": {
+        "Code": "JQ",
+        "Description": "Jetstar Airways Pty Limited"
+    },
+    "JR": {
+        "Code": "JR",
+        "Description": "Aero California"
+    },
+    "JTA": {
+        "Code": "JTA",
+        "Description": "Jetaire Airlines Inc."
+    },
+    "JU": {
+        "Code": "JU",
+        "Description": "Yugoslav Airlines"
+    },
+    "JW": {
+        "Code": "JW",
+        "Description": "Arrow Air Inc."
+    },
+    "JX": {
+        "Code": "JX",
+        "Description": "Southeast Airlines"
+    },
+    "JX (1)": {
+        "Code": "JX (1)",
+        "Description": "Jes Air Ltd."
+    },
+    "JXQ": {
+        "Code": "JXQ",
+        "Description": "Allarco Developments Ltd."
+    },
+    "JZ": {
+        "Code": "JZ",
+        "Description": "Japan Air Charter Co. Ltd."
+    },
+    "K3": {
+        "Code": "K3",
+        "Description": "Venture Travel LLC d/b/a Taquan Air Service"
+    },
+    "K5": {
+        "Code": "K5",
+        "Description": "SeaPort Airlines, Inc. d/b/a Wings of Alaska"
+    },
+    "K7": {
+        "Code": "K7",
+        "Description": "Arizona Express"
+    },
+    "K8": {
+        "Code": "K8",
+        "Description": "Caribbean Sun Airlines, Inc. d/b/a World Atlantic Airlines"
+    },
+    "K8 (1)": {
+        "Code": "K8 (1)",
+        "Description": "Dutch Caribbean Airlines"
+    },
+    "KA": {
+        "Code": "KA",
+        "Description": "Hong Kong Dragonair"
+    },
+    "KAH": {
+        "Code": "KAH",
+        "Description": "Kenmore Air Harbor"
+    },
+    "KAI": {
+        "Code": "KAI",
+        "Description": "Knight Airlines Inc."
+    },
+    "KAQ": {
+        "Code": "KAQ",
+        "Description": "Kalitta Air LLC"
+    },
+    "KAT": {
+        "Code": "KAT",
+        "Description": "Katmai Air"
+    },
+    "KB": {
+        "Code": "KB",
+        "Description": "Haiti Air"
+    },
+    "KE": {
+        "Code": "KE",
+        "Description": "Korean Air Lines Co. Ltd."
+    },
+    "KEA": {
+        "Code": "KEA",
+        "Description": "Keene Airways"
+    },
+    "KEE": {
+        "Code": "KEE",
+        "Description": "Key Airlines"
+    },
+    "KET": {
+        "Code": "KET",
+        "Description": "Ketchikan Air Service"
+    },
+    "KFS": {
+        "Code": "KFS",
+        "Description": "King Flying Service"
+    },
+    "KH": {
+        "Code": "KH",
+        "Description": "Aloha Air Cargo"
+    },
+    "KI": {
+        "Code": "KI",
+        "Description": "Time Air Ltd."
+    },
+    "KIN": {
+        "Code": "KIN",
+        "Description": "Golden Pacific Airlines"
+    },
+    "KKQ": {
+        "Code": "KKQ",
+        "Description": "Transmeridian Air Cargo Ltd."
+    },
+    "KL": {
+        "Code": "KL",
+        "Description": "Klm Royal Dutch Airlines"
+    },
+    "KLQ": {
+        "Code": "KLQ",
+        "Description": "Kalitta Charters II"
+    },
+    "KM": {
+        "Code": "KM",
+        "Description": "Air Malta"
+    },
+    "KN": {
+        "Code": "KN",
+        "Description": "Morris Air Corporation"
+    },
+    "KO": {
+        "Code": "KO",
+        "Description": "Alaska Central Express"
+    },
+    "KOD": {
+        "Code": "KOD",
+        "Description": "Kodiak Airways Inc."
+    },
+    "KP": {
+        "Code": "KP",
+        "Description": "Kiwi International"
+    },
+    "KR": {
+        "Code": "KR",
+        "Description": "Kitty Hawk Aircargo"
+    },
+    "KR (1)": {
+        "Code": "KR (1)",
+        "Description": "Kar-Air Oy"
+    },
+    "KS": {
+        "Code": "KS",
+        "Description": "Peninsula Airways Inc."
+    },
+    "KTQ": {
+        "Code": "KTQ",
+        "Description": "Turks Air Ltd."
+    },
+    "KU": {
+        "Code": "KU",
+        "Description": "Kuwait Airways Corp."
+    },
+    "KW": {
+        "Code": "KW",
+        "Description": "Carnival Air Lines Inc."
+    },
+    "KWQ": {
+        "Code": "KWQ",
+        "Description": "Kelowna Flightcraft Air Cha"
+    },
+    "KWZ": {
+        "Code": "KWZ",
+        "Description": "Crown Air"
+    },
+    "KX": {
+        "Code": "KX",
+        "Description": "Cayman Airways Limited"
+    },
+    "KXZ": {
+        "Code": "KXZ",
+        "Description": "Chaparral Airlines Inc."
+    },
+    "KZ": {
+        "Code": "KZ",
+        "Description": "Nippon Cargo Airlines"
+    },
+    "L2": {
+        "Code": "L2",
+        "Description": "Lynden Air Cargo Airlines"
+    },
+    "L3": {
+        "Code": "L3",
+        "Description": "Lynx Aviation d/b/a Frontier Airlines"
+    },
+    "L7": {
+        "Code": "L7",
+        "Description": "Lan Colombia"
+    },
+    "LA": {
+        "Code": "LA",
+        "Description": "Lan-Chile Airlines"
+    },
+    "LAA": {
+        "Code": "LAA",
+        "Description": "La Skycab Airline"
+    },
+    "LAH": {
+        "Code": "LAH",
+        "Description": "La Helicopter"
+    },
+    "LAN": {
+        "Code": "LAN",
+        "Description": "Lancer Aviation Inc."
+    },
+    "LAP": {
+        "Code": "LAP",
+        "Description": "Lapsa"
+    },
+    "LAR": {
+        "Code": "LAR",
+        "Description": "Laredo Air"
+    },
+    "LAS": {
+        "Code": "LAS",
+        "Description": "Lake Union Air Service"
+    },
+    "LAW": {
+        "Code": "LAW",
+        "Description": "Lawrence Aviation"
+    },
+    "LB": {
+        "Code": "LB",
+        "Description": "Lloyd Aereo Boliviano S. A."
+    },
+    "LBQ": {
+        "Code": "LBQ",
+        "Description": "Millon Air Inc."
+    },
+    "LC": {
+        "Code": "LC",
+        "Description": "Varig Logistica S/A"
+    },
+    "LC (1)": {
+        "Code": "LC (1)",
+        "Description": "Lineas Aereas Del Caribe"
+    },
+    "LC (2)": {
+        "Code": "LC (2)",
+        "Description": "Legend Airlines"
+    },
+    "LCQ": {
+        "Code": "LCQ",
+        "Description": "Latcr"
+    },
+    "LCT": {
+        "Code": "LCT",
+        "Description": "Lake Coastal"
+    },
+    "LEQ": {
+        "Code": "LEQ",
+        "Description": "Le Point Air"
+    },
+    "LEX": {
+        "Code": "LEX",
+        "Description": "L'Express"
+    },
+    "LF": {
+        "Code": "LF",
+        "Description": "Jettrain Airlines"
+    },
+    "LG": {
+        "Code": "LG",
+        "Description": "Luxair"
+    },
+    "LGQ": {
+        "Code": "LGQ",
+        "Description": "Lineas Aereas Allegro"
+    },
+    "LH": {
+        "Code": "LH",
+        "Description": "Lufthansa German Airlines"
+    },
+    "LHA": {
+        "Code": "LHA",
+        "Description": "Havasu Airlines"
+    },
+    "LIQ": {
+        "Code": "LIQ",
+        "Description": "Liat (1974) Limited"
+    },
+    "LJ": {
+        "Code": "LJ",
+        "Description": "Jin Air Co Ltd."
+    },
+    "LKN": {
+        "Code": "LKN",
+        "Description": "Loken Aviation"
+    },
+    "LLA": {
+        "Code": "LLA",
+        "Description": "Lakeland Aviation"
+    },
+    "LNQ": {
+        "Code": "LNQ",
+        "Description": "Aerolineas Latinas"
+    },
+    "LO": {
+        "Code": "LO",
+        "Description": "Polskie Linie Lotnicze"
+    },
+    "LOQ": {
+        "Code": "LOQ",
+        "Description": "Lorair Ltd."
+    },
+    "LOS": {
+        "Code": "LOS",
+        "Description": "Aero Commuter"
+    },
+    "LP": {
+        "Code": "LP",
+        "Description": "Lan Peru Airlines"
+    },
+    "LP (1)": {
+        "Code": "LP (1)",
+        "Description": "The Hawaii Express Inc."
+    },
+    "LR": {
+        "Code": "LR",
+        "Description": "Lacsa"
+    },
+    "LRQ": {
+        "Code": "LRQ",
+        "Description": "Air Liberte"
+    },
+    "LSQ": {
+        "Code": "LSQ",
+        "Description": "Lineas Aereas Suramerican"
+    },
+    "LSZ": {
+        "Code": "LSZ",
+        "Description": "Alaska Island Air Inc."
+    },
+    "LT": {
+        "Code": "LT",
+        "Description": "Luftransport-Unternehmen"
+    },
+    "LU": {
+        "Code": "LU",
+        "Description": "Air Atlantic Dominicana"
+    },
+    "LUQ": {
+        "Code": "LUQ",
+        "Description": "Lineas Aereas La-Tur Sa"
+    },
+    "LVA": {
+        "Code": "LVA",
+        "Description": "Las Vegas Airlines"
+    },
+    "LW": {
+        "Code": "LW",
+        "Description": "Pacific Wings Airlines"
+    },
+    "LX": {
+        "Code": "LX",
+        "Description": "Swiss International Airlines"
+    },
+    "LXQ": {
+        "Code": "LXQ",
+        "Description": "Translux Intl Airlines"
+    },
+    "LY": {
+        "Code": "LY",
+        "Description": "El Al Israel Airlines Ltd."
+    },
+    "LZ": {
+        "Code": "LZ",
+        "Description": "Balkan Bulgarian Airlines"
+    },
+    "LZQ": {
+        "Code": "LZQ",
+        "Description": "Leisure International Airways Ltd."
+    },
+    "M3": {
+        "Code": "M3",
+        "Description": "ABSA-Aerolinhas Brasileiras"
+    },
+    "M6": {
+        "Code": "M6",
+        "Description": "Amerijet International"
+    },
+    "M7": {
+        "Code": "M7",
+        "Description": "Aerotransportes Mas De Crga"
+    },
+    "MA": {
+        "Code": "MA",
+        "Description": "Malev Hungarian Airlines"
+    },
+    "MAA": {
+        "Code": "MAA",
+        "Description": "Maui Airlines"
+    },
+    "MAC": {
+        "Code": "MAC",
+        "Description": "Mackey International Inc."
+    },
+    "MAE": {
+        "Code": "MAE",
+        "Description": "Mid-Atlantic Exp. Airlines"
+    },
+    "MAG": {
+        "Code": "MAG",
+        "Description": "Magum Airlines"
+    },
+    "MAI": {
+        "Code": "MAI",
+        "Description": "The Maui Commuter"
+    },
+    "MAQ": {
+        "Code": "MAQ",
+        "Description": "Millardair Limited"
+    },
+    "MAR": {
+        "Code": "MAR",
+        "Description": "Marshall's Air Inc."
+    },
+    "MAV": {
+        "Code": "MAV",
+        "Description": "Maverick Airways"
+    },
+    "MAX": {
+        "Code": "MAX",
+        "Description": "Maxair Inc."
+    },
+    "MB": {
+        "Code": "MB",
+        "Description": "Samoa Airlines Inc."
+    },
+    "MC": {
+        "Code": "MC",
+        "Description": "Transtar Airlines Corp."
+    },
+    "MCO": {
+        "Code": "MCO",
+        "Description": "Mid Continental Airlines In"
+    },
+    "MDC": {
+        "Code": "MDC",
+        "Description": "Midcontinent Airlines"
+    },
+    "MDU": {
+        "Code": "MDU",
+        "Description": "Metro Airlines"
+    },
+    "ME": {
+        "Code": "ME",
+        "Description": "Middle East Airlines S.A.L."
+    },
+    "MEA": {
+        "Code": "MEA",
+        "Description": "Manhattan Express"
+    },
+    "MET": {
+        "Code": "MET",
+        "Description": "Metroplex Airlines"
+    },
+    "MEX": {
+        "Code": "MEX",
+        "Description": "Metro Express 11"
+    },
+    "MG": {
+        "Code": "MG",
+        "Description": "Champion Air"
+    },
+    "MGQ": {
+        "Code": "MGQ",
+        "Description": "Montana Austria Flugetrieb"
+    },
+    "MH": {
+        "Code": "MH",
+        "Description": "Malaysian Airline System"
+    },
+    "MHK": {
+        "Code": "MHK",
+        "Description": "Mohawk Airlines"
+    },
+    "MHO": {
+        "Code": "MHO",
+        "Description": "Mahalo Air"
+    },
+    "MIN": {
+        "Code": "MIN",
+        "Description": "Minuteman Aviation Inc."
+    },
+    "MIS": {
+        "Code": "MIS",
+        "Description": "Midstate Airlines Inc."
+    },
+    "MIY": {
+        "Code": "MIY",
+        "Description": "Midway Aviation Inc."
+    },
+    "MJ": {
+        "Code": "MJ",
+        "Description": "Lapa-Lineas Aereas Privadas"
+    },
+    "MKQ": {
+        "Code": "MKQ",
+        "Description": "Airmark Corporation"
+    },
+    "ML": {
+        "Code": "ML",
+        "Description": "Aero Costa Rica"
+    },
+    "ML (1)": {
+        "Code": "ML (1)",
+        "Description": "Midway Airlines Inc. (1)"
+    },
+    "MLL": {
+        "Code": "MLL",
+        "Description": "Miller Air Transportersinc"
+    },
+    "MLX": {
+        "Code": "MLX",
+        "Description": "Merlin Express"
+    },
+    "MM": {
+        "Code": "MM",
+        "Description": "Euro Atlantic Airways"
+    },
+    "MM (1)": {
+        "Code": "MM (1)",
+        "Description": "Sociedad Aeronautica De Med"
+    },
+    "MMH": {
+        "Code": "MMH",
+        "Description": "Ocean Airways Inc."
+    },
+    "MNA": {
+        "Code": "MNA",
+        "Description": "M & N Aviation"
+    },
+    "MNZ": {
+        "Code": "MNZ",
+        "Description": "Cumberland Airlines"
+    },
+    "MOQ": {
+        "Code": "MOQ",
+        "Description": "Morningstar Air Express"
+    },
+    "MP": {
+        "Code": "MP",
+        "Description": "Martinair Holland N.V."
+    },
+    "MPA": {
+        "Code": "MPA",
+        "Description": "Mid Pacific Airlines Inc."
+    },
+    "MPC": {
+        "Code": "MPC",
+        "Description": "Mid Pacific Air Corp."
+    },
+    "MQ": {
+        "Code": "MQ",
+        "Description": "Envoy Air"
+    },
+    "MRC": {
+        "Code": "MRC",
+        "Description": "Marco Island Airways Inc."
+    },
+    "MRQ": {
+        "Code": "MRQ",
+        "Description": "National Air Cargo Group, Inc. d/b/a Murray Air"
+    },
+    "MRR": {
+        "Code": "MRR",
+        "Description": "Merrimack Aviation Inc."
+    },
+    "MS": {
+        "Code": "MS",
+        "Description": "Egyptair"
+    },
+    "MST": {
+        "Code": "MST",
+        "Description": "Midwest Aviation"
+    },
+    "MT": {
+        "Code": "MT",
+        "Description": "Thomas Cook Airlines Uk Ltd."
+    },
+    "MT (1)": {
+        "Code": "MT (1)",
+        "Description": "Flying Colours Airlines Ltd."
+    },
+    "MTA": {
+        "Code": "MTA",
+        "Description": "Arkansas Traveler Airline"
+    },
+    "MTR": {
+        "Code": "MTR",
+        "Description": "Metroflight Airlines"
+    },
+    "MTV": {
+        "Code": "MTV",
+        "Description": "Mst Aviation"
+    },
+    "MTX": {
+        "Code": "MTX",
+        "Description": "Mountain Air Express"
+    },
+    "MU": {
+        "Code": "MU",
+        "Description": "China Eastern Airlines"
+    },
+    "MU (1)": {
+        "Code": "MU (1)",
+        "Description": "Mcclain Airlines Inc."
+    },
+    "MUA": {
+        "Code": "MUA",
+        "Description": "Manu'a Air Transport"
+    },
+    "MUQ": {
+        "Code": "MUQ",
+        "Description": "Aerolineas Mundo"
+    },
+    "MVA": {
+        "Code": "MVA",
+        "Description": "Mississippi Valley Airlines"
+    },
+    "MW": {
+        "Code": "MW",
+        "Description": "Mokulele Flight Services, Inc."
+    },
+    "MWA": {
+        "Code": "MWA",
+        "Description": "Mountain West Airlines"
+    },
+    "MX": {
+        "Code": "MX",
+        "Description": "Compania Mexicana De Aviaci"
+    },
+    "MY": {
+        "Code": "MY",
+        "Description": "MAXjet"
+    },
+    "MYQ": {
+        "Code": "MYQ",
+        "Description": "Lineas Aereas Mayas (Lamsa)"
+    },
+    "MZ": {
+        "Code": "MZ",
+        "Description": "P.N. Merpati Nusantara Air."
+    },
+    "N5": {
+        "Code": "N5",
+        "Description": "Skagway Air Service"
+    },
+    "N5 (1)": {
+        "Code": "N5 (1)",
+        "Description": "Nations Air Express Inc."
+    },
+    "N6": {
+        "Code": "N6",
+        "Description": "Aero Continente"
+    },
+    "N7": {
+        "Code": "N7",
+        "Description": "National Airlines"
+    },
+    "NA": {
+        "Code": "NA",
+        "Description": "North American Airlines"
+    },
+    "NAC": {
+        "Code": "NAC",
+        "Description": "National Air Commuter Inc."
+    },
+    "NAP": {
+        "Code": "NAP",
+        "Description": "Npa Inc."
+    },
+    "NAQ": {
+        "Code": "NAQ",
+        "Description": "Nationair"
+    },
+    "NAS": {
+        "Code": "NAS",
+        "Description": "Nasville Eagle"
+    },
+    "NAT": {
+        "Code": "NAT",
+        "Description": "National Air"
+    },
+    "NB": {
+        "Code": "NB",
+        "Description": "Sterling Cargo"
+    },
+    "NBQ": {
+        "Code": "NBQ",
+        "Description": "Sterling Airways A/S"
+    },
+    "NC": {
+        "Code": "NC",
+        "Description": "Northern Air Cargo Inc."
+    },
+    "NCA": {
+        "Code": "NCA",
+        "Description": "National Commuter Airlines"
+    },
+    "NCE": {
+        "Code": "NCE",
+        "Description": "Northcoast Executive"
+    },
+    "ND": {
+        "Code": "ND",
+        "Description": "Intair"
+    },
+    "NEB": {
+        "Code": "NEB",
+        "Description": "New Born Wings Inc."
+    },
+    "NEC": {
+        "Code": "NEC",
+        "Description": "Nor East Commuter Airlines"
+    },
+    "NEQ": {
+        "Code": "NEQ",
+        "Description": "North East Cargo Airlines"
+    },
+    "NER": {
+        "Code": "NER",
+        "Description": "Northeast Express Regional (1)"
+    },
+    "NET": {
+        "Code": "NET",
+        "Description": "Nacnet"
+    },
+    "NEV": {
+        "Code": "NEV",
+        "Description": "Nevada Airlines"
+    },
+    "NEW": {
+        "Code": "NEW",
+        "Description": "New England Airlines Inc."
+    },
+    "NEX": {
+        "Code": "NEX",
+        "Description": "Northeast Express Regional"
+    },
+    "NFA": {
+        "Code": "NFA",
+        "Description": "National Florida Airlines"
+    },
+    "NFQ": {
+        "Code": "NFQ",
+        "Description": "North Cariboo Flying Serv."
+    },
+    "NG": {
+        "Code": "NG",
+        "Description": "Lauda Air Luftfahrt Ag"
+    },
+    "NGL": {
+        "Code": "NGL",
+        "Description": "Northern Eagle Airways Inc."
+    },
+    "NH": {
+        "Code": "NH",
+        "Description": "All Nippon Airways Co."
+    },
+    "NHA": {
+        "Code": "NHA",
+        "Description": "Newair Flight Inc."
+    },
+    "NI": {
+        "Code": "NI",
+        "Description": "Lanica"
+    },
+    "NI (1)": {
+        "Code": "NI (1)",
+        "Description": "American International Airways Inc."
+    },
+    "NJ": {
+        "Code": "NJ",
+        "Description": "Vanguard Airlines Inc."
+    },
+    "NJA": {
+        "Code": "NJA",
+        "Description": "N. J. Merrimack Airlines"
+    },
+    "NJE": {
+        "Code": "NJE",
+        "Description": "NetJets Transportes Aereos, S.A."
+    },
+    "NK": {
+        "Code": "NK",
+        "Description": "Spirit Air Lines"
+    },
+    "NKQ": {
+        "Code": "NKQ",
+        "Description": "Norcanair"
+    },
+    "NLQ": {
+        "Code": "NLQ",
+        "Description": "Nolinor Aviation"
+    },
+    "NN": {
+        "Code": "NN",
+        "Description": "Northward Airlines Ltd."
+    },
+    "NOQ": {
+        "Code": "NOQ",
+        "Description": "Novair Airlines Ab"
+    },
+    "NPA": {
+        "Code": "NPA",
+        "Description": "North Pacific Airlines Inc."
+    },
+    "NPT": {
+        "Code": "NPT",
+        "Description": "E. J. A. Newport Inc."
+    },
+    "NQ": {
+        "Code": "NQ",
+        "Description": "Air Japan Co"
+    },
+    "NRN": {
+        "Code": "NRN",
+        "Description": "Northern Airlines Inc."
+    },
+    "NSQ": {
+        "Code": "NSQ",
+        "Description": "North Coast Air Services"
+    },
+    "NTH": {
+        "Code": "NTH",
+        "Description": "Northaire"
+    },
+    "NTQ": {
+        "Code": "NTQ",
+        "Description": "National Aviation Consult."
+    },
+    "NUM": {
+        "Code": "NUM",
+        "Description": "Lake State Airways"
+    },
+    "NUQ": {
+        "Code": "NUQ",
+        "Description": "Air Niugini"
+    },
+    "NVQ": {
+        "Code": "NVQ",
+        "Description": "Novair International Airways Ltd."
+    },
+    "NVX": {
+        "Code": "NVX",
+        "Description": "Nevis Express"
+    },
+    "NW": {
+        "Code": "NW",
+        "Description": "Northwest Airlines Inc."
+    },
+    "NWQ": {
+        "Code": "NWQ",
+        "Description": "N. W. Territorial Airways"
+    },
+    "NWS": {
+        "Code": "NWS",
+        "Description": "Northwest Seaplanes"
+    },
+    "NXQ": {
+        "Code": "NXQ",
+        "Description": "North Vancouver Air"
+    },
+    "NY": {
+        "Code": "NY",
+        "Description": "New York Air Inc."
+    },
+    "NYH": {
+        "Code": "NYH",
+        "Description": "New York Helicopter Corp."
+    },
+    "NZ": {
+        "Code": "NZ",
+        "Description": "Air New Zealand"
+    },
+    "OA": {
+        "Code": "OA",
+        "Description": "Olympic Airways"
+    },
+    "OAK": {
+        "Code": "OAK",
+        "Description": "Harbor Airlines Inc."
+    },
+    "OB": {
+        "Code": "OB",
+        "Description": "Oasis International Airlines S.A."
+    },
+    "OC": {
+        "Code": "OC",
+        "Description": "Air California Inc."
+    },
+    "OCR": {
+        "Code": "OCR",
+        "Description": "Ocean Reef Airways Inc."
+    },
+    "OD": {
+        "Code": "OD",
+        "Description": "Emerald Airlines Inc."
+    },
+    "OD (1)": {
+        "Code": "OD (1)",
+        "Description": "Aerocondor"
+    },
+    "OE": {
+        "Code": "OE",
+        "Description": "Westair Airlines Inc."
+    },
+    "OF": {
+        "Code": "OF",
+        "Description": "Air Finland Ltd."
+    },
+    "OFF": {
+        "Code": "OFF",
+        "Description": "Offshore Logistics"
+    },
+    "OH": {
+        "Code": "OH",
+        "Description": "Comair Inc."
+    },
+    "OHA": {
+        "Code": "OHA",
+        "Description": "Omaha Aviation"
+    },
+    "OHZ": {
+        "Code": "OHZ",
+        "Description": "Caribbean Air Services Inc."
+    },
+    "OI": {
+        "Code": "OI",
+        "Description": "Prestige Airways"
+    },
+    "OIZ": {
+        "Code": "OIZ",
+        "Description": "Corporate Air Inc."
+    },
+    "OJ": {
+        "Code": "OJ",
+        "Description": "Fly Jamaica Airways Limited"
+    },
+    "OK": {
+        "Code": "OK",
+        "Description": "Czech Airlines"
+    },
+    "OMH": {
+        "Code": "OMH",
+        "Description": "Omniflight Helicopters"
+    },
+    "OMI": {
+        "Code": "OMI",
+        "Description": "Omniflight Airways"
+    },
+    "OMK": {
+        "Code": "OMK",
+        "Description": "Omak Aviation Airlines"
+    },
+    "OMN": {
+        "Code": "OMN",
+        "Description": "Omni Pacific Airline"
+    },
+    "OMQ": {
+        "Code": "OMQ",
+        "Description": "Quassar De Mexico"
+    },
+    "ON": {
+        "Code": "ON",
+        "Description": "Air Nauru"
+    },
+    "ONQ": {
+        "Code": "ONQ",
+        "Description": "Nunasi-Central Airlines Ltd."
+    },
+    "OO": {
+        "Code": "OO",
+        "Description": "SkyWest Airlines Inc."
+    },
+    "OOZ": {
+        "Code": "OOZ",
+        "Description": "Sun Aire Lines"
+    },
+    "OP": {
+        "Code": "OP",
+        "Description": "Flying Boat Inc."
+    },
+    "OP (1)": {
+        "Code": "OP (1)",
+        "Description": "Air Panama Internacional"
+    },
+    "OPQ": {
+        "Code": "OPQ",
+        "Description": "Orion Air"
+    },
+    "OR": {
+        "Code": "OR",
+        "Description": "TUI Airlines Nederland B.V."
+    },
+    "ORI": {
+        "Code": "ORI",
+        "Description": "Orion Air Inc."
+    },
+    "OS": {
+        "Code": "OS",
+        "Description": "Austrian Airlines"
+    },
+    "OTT": {
+        "Code": "OTT",
+        "Description": "Otter Air"
+    },
+    "OV": {
+        "Code": "OV",
+        "Description": "Aeromaritime"
+    },
+    "OW": {
+        "Code": "OW",
+        "Description": "Executive Airlines"
+    },
+    "OWQ": {
+        "Code": "OWQ",
+        "Description": "Ontario Worldair Limited"
+    },
+    "OWS": {
+        "Code": "OWS",
+        "Description": "Air Kentucky Air Lines"
+    },
+    "OZ": {
+        "Code": "OZ",
+        "Description": "Asiana Airlines Inc."
+    },
+    "OZ (1)": {
+        "Code": "OZ (1)",
+        "Description": "Ozark Air Lines Inc. (1)"
+    },
+    "OZA": {
+        "Code": "OZA",
+        "Description": "Ozark Air Lines Inc."
+    },
+    "P9": {
+        "Code": "P9",
+        "Description": "Pro Air Inc."
+    },
+    "PA": {
+        "Code": "PA",
+        "Description": "Florida Coastal Airlines"
+    },
+    "PA (1)": {
+        "Code": "PA (1)",
+        "Description": "Pan American World Airways (1)"
+    },
+    "PA (2)": {
+        "Code": "PA (2)",
+        "Description": "Pan American World Airways"
+    },
+    "PAI": {
+        "Code": "PAI",
+        "Description": "Permian Airways Inc."
+    },
+    "PAQ": {
+        "Code": "PAQ",
+        "Description": "Patriot Airlines Inc."
+    },
+    "PAT": {
+        "Code": "PAT",
+        "Description": "Panorama Air Tours"
+    },
+    "PBA": {
+        "Code": "PBA",
+        "Description": "Provincetown Boston"
+    },
+    "PBQ": {
+        "Code": "PBQ",
+        "Description": "Privatair"
+    },
+    "PCA": {
+        "Code": "PCA",
+        "Description": "Piasa Commuter Airlines"
+    },
+    "PCL": {
+        "Code": "PCL",
+        "Description": "Pacific Cal Air"
+    },
+    "PCQ": {
+        "Code": "PCQ",
+        "Description": "Pace Airlines"
+    },
+    "PCR": {
+        "Code": "PCR",
+        "Description": "Pacair"
+    },
+    "PD": {
+        "Code": "PD",
+        "Description": "Porter Airlines, Inc."
+    },
+    "PD (1)": {
+        "Code": "PD (1)",
+        "Description": "Pem-Air Limited"
+    },
+    "PDA": {
+        "Code": "PDA",
+        "Description": "Trans Southern Airways"
+    },
+    "PDQ": {
+        "Code": "PDQ",
+        "Description": "Antigua Paradise Airways"
+    },
+    "PE": {
+        "Code": "PE",
+        "Description": "Air Europe S.P.A."
+    },
+    "PE (1)": {
+        "Code": "PE (1)",
+        "Description": "People Express Airlines Inc."
+    },
+    "PEA": {
+        "Code": "PEA",
+        "Description": "Pearson Aircraft"
+    },
+    "PEQ": {
+        "Code": "PEQ",
+        "Description": "SkyLink Express Inc."
+    },
+    "PER": {
+        "Code": "PER",
+        "Description": "Air Pennsylvania"
+    },
+    "PET": {
+        "Code": "PET",
+        "Description": "Petro Aviation Corp."
+    },
+    "PFA": {
+        "Code": "PFA",
+        "Description": "Pacificair"
+    },
+    "PFQ": {
+        "Code": "PFQ",
+        "Description": "Asia Pacific"
+    },
+    "PH": {
+        "Code": "PH",
+        "Description": "Polynesian Airlines Ltd."
+    },
+    "PHL": {
+        "Code": "PHL",
+        "Description": "Phillips Airlines"
+    },
+    "PHR": {
+        "Code": "PHR",
+        "Description": "Pinehurst Airlines Inc."
+    },
+    "PHX": {
+        "Code": "PHX",
+        "Description": "Phoenix Airlines"
+    },
+    "PI": {
+        "Code": "PI",
+        "Description": "Piedmont Aviation Inc."
+    },
+    "PIA": {
+        "Code": "PIA",
+        "Description": "Pacific Island Airways"
+    },
+    "PIQ": {
+        "Code": "PIQ",
+        "Description": "Pacific International Airlines"
+    },
+    "PK": {
+        "Code": "PK",
+        "Description": "Pakistan International Airlines"
+    },
+    "PKQ": {
+        "Code": "PKQ",
+        "Description": "Skyworld Airlines Inc."
+    },
+    "PL": {
+        "Code": "PL",
+        "Description": "Aero Peru"
+    },
+    "PLA": {
+        "Code": "PLA",
+        "Description": "Planes Inc."
+    },
+    "PLQ": {
+        "Code": "PLQ",
+        "Description": "Planet Airways"
+    },
+    "PLZ": {
+        "Code": "PLZ",
+        "Description": "Polar Airways Inc."
+    },
+    "PM": {
+        "Code": "PM",
+        "Description": "Prescott Support Company, Inc."
+    },
+    "PMA": {
+        "Code": "PMA",
+        "Description": "Pacific Missionary Aviation"
+    },
+    "PMT": {
+        "Code": "PMT",
+        "Description": "Pilgrim Aviation & Airlines"
+    },
+    "PN": {
+        "Code": "PN",
+        "Description": "Pan American Airways Corp."
+    },
+    "PNM": {
+        "Code": "PNM",
+        "Description": "Panama Aviation"
+    },
+    "PNQ": {
+        "Code": "PNQ",
+        "Description": "Panagra Airways"
+    },
+    "PNR": {
+        "Code": "PNR",
+        "Description": "Pioneer Airways"
+    },
+    "PNS": {
+        "Code": "PNS",
+        "Description": "Pine State Airlines"
+    },
+    "PO": {
+        "Code": "PO",
+        "Description": "Polar Air Cargo Airways"
+    },
+    "POA": {
+        "Code": "POA",
+        "Description": "Potomac Air"
+    },
+    "POC": {
+        "Code": "POC",
+        "Description": "Pocono Airlines Inc."
+    },
+    "POL": {
+        "Code": "POL",
+        "Description": "Polar International"
+    },
+    "POM": {
+        "Code": "POM",
+        "Description": "Pompano Airways"
+    },
+    "PON": {
+        "Code": "PON",
+        "Description": "Ponderosa Aviation Inc."
+    },
+    "POQ": {
+        "Code": "POQ",
+        "Description": "Polyot Airlines"
+    },
+    "PP": {
+        "Code": "PP",
+        "Description": "Jet Aviation Business Jets AG"
+    },
+    "PPQ": {
+        "Code": "PPQ",
+        "Description": "Propair"
+    },
+    "PR": {
+        "Code": "PR",
+        "Description": "Philippine Airlines Inc."
+    },
+    "PRA": {
+        "Code": "PRA",
+        "Description": "Princeton Aviation Corp"
+    },
+    "PRD": {
+        "Code": "PRD",
+        "Description": "Paradise Island Airlines"
+    },
+    "PRM": {
+        "Code": "PRM",
+        "Description": "Prime Air Inc."
+    },
+    "PRN": {
+        "Code": "PRN",
+        "Description": "Puerto Rico Intl Airlines"
+    },
+    "PRO": {
+        "Code": "PRO",
+        "Description": "Sundance Airlines"
+    },
+    "PRP": {
+        "Code": "PRP",
+        "Description": "Propheter Aviation"
+    },
+    "PRQ": {
+        "Code": "PRQ",
+        "Description": "Florida West Airlines Inc."
+    },
+    "PRR": {
+        "Code": "PRR",
+        "Description": "Pro Air Services"
+    },
+    "PS": {
+        "Code": "PS",
+        "Description": "Ukraine International Airlines"
+    },
+    "PS (1)": {
+        "Code": "PS (1)",
+        "Description": "Pacific Southwest Airlines"
+    },
+    "PSA": {
+        "Code": "PSA",
+        "Description": "P.S. Air Freight Inc."
+    },
+    "PT": {
+        "Code": "PT",
+        "Description": "Capital Cargo International"
+    },
+    "PTQ": {
+        "Code": "PTQ",
+        "Description": "Flight International"
+    },
+    "PU": {
+        "Code": "PU",
+        "Description": "Primeras Lineas Uruguays For International"
+    },
+    "PUQ": {
+        "Code": "PUQ",
+        "Description": "Aeropuma"
+    },
+    "PV": {
+        "Code": "PV",
+        "Description": "Eastern Provincial Airways"
+    },
+    "PVA": {
+        "Code": "PVA",
+        "Description": "Precision Valley Aviation"
+    },
+    "PW": {
+        "Code": "PW",
+        "Description": "Pacific Western Airlines"
+    },
+    "PY": {
+        "Code": "PY",
+        "Description": "Surinam Airways Limited"
+    },
+    "PZ": {
+        "Code": "PZ",
+        "Description": "Lineas Aereas Paraguayas"
+    },
+    "Q2": {
+        "Code": "Q2",
+        "Description": "Zambia Airways Corp."
+    },
+    "Q4": {
+        "Code": "Q4",
+        "Description": "Master Top Linhas Aereas, Ltda."
+    },
+    "Q5": {
+        "Code": "Q5",
+        "Description": "40-Mile Air"
+    },
+    "Q7": {
+        "Code": "Q7",
+        "Description": "Sobelair"
+    },
+    "QB": {
+        "Code": "QB",
+        "Description": "Inter-Quebec (Intair)"
+    },
+    "QD": {
+        "Code": "QD",
+        "Description": "Grand Airways Inc."
+    },
+    "QF": {
+        "Code": "QF",
+        "Description": "Qantas Airways Ltd."
+    },
+    "QG": {
+        "Code": "QG",
+        "Description": "Sky West Aviation Inc."
+    },
+    "QH": {
+        "Code": "QH",
+        "Description": "Air Florida Inc."
+    },
+    "QK": {
+        "Code": "QK",
+        "Description": "Jazz Aviation LP"
+    },
+    "QN": {
+        "Code": "QN",
+        "Description": "Royal Air"
+    },
+    "QO": {
+        "Code": "QO",
+        "Description": "Aeromexpress"
+    },
+    "QOZ": {
+        "Code": "QOZ",
+        "Description": "Bar Harbor Airways"
+    },
+    "QQ": {
+        "Code": "QQ",
+        "Description": "Reno Air Inc."
+    },
+    "QR": {
+        "Code": "QR",
+        "Description": "Qatar Airways (Q.C.S.C)"
+    },
+    "QS": {
+        "Code": "QS",
+        "Description": "Travel Service, a.s."
+    },
+    "QS (1)": {
+        "Code": "QS (1)",
+        "Description": "Northeastern International Airways"
+    },
+    "QT": {
+        "Code": "QT",
+        "Description": "Transportes Aereos Mercantiles Panamericanos S.A"
+    },
+    "QTQ": {
+        "Code": "QTQ",
+        "Description": "Aer Turas Teoranta"
+    },
+    "QWE": {
+        "Code": "QWE",
+        "Description": "Qwest Commuter"
+    },
+    "QX": {
+        "Code": "QX",
+        "Description": "Horizon Air"
+    },
+    "R3": {
+        "Code": "R3",
+        "Description": "Air Company Yakutia"
+    },
+    "RAL": {
+        "Code": "RAL",
+        "Description": "Royal-Air Ltd."
+    },
+    "RAN": {
+        "Code": "RAN",
+        "Description": "Pan Am Express"
+    },
+    "RAQ": {
+        "Code": "RAQ",
+        "Description": "Arista International Airlines Inc."
+    },
+    "RAY": {
+        "Code": "RAY",
+        "Description": "Royale Airlines Inc."
+    },
+    "RB": {
+        "Code": "RB",
+        "Description": "Syrian Arab Airlines"
+    },
+    "RC": {
+        "Code": "RC",
+        "Description": "Republic Airlines Inc."
+    },
+    "RCA": {
+        "Code": "RCA",
+        "Description": "Mid-South Aviation Inc. (1)"
+    },
+    "RD": {
+        "Code": "RD",
+        "Description": "Ryan International Airlines"
+    },
+    "RD (1)": {
+        "Code": "RD (1)",
+        "Description": "Airlift International Inc."
+    },
+    "RDR": {
+        "Code": "RDR",
+        "Description": "Rader Aviation"
+    },
+    "RDW": {
+        "Code": "RDW",
+        "Description": "Redwing Airways"
+    },
+    "REA": {
+        "Code": "REA",
+        "Description": "Realwest Airlines"
+    },
+    "RED": {
+        "Code": "RED",
+        "Description": "Aerosun International Airlines Inc."
+    },
+    "REQ": {
+        "Code": "REQ",
+        "Description": "Renown Aviation"
+    },
+    "RES": {
+        "Code": "RES",
+        "Description": "Resort Airlines Inc."
+    },
+    "RG": {
+        "Code": "RG",
+        "Description": "Varig S. A."
+    },
+    "RGQ": {
+        "Code": "RGQ",
+        "Description": "Regency Air"
+    },
+    "RHA": {
+        "Code": "RHA",
+        "Description": "Royal Hawaiian Airways Inc."
+    },
+    "RIA": {
+        "Code": "RIA",
+        "Description": "Trump Air"
+    },
+    "RIC": {
+        "Code": "RIC",
+        "Description": "Richardson Aviation"
+    },
+    "RID": {
+        "Code": "RID",
+        "Description": "Indiana Airways Inc. (Reid"
+    },
+    "RIO": {
+        "Code": "RIO",
+        "Description": "Rio Airways Inc."
+    },
+    "RIQ": {
+        "Code": "RIQ",
+        "Description": "Rich International Airways"
+    },
+    "RIV": {
+        "Code": "RIV",
+        "Description": "Riverside Air Service"
+    },
+    "RJ": {
+        "Code": "RJ",
+        "Description": "Alia-(The) Royal Jordanian"
+    },
+    "RJS": {
+        "Code": "RJS",
+        "Description": "Michigan Airways Inc."
+    },
+    "RK": {
+        "Code": "RK",
+        "Description": "Air Afrique"
+    },
+    "RL": {
+        "Code": "RL",
+        "Description": "UltrAir"
+    },
+    "RL (1)": {
+        "Code": "RL (1)",
+        "Description": "Aerolineas Nicaraguenses"
+    },
+    "RLQ": {
+        "Code": "RLQ",
+        "Description": "Reliant Airlines"
+    },
+    "RMH": {
+        "Code": "RMH",
+        "Description": "Rocky Mountain Helicopters"
+    },
+    "RMV": {
+        "Code": "RMV",
+        "Description": "Ram Aviation"
+    },
+    "RNQ": {
+        "Code": "RNQ",
+        "Description": "Mytravel Airways"
+    },
+    "RO": {
+        "Code": "RO",
+        "Description": "Tarom Romanian Air Transpor"
+    },
+    "ROA": {
+        "Code": "ROA",
+        "Description": "Royal West Airways Inc."
+    },
+    "ROE": {
+        "Code": "ROE",
+        "Description": "Roederer Aviation Inc."
+    },
+    "ROQ": {
+        "Code": "ROQ",
+        "Description": "Aero Uruguay (1)"
+    },
+    "ROS": {
+        "Code": "ROS",
+        "Description": "Great Western Airlines Inc."
+    },
+    "ROY": {
+        "Code": "ROY",
+        "Description": "Royal American Airways Inc."
+    },
+    "RP": {
+        "Code": "RP",
+        "Description": "Chautauqua Airlines Inc."
+    },
+    "RRT": {
+        "Code": "RRT",
+        "Description": "Air Freight Express"
+    },
+    "RS": {
+        "Code": "RS",
+        "Description": "Sky Regional Airlines Inc."
+    },
+    "RSC": {
+        "Code": "RSC",
+        "Description": "Resort Commuter"
+    },
+    "RSQ": {
+        "Code": "RSQ",
+        "Description": "Aerotransportes Entre Rios"
+    },
+    "RSV": {
+        "Code": "RSV",
+        "Description": "Air-Serve"
+    },
+    "RTQ": {
+        "Code": "RTQ",
+        "Description": "Aerotour Dominicano Cxa"
+    },
+    "RU": {
+        "Code": "RU",
+        "Description": "AirBridgeCargo Airlines Limited"
+    },
+    "RV": {
+        "Code": "RV",
+        "Description": "Air Canada rouge LP"
+    },
+    "RV (1)": {
+        "Code": "RV (1)",
+        "Description": "Reeve Aleutian Airways Inc."
+    },
+    "RVA": {
+        "Code": "RVA",
+        "Description": "Reeves Air"
+    },
+    "RVQ": {
+        "Code": "RVQ",
+        "Description": "Reeve Air Alaska, LLC"
+    },
+    "RWG": {
+        "Code": "RWG",
+        "Description": "Air Rovers Inc."
+    },
+    "RY": {
+        "Code": "RY",
+        "Description": "Redcoat Air Cargo Limited"
+    },
+    "RZZ": {
+        "Code": "RZZ",
+        "Description": "Aeromech Inc."
+    },
+    "S3": {
+        "Code": "S3",
+        "Description": "Santa Barbara Airlines, C.A"
+    },
+    "S4": {
+        "Code": "S4",
+        "Description": "Sata Internacional"
+    },
+    "S5": {
+        "Code": "S5",
+        "Description": "Shuttle America Corp."
+    },
+    "S6": {
+        "Code": "S6",
+        "Description": "Star Air A/S"
+    },
+    "S6 (1)": {
+        "Code": "S6 (1)",
+        "Description": "Mountain Bird/Salmon Air"
+    },
+    "SA": {
+        "Code": "SA",
+        "Description": "South African Airways"
+    },
+    "SAC": {
+        "Code": "SAC",
+        "Description": "Sundorph Aeronautical Corp."
+    },
+    "SAH": {
+        "Code": "SAH",
+        "Description": "Sea Air Shuttle"
+    },
+    "SAI": {
+        "Code": "SAI",
+        "Description": "Seair Alaska Airlines Inc."
+    },
+    "SAJ": {
+        "Code": "SAJ",
+        "Description": "Sajen Air Inc."
+    },
+    "SAL": {
+        "Code": "SAL",
+        "Description": "Sallee's Aviation"
+    },
+    "SAM": {
+        "Code": "SAM",
+        "Description": "Samoan Airlines Inc."
+    },
+    "SAQ": {
+        "Code": "SAQ",
+        "Description": "Southern Air Transport Inc."
+    },
+    "SAS": {
+        "Code": "SAS",
+        "Description": "Air Cortez International"
+    },
+    "SAX": {
+        "Code": "SAX",
+        "Description": "Air Americana"
+    },
+    "SBA": {
+        "Code": "SBA",
+        "Description": "Saber Aviation Inc."
+    },
+    "SBN": {
+        "Code": "SBN",
+        "Description": "Suburban Airlines"
+    },
+    "SBQ": {
+        "Code": "SBQ",
+        "Description": "Skyjet S.A."
+    },
+    "SCN": {
+        "Code": "SCN",
+        "Description": "Scott Aviation"
+    },
+    "SCO": {
+        "Code": "SCO",
+        "Description": "Seaco Airlines Inc."
+    },
+    "SCT": {
+        "Code": "SCT",
+        "Description": "Skyline Airlines"
+    },
+    "SCY": {
+        "Code": "SCY",
+        "Description": "South Coast Airways"
+    },
+    "SDQ": {
+        "Code": "SDQ",
+        "Description": "St. Lucia Airways Limited"
+    },
+    "SE": {
+        "Code": "SE",
+        "Description": "XL Airways France"
+    },
+    "SE (1)": {
+        "Code": "SE (1)",
+        "Description": "Das Air Cargo"
+    },
+    "SEB": {
+        "Code": "SEB",
+        "Description": "Seaborne Aviation"
+    },
+    "SEG": {
+        "Code": "SEG",
+        "Description": "Seagull Air Service"
+    },
+    "SEM": {
+        "Code": "SEM",
+        "Description": "Semo Aviation Inc."
+    },
+    "SEP": {
+        "Code": "SEP",
+        "Description": "Southern Express Airways"
+    },
+    "SEQ": {
+        "Code": "SEQ",
+        "Description": "Sky Service F.B.O."
+    },
+    "SER": {
+        "Code": "SER",
+        "Description": "Service Aviation Inc."
+    },
+    "SFI": {
+        "Code": "SFI",
+        "Description": "Stahmannfarms Inc."
+    },
+    "SFO": {
+        "Code": "SFO",
+        "Description": "Sfo Helicopter Airlines Inc."
+    },
+    "SFQ": {
+        "Code": "SFQ",
+        "Description": "Pacific International Airlines Inc."
+    },
+    "SFQ (1)": {
+        "Code": "SFQ (1)",
+        "Description": "Southern Frontier Air Trans"
+    },
+    "SFS": {
+        "Code": "SFS",
+        "Description": "Sierra Flite Service Inc."
+    },
+    "SG": {
+        "Code": "SG",
+        "Description": "Jetsgo"
+    },
+    "SH": {
+        "Code": "SH",
+        "Description": "Servicio Aereo De Honduras"
+    },
+    "SHS": {
+        "Code": "SHS",
+        "Description": "Shasta Air Inc."
+    },
+    "SHV": {
+        "Code": "SHV",
+        "Description": "Shavano Air Inc."
+    },
+    "SI": {
+        "Code": "SI",
+        "Description": "Sierra Pacific Airlines"
+    },
+    "SI (1)": {
+        "Code": "SI (1)",
+        "Description": "Jet America Airlines Inc."
+    },
+    "SIA": {
+        "Code": "SIA",
+        "Description": "Silver State Airlines"
+    },
+    "SIQ": {
+        "Code": "SIQ",
+        "Description": "Premiair"
+    },
+    "SIQ (1)": {
+        "Code": "SIQ (1)",
+        "Description": "Scanair"
+    },
+    "SJA": {
+        "Code": "SJA",
+        "Description": "San Juan Airlines Inc."
+    },
+    "SJQ": {
+        "Code": "SJQ",
+        "Description": "Skycharter (Malton) Ltd."
+    },
+    "SK": {
+        "Code": "SK",
+        "Description": "Scandinavian Airlines Sys."
+    },
+    "SKI": {
+        "Code": "SKI",
+        "Description": "Sunbird Inc."
+    },
+    "SKJ": {
+        "Code": "SKJ",
+        "Description": "Sky-Jet"
+    },
+    "SKL": {
+        "Code": "SKL",
+        "Description": "Bas Airlines"
+    },
+    "SKM": {
+        "Code": "SKM",
+        "Description": "Scheduled Skyways"
+    },
+    "SKS": {
+        "Code": "SKS",
+        "Description": "Silver Kris Services Ltd."
+    },
+    "SKT": {
+        "Code": "SKT",
+        "Description": "Skytrain"
+    },
+    "SLO": {
+        "Code": "SLO",
+        "Description": "Slocum Air Inc."
+    },
+    "SLQ": {
+        "Code": "SLQ",
+        "Description": "Sky King Inc."
+    },
+    "SLR": {
+        "Code": "SLR",
+        "Description": "Salair"
+    },
+    "SLZ": {
+        "Code": "SLZ",
+        "Description": "Southeast Airlines Inc."
+    },
+    "SM": {
+        "Code": "SM",
+        "Description": "Sunworld International Airlines"
+    },
+    "SMC": {
+        "Code": "SMC",
+        "Description": "Stopher Mechanical Inc."
+    },
+    "SMO": {
+        "Code": "SMO",
+        "Description": "Samoa Aviation Inc."
+    },
+    "SMQ": {
+        "Code": "SMQ",
+        "Description": "Serv. Aerolineas Mexicanas"
+    },
+    "SN": {
+        "Code": "SN",
+        "Description": "Brussels Airlines N.V."
+    },
+    "SN (1)": {
+        "Code": "SN (1)",
+        "Description": "Sabena Belgian World Air."
+    },
+    "SNA": {
+        "Code": "SNA",
+        "Description": "Aviation Associates"
+    },
+    "SNB": {
+        "Code": "SNB",
+        "Description": "Ccair"
+    },
+    "SNC": {
+        "Code": "SNC",
+        "Description": "Gelco Courier Services Inc."
+    },
+    "SNE": {
+        "Code": "SNE",
+        "Description": "Shawnee Airlines"
+    },
+    "SNK": {
+        "Code": "SNK",
+        "Description": "Spernak Airways Inc."
+    },
+    "SNV": {
+        "Code": "SNV",
+        "Description": "Sierra Nevada Airways"
+    },
+    "SO": {
+        "Code": "SO",
+        "Description": "Swiss World Airways"
+    },
+    "SOA": {
+        "Code": "SOA",
+        "Description": "Mall Airways Inc."
+    },
+    "SOE": {
+        "Code": "SOE",
+        "Description": "Sky One Express"
+    },
+    "SOL": {
+        "Code": "SOL",
+        "Description": "Soonair Lines Inc."
+    },
+    "SOP": {
+        "Code": "SOP",
+        "Description": "South Pacific Island Airway"
+    },
+    "SPF": {
+        "Code": "SPF",
+        "Description": "Springfield Air Service"
+    },
+    "SPG": {
+        "Code": "SPG",
+        "Description": "Springdale Air"
+    },
+    "SPH": {
+        "Code": "SPH",
+        "Description": "Spirit Helicopter"
+    },
+    "SPQ": {
+        "Code": "SPQ",
+        "Description": "Sun Pacific International"
+    },
+    "SPR": {
+        "Code": "SPR",
+        "Description": "Sportsman Flying Service"
+    },
+    "SQ": {
+        "Code": "SQ",
+        "Description": "Singapore Airlines Ltd."
+    },
+    "SR": {
+        "Code": "SR",
+        "Description": "Swissair Transport Co. Ltd."
+    },
+    "SRA": {
+        "Code": "SRA",
+        "Description": "Star Aviation"
+    },
+    "SRL": {
+        "Code": "SRL",
+        "Description": "Sterling Air Service"
+    },
+    "SS": {
+        "Code": "SS",
+        "Description": "Corsair International"
+    },
+    "SSA": {
+        "Code": "SSA",
+        "Description": "S. S. Airways Inc."
+    },
+    "SSP": {
+        "Code": "SSP",
+        "Description": "Southern Seaplane"
+    },
+    "SSQ": {
+        "Code": "SSQ",
+        "Description": "Superior Airways Limited"
+    },
+    "SSS": {
+        "Code": "SSS",
+        "Description": "Sierra Express Inc."
+    },
+    "SST": {
+        "Code": "SST",
+        "Description": "Seaplane Shuttle Transport"
+    },
+    "ST": {
+        "Code": "ST",
+        "Description": "Belize Airways Limited"
+    },
+    "STA": {
+        "Code": "STA",
+        "Description": "State Airlines Inc."
+    },
+    "STF": {
+        "Code": "STF",
+        "Description": "Trans East International"
+    },
+    "STG": {
+        "Code": "STG",
+        "Description": "Sedalia Marshall Boonvl Stg"
+    },
+    "STQ": {
+        "Code": "STQ",
+        "Description": "Skycraft Air Transport Inc."
+    },
+    "STR": {
+        "Code": "STR",
+        "Description": "Star Aviation Corporation"
+    },
+    "STW": {
+        "Code": "STW",
+        "Description": "Stateswest Airlines"
+    },
+    "STZ": {
+        "Code": "STZ",
+        "Description": "Air America Inc."
+    },
+    "SU": {
+        "Code": "SU",
+        "Description": "Aeroflot Russian Airlines"
+    },
+    "SUA": {
+        "Code": "SUA",
+        "Description": "Sunshine Airlines"
+    },
+    "SUI": {
+        "Code": "SUI",
+        "Description": "Sun International Airways"
+    },
+    "SUT": {
+        "Code": "SUT",
+        "Description": "Sunbelt"
+    },
+    "SUX": {
+        "Code": "SUX",
+        "Description": "Sunair Express LLC"
+    },
+    "SV": {
+        "Code": "SV",
+        "Description": "Saudi Arabian Airlines Corp"
+    },
+    "SVL": {
+        "Code": "SVL",
+        "Description": "Sun Valley Airlines"
+    },
+    "SVW": {
+        "Code": "SVW",
+        "Description": "Global Jet Luxembourg, Sa"
+    },
+    "SWA": {
+        "Code": "SWA",
+        "Description": "Sunwest Airlines"
+    },
+    "SWT": {
+        "Code": "SWT",
+        "Description": "Swift Aire Lines Inc."
+    },
+    "SX": {
+        "Code": "SX",
+        "Description": "Skybus Airlines, Inc."
+    },
+    "SX (1)": {
+        "Code": "SX (1)",
+        "Description": "Aeroejecutivo S.A."
+    },
+    "SXP": {
+        "Code": "SXP",
+        "Description": "Sierra Expressway"
+    },
+    "SY": {
+        "Code": "SY",
+        "Description": "Sun Country Airlines d/b/a MN Airlines"
+    },
+    "SYB": {
+        "Code": "SYB",
+        "Description": "Skybus Express Airlines"
+    },
+    "SYM": {
+        "Code": "SYM",
+        "Description": "Skymaster"
+    },
+    "SZQ": {
+        "Code": "SZQ",
+        "Description": "Aerolineas El Salvador S A"
+    },
+    "T3": {
+        "Code": "T3",
+        "Description": "Tristar Airlines Inc."
+    },
+    "T9": {
+        "Code": "T9",
+        "Description": "TransMeridian Airlines"
+    },
+    "TA": {
+        "Code": "TA",
+        "Description": "Taca International Airlines"
+    },
+    "TAC": {
+        "Code": "TAC",
+        "Description": "Air Colorado"
+    },
+    "TAF": {
+        "Code": "TAF",
+        "Description": "Tri Air Freight"
+    },
+    "TAL": {
+        "Code": "TAL",
+        "Description": "Tejas Airlines Inc."
+    },
+    "TAQ": {
+        "Code": "TAQ",
+        "Description": "Taquan Air Service"
+    },
+    "TAS": {
+        "Code": "TAS",
+        "Description": "Yosemite Airlines Inc."
+    },
+    "TAT": {
+        "Code": "TAT",
+        "Description": "Talarik Creek Air Taxi"
+    },
+    "TB": {
+        "Code": "TB",
+        "Description": "TUI Airlines Belgium N.V. d/b/a Jetairfly"
+    },
+    "TB (1)": {
+        "Code": "TB (1)",
+        "Description": "USAir Shuttle"
+    },
+    "TBQ": {
+        "Code": "TBQ",
+        "Description": "Triair Bermuda Flt Operations"
+    },
+    "TCA": {
+        "Code": "TCA",
+        "Description": "Trans Catalina Airlines"
+    },
+    "TCE": {
+        "Code": "TCE",
+        "Description": "Oceanair Line"
+    },
+    "TCI": {
+        "Code": "TCI",
+        "Description": "Trans California Airlines"
+    },
+    "TCL": {
+        "Code": "TCL",
+        "Description": "Trans-Central Airlines Inc."
+    },
+    "TCO": {
+        "Code": "TCO",
+        "Description": "Trans-Colorado Airlines"
+    },
+    "TCQ": {
+        "Code": "TCQ",
+        "Description": "Express.Net Airlines"
+    },
+    "TDQ": {
+        "Code": "TDQ",
+        "Description": "Venexcargo"
+    },
+    "TDQ (1)": {
+        "Code": "TDQ (1)",
+        "Description": "Transcarga"
+    },
+    "TEN": {
+        "Code": "TEN",
+        "Description": "Tennessee Airways Inc."
+    },
+    "TER": {
+        "Code": "TER",
+        "Description": "Terre Haute Air Commuter"
+    },
+    "TFQ": {
+        "Code": "TFQ",
+        "Description": "Trans International Airlines Inc."
+    },
+    "TFZ": {
+        "Code": "TFZ",
+        "Description": "Tri-State Airlines Inc."
+    },
+    "TG": {
+        "Code": "TG",
+        "Description": "Thai Airways International Ltd."
+    },
+    "TGO": {
+        "Code": "TGO",
+        "Description": "Trans Air Cargo Inc."
+    },
+    "TGQ": {
+        "Code": "TGQ",
+        "Description": "Tranps Aereos Guatemaltecos"
+    },
+    "TH": {
+        "Code": "TH",
+        "Description": "Transmile Air Service"
+    },
+    "THA": {
+        "Code": "THA",
+        "Description": "Tropical Helicopter Airways"
+    },
+    "THO": {
+        "Code": "THO",
+        "Description": "Thorson Aviation"
+    },
+    "THQ": {
+        "Code": "THQ",
+        "Description": "T-Bird Air Inc."
+    },
+    "TIA": {
+        "Code": "TIA",
+        "Description": "Trans Air Inc."
+    },
+    "TIE": {
+        "Code": "TIE",
+        "Description": "Trans International Express"
+    },
+    "TIQ": {
+        "Code": "TIQ",
+        "Description": "Tyrolean Jet Service"
+    },
+    "TIS": {
+        "Code": "TIS",
+        "Description": "Skyfreight"
+    },
+    "TJ": {
+        "Code": "TJ",
+        "Description": "Jet Charter Service Inc."
+    },
+    "TK": {
+        "Code": "TK",
+        "Description": "Turk Hava Yollari A.O."
+    },
+    "TKQ": {
+        "Code": "TKQ",
+        "Description": "Trans-Air-Link Corporation"
+    },
+    "TLQ": {
+        "Code": "TLQ",
+        "Description": "Trans-Mediterranean Airways"
+    },
+    "TMA": {
+        "Code": "TMA",
+        "Description": "Trans Mo Airlines"
+    },
+    "TN": {
+        "Code": "TN",
+        "Description": "Air Tahiti Nui"
+    },
+    "TNQ": {
+        "Code": "TNQ",
+        "Description": "Emery Worldwide Airlines"
+    },
+    "TNS": {
+        "Code": "TNS",
+        "Description": "Transtate Aviation"
+    },
+    "TP": {
+        "Code": "TP",
+        "Description": "Tap-Portuguese Airlines"
+    },
+    "TPQ": {
+        "Code": "TPQ",
+        "Description": "Aerial Transit Company"
+    },
+    "TQQ": {
+        "Code": "TQQ",
+        "Description": "Taca Peru"
+    },
+    "TR": {
+        "Code": "TR",
+        "Description": "Transbrasil S.A."
+    },
+    "TRA": {
+        "Code": "TRA",
+        "Description": "Aeromexico Travel"
+    },
+    "TRI": {
+        "Code": "TRI",
+        "Description": "Great Plains Airlines Inc."
+    },
+    "TRO": {
+        "Code": "TRO",
+        "Description": "Air Molakai"
+    },
+    "TRP": {
+        "Code": "TRP",
+        "Description": "Trans Pennsylvania Airlines"
+    },
+    "TRQ": {
+        "Code": "TRQ",
+        "Description": "Blue Scandinavia Ab"
+    },
+    "TRR": {
+        "Code": "TRR",
+        "Description": "Territorial Airlines"
+    },
+    "TS": {
+        "Code": "TS",
+        "Description": "Air Transat"
+    },
+    "TSF": {
+        "Code": "TSF",
+        "Description": "American Central Airlines"
+    },
+    "TSI": {
+        "Code": "TSI",
+        "Description": "Trans Sierra Airlines Inc."
+    },
+    "TSQ": {
+        "Code": "TSQ",
+        "Description": "TPI International Airways"
+    },
+    "TTM": {
+        "Code": "TTM",
+        "Description": "The Time Machine"
+    },
+    "TUL": {
+        "Code": "TUL",
+        "Description": "Tulsair Beechcraft Inc."
+    },
+    "TUR": {
+        "Code": "TUR",
+        "Description": "Turner Aire"
+    },
+    "TV": {
+        "Code": "TV",
+        "Description": "Haiti Trans Air"
+    },
+    "TV (1)": {
+        "Code": "TV (1)",
+        "Description": "Transamerica Airlines Inc."
+    },
+    "TVL": {
+        "Code": "TVL",
+        "Description": "Travelair"
+    },
+    "TW": {
+        "Code": "TW",
+        "Description": "Trans World Airways LLC"
+    },
+    "TWA": {
+        "Code": "TWA",
+        "Description": "Trans Western Airlines Utah"
+    },
+    "TWE": {
+        "Code": "TWE",
+        "Description": "Trans World Express"
+    },
+    "TX": {
+        "Code": "TX",
+        "Description": "Soc.Nouvelle Air Guadeloupe"
+    },
+    "TX (1)": {
+        "Code": "TX (1)",
+        "Description": "Transportes Aereos Nacional"
+    },
+    "TXA": {
+        "Code": "TXA",
+        "Description": "Texas National Airlines"
+    },
+    "TXE": {
+        "Code": "TXE",
+        "Description": "Trans Air (Hawaii)"
+    },
+    "TXQ": {
+        "Code": "TXQ",
+        "Description": "British Caribbean Airways"
+    },
+    "TXY": {
+        "Code": "TXY",
+        "Description": "Texas Airways"
+    },
+    "TYE": {
+        "Code": "TYE",
+        "Description": "Temsco Airlines"
+    },
+    "TZ": {
+        "Code": "TZ",
+        "Description": "ATA Airlines d/b/a ATA"
+    },
+    "TZQ": {
+        "Code": "TZQ",
+        "Description": "First Choice Airways"
+    },
+    "U2": {
+        "Code": "U2",
+        "Description": "UFS Inc."
+    },
+    "U5": {
+        "Code": "U5",
+        "Description": "USA 3000 Airlines"
+    },
+    "U7": {
+        "Code": "U7",
+        "Description": "USA Jet Airlines Inc."
+    },
+    "UA": {
+        "Code": "UA",
+        "Description": "United Air Lines Inc."
+    },
+    "UAI": {
+        "Code": "UAI",
+        "Description": "Universal Airways Inc."
+    },
+    "UC": {
+        "Code": "UC",
+        "Description": "Ladeco"
+    },
+    "UD": {
+        "Code": "UD",
+        "Description": "Fast Air Carrier Ltd."
+    },
+    "UH": {
+        "Code": "UH",
+        "Description": "US Helicopter Corporation"
+    },
+    "UMQ": {
+        "Code": "UMQ",
+        "Description": "Air Manila Inc."
+    },
+    "UN": {
+        "Code": "UN",
+        "Description": "Transaero Airlines"
+    },
+    "UNQ": {
+        "Code": "UNQ",
+        "Description": "Overseas National Airways"
+    },
+    "UP": {
+        "Code": "UP",
+        "Description": "Bahamasair Holding Limited"
+    },
+    "UR": {
+        "Code": "UR",
+        "Description": "Empire Airlines Inc. (1)"
+    },
+    "URQ": {
+        "Code": "URQ",
+        "Description": "Aero Uruguay"
+    },
+    "US": {
+        "Code": "US",
+        "Description": "US Airways Inc."
+    },
+    "USA": {
+        "Code": "USA",
+        "Description": "Air U.S."
+    },
+    "UT": {
+        "Code": "UT",
+        "Description": "Union De Transports Aeriens"
+    },
+    "UTQ": {
+        "Code": "UTQ",
+        "Description": "Universal Airlines Inc."
+    },
+    "UX": {
+        "Code": "UX",
+        "Description": "Air Europa"
+    },
+    "UX (1)": {
+        "Code": "UX (1)",
+        "Description": "Air Illinois Inc."
+    },
+    "UYQ": {
+        "Code": "UYQ",
+        "Description": "Aerolineas Uruguayas S.A."
+    },
+    "V4": {
+        "Code": "V4",
+        "Description": "Vensecar International"
+    },
+    "V5": {
+        "Code": "V5",
+        "Description": "J.D.Valenciana De Aviation"
+    },
+    "V8": {
+        "Code": "V8",
+        "Description": "Iliamna Air Taxi"
+    },
+    "V9": {
+        "Code": "V9",
+        "Description": "Eagle Airlines"
+    },
+    "VA": {
+        "Code": "VA",
+        "Description": "Virgin Blue International Airlines t/a V Australia"
+    },
+    "VA (1)": {
+        "Code": "VA (1)",
+        "Description": "Venezuelan International Airways"
+    },
+    "VAG": {
+        "Code": "VAG",
+        "Description": "Vagabond Aviation Inc."
+    },
+    "VAQ": {
+        "Code": "VAQ",
+        "Description": "Vacationair"
+    },
+    "VAS": {
+        "Code": "VAS",
+        "Description": "Valley Air Services"
+    },
+    "VB": {
+        "Code": "VB",
+        "Description": "Aeroenlaces Nacionales, S.A. de C.V. d/b/a VivaAerobus"
+    },
+    "VB (1)": {
+        "Code": "VB (1)",
+        "Description": "Pacific Express"
+    },
+    "VC": {
+        "Code": "VC",
+        "Description": "Servicios Avensa"
+    },
+    "VCQ": {
+        "Code": "VCQ",
+        "Description": "Victory Air Transport Inc."
+    },
+    "VE": {
+        "Code": "VE",
+        "Description": "Aerovias Venezolanas-Avensa"
+    },
+    "VER": {
+        "Code": "VER",
+        "Description": "Britt Airlines Inc."
+    },
+    "VEZ": {
+        "Code": "VEZ",
+        "Description": "Valdez Airlines"
+    },
+    "VH": {
+        "Code": "VH",
+        "Description": "Aeropostal Alas De Venezuel"
+    },
+    "VI": {
+        "Code": "VI",
+        "Description": "Vieques Air Link Inc."
+    },
+    "VIG": {
+        "Code": "VIG",
+        "Description": "Viking Express"
+    },
+    "VIN": {
+        "Code": "VIN",
+        "Description": "Vale International Airlines"
+    },
+    "VIQ": {
+        "Code": "VIQ",
+        "Description": "Volga-Dnepr Airlines"
+    },
+    "VIQ (1)": {
+        "Code": "VIQ (1)",
+        "Description": "Viscount Air Service Inc."
+    },
+    "VIS": {
+        "Code": "VIS",
+        "Description": "Virgin Islands Seaplane"
+    },
+    "VJT": {
+        "Code": "VJT",
+        "Description": "VistaJet Limited"
+    },
+    "VK": {
+        "Code": "VK",
+        "Description": "Air Tungaru Corporation"
+    },
+    "VL": {
+        "Code": "VL",
+        "Description": "Mid-South Aviation Inc."
+    },
+    "VLA": {
+        "Code": "VLA",
+        "Description": "Village Aviation"
+    },
+    "VLY": {
+        "Code": "VLY",
+        "Description": "Valley Airlines"
+    },
+    "VOQ": {
+        "Code": "VOQ",
+        "Description": "Avalon Aviation Ltd."
+    },
+    "VP": {
+        "Code": "VP",
+        "Description": "Viacao Aerea Sao Paulo"
+    },
+    "VQ": {
+        "Code": "VQ",
+        "Description": "Vintage Props & Jets Inc."
+    },
+    "VR": {
+        "Code": "VR",
+        "Description": "Transportes Aereos De Cabo"
+    },
+    "VS": {
+        "Code": "VS",
+        "Description": "Virgin Atlantic Airways"
+    },
+    "VSA": {
+        "Code": "VSA",
+        "Description": "VistaJet Luftfahrtunternehmen GmbH"
+    },
+    "VV": {
+        "Code": "VV",
+        "Description": "Aerosvit Ukranian Airlines"
+    },
+    "VV (1)": {
+        "Code": "VV (1)",
+        "Description": "Challenge Air Transport Inc."
+    },
+    "VV (2)": {
+        "Code": "VV (2)",
+        "Description": "Challenge Air International Inc."
+    },
+    "VW": {
+        "Code": "VW",
+        "Description": "Transportes Aeromar S.A de C.V"
+    },
+    "VX": {
+        "Code": "VX",
+        "Description": "Virgin America"
+    },
+    "VX (1)": {
+        "Code": "VX (1)",
+        "Description": "Aces Airlines"
+    },
+    "VY": {
+        "Code": "VY",
+        "Description": "Highland Express Airways"
+    },
+    "W3": {
+        "Code": "W3",
+        "Description": "Arik Air International"
+    },
+    "W4": {
+        "Code": "W4",
+        "Description": "Mn Aviation, Inc."
+    },
+    "W7": {
+        "Code": "W7",
+        "Description": "Western Pacific Airlines"
+    },
+    "W8": {
+        "Code": "W8",
+        "Description": "Cargojet Airways Ltd."
+    },
+    "W9": {
+        "Code": "W9",
+        "Description": "Eastwind Airlines Inc."
+    },
+    "WA": {
+        "Code": "WA",
+        "Description": "Worldwide Airlines Services"
+    },
+    "WA (1)": {
+        "Code": "WA (1)",
+        "Description": "Western Air Lines Inc."
+    },
+    "WAC": {
+        "Code": "WAC",
+        "Description": "Air East Airlines"
+    },
+    "WAI": {
+        "Code": "WAI",
+        "Description": "Wise Airlines Inc."
+    },
+    "WAP": {
+        "Code": "WAP",
+        "Description": "Arrow Panama"
+    },
+    "WAQ": {
+        "Code": "WAQ",
+        "Description": "Air Charter Systems (Acs)"
+    },
+    "WAR": {
+        "Code": "WAR",
+        "Description": "Waring Air"
+    },
+    "WAW": {
+        "Code": "WAW",
+        "Description": "Westward Airways Inc."
+    },
+    "WC": {
+        "Code": "WC",
+        "Description": "Wien Air Alaska Inc."
+    },
+    "WCA": {
+        "Code": "WCA",
+        "Description": "Walker's International"
+    },
+    "WCI": {
+        "Code": "WCI",
+        "Description": "Mountainwest Airlines"
+    },
+    "WD": {
+        "Code": "WD",
+        "Description": "Halisa Air"
+    },
+    "WDQ": {
+        "Code": "WDQ",
+        "Description": "Wardair Canada Inc."
+    },
+    "WE": {
+        "Code": "WE",
+        "Description": "Centurion Cargo Inc."
+    },
+    "WEB": {
+        "Code": "WEB",
+        "Description": "Southeast Alaska Airlines"
+    },
+    "WEQ": {
+        "Code": "WEQ",
+        "Description": "Aero-Services-Corporate"
+    },
+    "WES": {
+        "Code": "WES",
+        "Description": "Western Star Airlines Inc."
+    },
+    "WET": {
+        "Code": "WET",
+        "Description": "Western Charter Inc."
+    },
+    "WFS": {
+        "Code": "WFS",
+        "Description": "Wheeler Airlines"
+    },
+    "WFT": {
+        "Code": "WFT",
+        "Description": "Westflight Aviation"
+    },
+    "WG": {
+        "Code": "WG",
+        "Description": "Sunwing Airlines Inc."
+    },
+    "WGL": {
+        "Code": "WGL",
+        "Description": "Wrangell Air Service"
+    },
+    "WGQ": {
+        "Code": "WGQ",
+        "Description": "Gateway Aviation Limited"
+    },
+    "WI": {
+        "Code": "WI",
+        "Description": "Tradewinds Airlines"
+    },
+    "WIA": {
+        "Code": "WIA",
+        "Description": "Wisc Air"
+    },
+    "WIL": {
+        "Code": "WIL",
+        "Description": "Will's Air"
+    },
+    "WIR": {
+        "Code": "WIR",
+        "Description": "Williams Air Inc."
+    },
+    "WL": {
+        "Code": "WL",
+        "Description": "World Air Network"
+    },
+    "WLH": {
+        "Code": "WLH",
+        "Description": "Welch Aviation"
+    },
+    "WLQ": {
+        "Code": "WLQ",
+        "Description": "Worldwide Airlines Inc."
+    },
+    "WM": {
+        "Code": "WM",
+        "Description": "Windward Islands Airways"
+    },
+    "WN": {
+        "Code": "WN",
+        "Description": "Southwest Airlines Co."
+    },
+    "WNG": {
+        "Code": "WNG",
+        "Description": "Wings Airways"
+    },
+    "WNQ": {
+        "Code": "WNQ",
+        "Description": "Winair Inc."
+    },
+    "WO": {
+        "Code": "WO",
+        "Description": "World Airways Inc."
+    },
+    "WP": {
+        "Code": "WP",
+        "Description": "Island Air Hawaii"
+    },
+    "WRA": {
+        "Code": "WRA",
+        "Description": "Wra Inc."
+    },
+    "WRD": {
+        "Code": "WRD",
+        "Description": "Ward Air"
+    },
+    "WRT": {
+        "Code": "WRT",
+        "Description": "Wright Airlines Inc."
+    },
+    "WS": {
+        "Code": "WS",
+        "Description": "Westjet"
+    },
+    "WS (1)": {
+        "Code": "WS (1)",
+        "Description": "Suncoast Airlines Inc."
+    },
+    "WSK": {
+        "Code": "WSK",
+        "Description": "AAR Western Skyways"
+    },
+    "WST": {
+        "Code": "WST",
+        "Description": "West Isle Air"
+    },
+    "WSU": {
+        "Code": "WSU",
+        "Description": "Mission Air"
+    },
+    "WT": {
+        "Code": "WT",
+        "Description": "Nigeria Airways Ltd."
+    },
+    "WTA": {
+        "Code": "WTA",
+        "Description": "Westates Airlines"
+    },
+    "WV": {
+        "Code": "WV",
+        "Description": "Air Greco, Inc., d/b/a Wings Air"
+    },
+    "WV (1)": {
+        "Code": "WV (1)",
+        "Description": "Air South Inc. (1)"
+    },
+    "WW": {
+        "Code": "WW",
+        "Description": "WOW Air ehf"
+    },
+    "WWI": {
+        "Code": "WWI",
+        "Description": "Wings West Airlines"
+    },
+    "WWQ": {
+        "Code": "WWQ",
+        "Description": "Worldways Canada Ltd."
+    },
+    "X4": {
+        "Code": "X4",
+        "Description": "Air Excursions LLC"
+    },
+    "X9": {
+        "Code": "X9",
+        "Description": "Omni Air Express"
+    },
+    "XAA": {
+        "Code": "XAA",
+        "Description": "Aero Union Corp"
+    },
+    "XAB": {
+        "Code": "XAB",
+        "Description": "Air Polynesia d/b/a DHL Cargo"
+    },
+    "XAC": {
+        "Code": "XAC",
+        "Description": "Air Express International Airlines"
+    },
+    "XAE": {
+        "Code": "XAE",
+        "Description": "Amerford Airways Inc."
+    },
+    "XAF": {
+        "Code": "XAF",
+        "Description": "Astro-Wing Airlines Inc."
+    },
+    "XAG": {
+        "Code": "XAG",
+        "Description": "Ball Brothers Inc."
+    },
+    "XAH": {
+        "Code": "XAH",
+        "Description": "Hawaii Pacific Air"
+    },
+    "XAI": {
+        "Code": "XAI",
+        "Description": "Burlington Northern Inc."
+    },
+    "XAJ": {
+        "Code": "XAJ",
+        "Description": "Central American International"
+    },
+    "XAK": {
+        "Code": "XAK",
+        "Description": "Century Airlines Inc."
+    },
+    "XAM": {
+        "Code": "XAM",
+        "Description": "Cohlmia Aviation"
+    },
+    "XAO": {
+        "Code": "XAO",
+        "Description": "Dallas Flight Center"
+    },
+    "XAQ": {
+        "Code": "XAQ",
+        "Description": "Cam Air International Inc."
+    },
+    "XAR": {
+        "Code": "XAR",
+        "Description": "Jet Way Inc."
+    },
+    "XAS": {
+        "Code": "XAS",
+        "Description": "Klondike Air Inc."
+    },
+    "XAT": {
+        "Code": "XAT",
+        "Description": "Michigan Peninsula Airways"
+    },
+    "XAU": {
+        "Code": "XAU",
+        "Description": "Flight Line Inc."
+    },
+    "XAY": {
+        "Code": "XAY",
+        "Description": "Pat Air"
+    },
+    "XAZ": {
+        "Code": "XAZ",
+        "Description": "Purolator Sky Courier Inc."
+    },
+    "XBC": {
+        "Code": "XBC",
+        "Description": "Jet East Inc."
+    },
+    "XBF": {
+        "Code": "XBF",
+        "Description": "WTC Airlines"
+    },
+    "XBH": {
+        "Code": "XBH",
+        "Description": "Profit Airlines Inc."
+    },
+    "XBI": {
+        "Code": "XBI",
+        "Description": "CF Air Freight"
+    },
+    "XBJ": {
+        "Code": "XBJ",
+        "Description": "International Air Service"
+    },
+    "XBM": {
+        "Code": "XBM",
+        "Description": "Phh Air Inc."
+    },
+    "XBP": {
+        "Code": "XBP",
+        "Description": "Circle Airfreight Corp."
+    },
+    "XBQ": {
+        "Code": "XBQ",
+        "Description": "Aeronaves De Puerto Rico"
+    },
+    "XBR": {
+        "Code": "XBR",
+        "Description": "Allstates Air Cargo Inc."
+    },
+    "XBT": {
+        "Code": "XBT",
+        "Description": "Pacific Alaska Airlines Inc."
+    },
+    "XBV": {
+        "Code": "XBV",
+        "Description": "Nal Inc."
+    },
+    "XBX": {
+        "Code": "XBX",
+        "Description": "Icb International Airlines"
+    },
+    "XBZ": {
+        "Code": "XBZ",
+        "Description": "Air Natl Aircraft Sal & Ser"
+    },
+    "XC": {
+        "Code": "XC",
+        "Description": "Air Caribbean (1)"
+    },
+    "XCA": {
+        "Code": "XCA",
+        "Description": "Hawkins And Powers Aviation"
+    },
+    "XDA": {
+        "Code": "XDA",
+        "Description": "Pacific Air Express Inc."
+    },
+    "XDC": {
+        "Code": "XDC",
+        "Description": "Hemisphere Air Charter"
+    },
+    "XDD": {
+        "Code": "XDD",
+        "Description": "International Parcel Express Inc."
+    },
+    "XDE": {
+        "Code": "XDE",
+        "Description": "Air Train Inc."
+    },
+    "XDF": {
+        "Code": "XDF",
+        "Description": "Salair Inc."
+    },
+    "XDH": {
+        "Code": "XDH",
+        "Description": "Kitty Hawk Air Cargo"
+    },
+    "XE": {
+        "Code": "XE",
+        "Description": "ExpressJet Airlines Inc. (1)"
+    },
+    "XF": {
+        "Code": "XF",
+        "Description": "Vladivostok Air"
+    },
+    "XJ": {
+        "Code": "XJ",
+        "Description": "Mesaba Airlines"
+    },
+    "XK": {
+        "Code": "XK",
+        "Description": "Aerotal"
+    },
+    "XL": {
+        "Code": "XL",
+        "Description": "Lan Ecuador"
+    },
+    "XP": {
+        "Code": "XP",
+        "Description": "Casino Express"
+    },
+    "XPA": {
+        "Code": "XPA",
+        "Description": "Express Air d/b/a Sunrise"
+    },
+    "XPE": {
+        "Code": "XPE",
+        "Description": "Amira Air GmbH"
+    },
+    "XPQ": {
+        "Code": "XPQ",
+        "Description": "International Cargo Xpress"
+    },
+    "XV": {
+        "Code": "XV",
+        "Description": "Presidential Airways Inc."
+    },
+    "XY": {
+        "Code": "XY",
+        "Description": "Munz Northern Airlines Inc."
+    },
+    "XYZ": {
+        "Code": "XYZ",
+        "Description": "Airpac Inc."
+    },
+    "Y2": {
+        "Code": "Y2",
+        "Description": "Globespan Airways Limited d/b/a Flyglobespan"
+    },
+    "Y4": {
+        "Code": "Y4",
+        "Description": "Concesionaria Vuela Compania De Aviacion SA de CV (Volaris)"
+    },
+    "Y7": {
+        "Code": "Y7",
+        "Description": "Flyjet Limited d/b/a Silverjet"
+    },
+    "Y8": {
+        "Code": "Y8",
+        "Description": "Yangtze River Express Airlines Company"
+    },
+    "YB": {
+        "Code": "YB",
+        "Description": "Trans Continental Airlines"
+    },
+    "YBQ": {
+        "Code": "YBQ",
+        "Description": "Yellow Bird Air"
+    },
+    "YM": {
+        "Code": "YM",
+        "Description": "Royal West Airlines"
+    },
+    "YR": {
+        "Code": "YR",
+        "Description": "Grand Canyon Airlines, Inc. d/b/a Grand Canyon Airlines d/b/a Scenic Airlines"
+    },
+    "YV": {
+        "Code": "YV",
+        "Description": "Mesa Airlines Inc."
+    },
+    "YX": {
+        "Code": "YX",
+        "Description": "Republic Airlines"
+    },
+    "YX (1)": {
+        "Code": "YX (1)",
+        "Description": "Midwest Airline, Inc."
+    },
+    "Z3": {
+        "Code": "Z3",
+        "Description": "PM Air, LLC"
+    },
+    "Z3 (1)": {
+        "Code": "Z3 (1)",
+        "Description": "Promech"
+    },
+    "ZA": {
+        "Code": "ZA",
+        "Description": "Accessair Holdings"
+    },
+    "ZAQ": {
+        "Code": "ZAQ",
+        "Description": "Zas Airline Of Egypt"
+    },
+    "ZB": {
+        "Code": "ZB",
+        "Description": "Monarch Airlines"
+    },
+    "ZE": {
+        "Code": "ZE",
+        "Description": "Lineas Aereas Azteca"
+    },
+    "ZFZ": {
+        "Code": "ZFZ",
+        "Description": "Mcphillips Flying Service"
+    },
+    "ZIA": {
+        "Code": "ZIA",
+        "Description": "Air New Mexico"
+    },
+    "ZK": {
+        "Code": "ZK",
+        "Description": "Great Lakes Airlines"
+    },
+    "ZKQ": {
+        "Code": "ZKQ",
+        "Description": "Zantop International"
+    },
+    "ZL": {
+        "Code": "ZL",
+        "Description": "Affretair"
+    },
+    "ZMZ": {
+        "Code": "ZMZ",
+        "Description": "Winnipesaukee Aviation Inc."
+    },
+    "ZN": {
+        "Code": "ZN",
+        "Description": "Key Airlines Inc."
+    },
+    "ZO": {
+        "Code": "ZO",
+        "Description": "Florida Express Inc."
+    },
+    "ZP": {
+        "Code": "ZP",
+        "Description": "Air St. Thomas"
+    },
+    "ZS": {
+        "Code": "ZS",
+        "Description": "Hispaniola Airways"
+    },
+    "ZUQ": {
+        "Code": "ZUQ",
+        "Description": "Zuliana De Aviacion"
+    },
+    "ZV": {
+        "Code": "ZV",
+        "Description": "Air Midwest Inc."
+    },
+    "ZW": {
+        "Code": "ZW",
+        "Description": "Air Wisconsin Airlines Corp"
+    },
+    "ZX": {
+        "Code": "ZX",
+        "Description": "Air Georgian"
+    },
+    "ZX (1)": {
+        "Code": "ZX (1)",
+        "Description": "Airbc Ltd."
+    },
+    "ZY": {
+        "Code": "ZY",
+        "Description": "Atlantic Gulf Airlines"
+    },
+    "ZYZ": {
+        "Code": "ZYZ",
+        "Description": "Skyway Aviation Inc."
+    }
+}

@@ -73,12 +73,11 @@ def getFlightInformation(flight):
     "departureTime": flight['departure']['at'],
     "arrivalAirport": flight['arrival']['iataCode'],
     "arrivalTime": flight['arrival']['at'],
-    # "carrierCode": getCarrierName(flight['carrierCode'])
-    "carrierCode": flight['carrierCode']
+   "carrierCode": getCarrierName(flight['carrierCode'])
   }
 
 def getCarrierName(carrierCode):
-    jsonReader = open('../static/TransportationComparison/data/airlines.json')
+    jsonReader = open('TransportationComparison/static/TransportationComparison/data/airlines.json')
     carrierData = json.load(jsonReader)
     return carrierData[carrierCode]['Description']
 
