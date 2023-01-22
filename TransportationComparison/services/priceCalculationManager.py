@@ -11,7 +11,7 @@ def calculateCarCostAndDistanceAndDuration(start, end):
    gallons = (float(result['distance'])/1000)/38.94
    costPerGallon = getGasPricesByUSState()
    cost = float(costPerGallon)*gallons
-   return {"duration": result['duration'], "distance":result['distance'], "cost":cost}
+   return {"duration": result['duration'], "distance":result['distance'], "cost":cost, "gas_price": costPerGallon}
 
 
    #https://afdc.energy.gov/data/10310

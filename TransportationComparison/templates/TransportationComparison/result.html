@@ -11,15 +11,18 @@
         <div class="col-sm-6 fly-icon-div"><img class="icon-result" src="{% static 'icons/fly-icon.svg' %}" alt="drive-icon"></div>
       </div>
       <div class="row results-div time">
-        <div class="col-sm-6 drive-time-div"><h2>{{driveDuration}} hrs</h2></div>
-        <div class="col-sm-6 fly-time-div"><h2>{{flightDuration}} hrs</h2></div>
+        <div class="col-sm-6 drive-time-div"><h2>{{driveDuration}}</h2></div>
+        <div class="col-sm-6 fly-time-div"><h2>{{flightDuration}}</h2></div>
       </div>
       <div class="row results-div price">
         <div class="col-sm-6 drive-price-div"><h2>${{driveCost}}</h2></div>
         <div class="col-sm-6 fly-price-div"><h2>${{flightCost}}</h2></div>
       </div>
       <div class="row results-div extra-info">
-        <div class="col-sm-6 drive-extra-info-div"></div>
+        <div class="col-sm-6 drive-extra-info-div">
+          <h6>Distance in km: {{ driveDistance}}</h6>
+          <h6>Gas price per gallon : $ {{ gasPrice }}</h6>
+        </div>
         <div class="col-sm-6 fly-extra-info-div">
           {% for flight in flights %}
             <h6>Departing airport: {{ flight.starting_airport_code }}</h6>
