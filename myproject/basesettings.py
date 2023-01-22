@@ -25,7 +25,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'bootstrap5',
     'TransportationComparison',
-    'sass_processor'
+    'sass_processor',
+    'bootstrap_datepicker_plus',
 ]
 
 MIDDLEWARE = [
