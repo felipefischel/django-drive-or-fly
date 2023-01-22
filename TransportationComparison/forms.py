@@ -1,6 +1,7 @@
 from django import forms
 from django.conf import settings
 import datetime
+from bootstrap_datepicker_plus.widgets import DatePickerInput
 
 
 
@@ -9,7 +10,7 @@ class TripForm(forms.Form):
     final_destination = forms.CharField(label='',widget=forms.TextInput(attrs={'placeholder': 'Where To?'}))
     # date_start = forms.DateField(label='', widget = forms.SelectDateWidget(attrs={'placeholder': 'Date'}))
     #date_end = forms.DateField(widget = forms.SelectDateWidget)
-    date_start = forms.DateField(label='')
+    date_start = forms.DateField(label='', widget=DatePickerInput(attrs={'placeholder': 'Date'}))
     # date_end = forms.DateField()
 
     def clean_date_start(self):
