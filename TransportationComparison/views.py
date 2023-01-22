@@ -10,6 +10,7 @@ from .forms import TripForm
 from django.conf import settings
 from .services import priceCalculationManager
 from django.template.response import TemplateResponse
+from .utils import  dateUtils
 
 
 
@@ -42,11 +43,13 @@ def Result(request, trip_output_id):
 
     #leemos la base de datos y la guardamos en una variable X
     context = {
-        "flightDuration":trip.flight_duration,
-        "driveDuration":trip.drive_duration,
+        "flightDuration":dateUtils.transformHoursFloatIntoTime(trip.flight_duration),
+        "driveDuration": dateUtils.transformHoursFloatIntoTime( trip.drive_duration),
         "flightCost":trip.flight_cost,
         "driveCost":trip.drive_cost,
         "flights":trip.flights.all(),
+        "driveDistance":trip.drive_distance,
+        "gasPrice":trip.gas_price,
         "backgroundimage":backgroundimage
     }
     return HttpResponse(template.render(context, request))
@@ -82,7 +85,9 @@ def Compare(request):
       flight_cost=round(float(flight_cost_and_distance['totalPrice']),2),
       drive_cost=round(float(car_cost_and_distance['cost']),2),
       flight_duration=round(float(flight_cost_and_distance['duration']),2),
-      drive_duration=round(float(car_cost_and_distance['duration']/3600 ),2)
+      drive_duration=round(float(car_cost_and_distance['duration']/3600 ),2),
+      drive_distance=round(float(car_cost_and_distance['distance']/1000),2),
+      gas_price=round(float(car_cost_and_distance['gas_price']),2)
       )
 
 

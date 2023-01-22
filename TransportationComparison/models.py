@@ -21,5 +21,7 @@ class TripOutput(models.Model):
   drive_cost = models.FloatField()
   drive_duration = models.FloatField()
   flights = models.ManyToManyField(Flight)
+  drive_distance = models.FloatField(default=0)
+  gas_price=models.FloatField(default=0)
 
   
