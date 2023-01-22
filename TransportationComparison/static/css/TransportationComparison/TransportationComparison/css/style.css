@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 .background-ad-image {
   height: 100vh;
   background-size: cover;
@@ -50,7 +51,7 @@
   margin-top: 60px; }
 
 .main-form-btn {
-  background-color: cornflowerblue;
+  background-color: var(--blue);
   border-radius: 6px;
   width: 180px;
   height: 46px;
@@ -68,14 +69,49 @@
   width: 480px;
   height: auto; }
 
-.result-icons-div, .result-time-div, .result-price-div, .result-extra-info-div {
+.results-div {
   text-align: center;
   align-items: center;
-  margin-bottom: 10px;
-  font-size: 14px; }
+  margin-bottom: 30px;
+  font-size: 10px; }
 
 .icon-result {
-  width: 60px;
-  height: 60px; }
+  width: 40px;
+  height: 40px; }
+
+:root {
+  --blue: #3d8fff;
+  --yellow: #ffba06;
+  --black: #0b0b0b;
+  --white: #e9eaee;
+  --roboto: 'Roboto', sans-serif; }
+
+h1 {
+  font-size: 28px;
+  font-family: var(--roboto);
+  font-weight: 700;
+  color: var(--black); }
+
+h2 {
+  font-size: 18px;
+  font-family: var(--roboto);
+  font-weight: 600;
+  color: var(--black); }
+
+h3 {
+  font-size: 14px;
+  font-family: var(--roboto);
+  font-weight: 400;
+  color: var(--black); }
+
+h6 {
+  font-size: 12px;
+  font-family: var(--roboto);
+  font-weight: 400;
+  color: var(--black); }
+
+p {
+  font-family: var(--roboto);
+  color: var(--black); }
 
 /*# sourceMappingURL=style.css.map */

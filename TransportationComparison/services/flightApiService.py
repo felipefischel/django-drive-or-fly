@@ -73,8 +73,8 @@ def getFlightInformation(flight):
     "departureTime": flight['departure']['at'],
     "arrivalAirport": flight['arrival']['iataCode'],
     "arrivalTime": flight['arrival']['at'],
-    "carrierCode": getCarrierName(flight['carrierCode'])
-    # "carrierCode": flight['carrierCode']
+    # "carrierCode": getCarrierName(flight['carrierCode'])
+    "carrierCode": flight['carrierCode']
   }
 
 def getCarrierName(carrierCode):
