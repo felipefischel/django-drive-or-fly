@@ -68,20 +68,39 @@
   margin-left: 50px;
   margin-top: 120px;
   background-color: white;
-  padding: 20px;
+  padding: 0 20px;
   border-radius: 8px;
-  width: 480px;
+  width: auto;
   height: auto; }
 
 .results-div {
   text-align: center;
   align-items: center;
-  margin-bottom: 30px;
+  margin-top: 30px;
   font-size: 10px; }
 
 .icon-result {
-  width: 40px;
-  height: 40px; }
+  width: 50px;
+  height: 50px; }
+
+.fly-extra-info-div {
+  border-radius: 8px;
+  box-shadow: 0 0 2px grey;
+  border-top: 18px solid var(--yellow);
+  padding: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center; }
+
+.departing-div, .flight-div {
+  margin-right: 10px; }
+
+.arrow {
+  width: 40px; }
+
+.drive-extra-info-div {
+  display: flex;
+  align-items: center; }
 
 :root {
   --blue: #3d8fff;
