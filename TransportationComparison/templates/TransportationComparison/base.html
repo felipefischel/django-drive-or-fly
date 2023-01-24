@@ -21,11 +21,7 @@
   </head>
 
   <body>
-    <h1>Drive or Fly</h1>
-    <ul>
-      <li><a href="{% url 'comparison:index' %}">Home</a></li>
-    </ul>
-
+    {% include 'TransportationComparison/navbar.html' %}
     {% block content %} {% endblock content %}
   </body>
 

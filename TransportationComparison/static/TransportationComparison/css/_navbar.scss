@@ -1,0 +1,30 @@
+.navigation-div{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  z-index: 1;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.navigation-container{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-menu{
+  display: flex;
+  align-self: flex-end;
+  color: white;
+}
+
+.nav-logo-img{
+  width: 120px;
+}
+
+.nav-menu-item{
+  margin-left: 20px;
+}
