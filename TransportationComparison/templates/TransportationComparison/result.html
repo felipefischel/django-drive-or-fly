@@ -19,9 +19,18 @@
         <div class="col-sm-6 fly-price-div"><h2>${{flightCost}}</h2></div>
       </div>
       <div class="row results-div extra-info">
-        <div class="col-sm-6 drive-extra-info-div">
-          <h2>{{ driveDistance }} kms</h2>
-          <h2>{{ gasPrice }} $/Galon</h2>
+        <div class="col-sm-6">
+          <div class="drive-extra-info-container">
+            <h3>Trip Info</h3>
+            <div class="drive-info-div">
+              <img class="drive-icon" src="{% static 'icons/kms.svg' %}" alt="kms-icon">
+              <h2 class="drive-field">{{ driveDistance }} </h2><h6>kms</h6>
+            </div>
+            <div class="drive-info-div">
+              <img class="drive-icon" src="{% static 'icons/gas.svg' %}" alt="kms-icon">
+              <h2 class="drive-field">{{ gasPrice }}</h2><h6> $/Galon</h6>
+            </div>
+          </div>
         </div>
         <div class="col-sm-6">
           {% for flight in flights %}
@@ -46,4 +55,3 @@
   </div>
 
 {% endblock %}
-
