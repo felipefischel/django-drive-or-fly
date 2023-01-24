@@ -10,6 +10,7 @@
   margin-left: 50px;
   margin-top: 120px;
   background-color: white;
+  box-shadow: 0 0 2px grey;
   padding: 20px;
   border-radius: 8px;
   width: 280px;
@@ -68,7 +69,7 @@
   margin-left: 50px;
   margin-top: 120px;
   background-color: white;
-  padding: 0 20px;
+  box-shadow: 0 0 2px grey;
   border-radius: 8px;
   width: auto;
   height: auto; }
@@ -76,8 +77,7 @@
 .results-div {
   text-align: center;
   align-items: center;
-  margin-top: 30px;
-  font-size: 10px; }
+  margin-top: 30px; }
 
 .icon-result {
   width: 50px;
@@ -90,7 +90,10 @@
   padding: 15px;
   margin-bottom: 20px;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
 
 .departing-div, .flight-div {
   margin-right: 10px; }
@@ -98,9 +101,28 @@
 .arrow {
   width: 40px; }
 
-.drive-extra-info-div {
+.drive-extra-info-container {
+  box-shadow: 0 0 4px var(--blue);
+  border: 1px solid var(--blue);
+  border-radius: 6px;
+  background-color: white;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px 0; }
+
+.drive-info-div {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px; }
+
+.drive-icon {
+  height: 30px;
+  margin-right: 8px; }
+
+.drive-field {
+  margin-right: 8px; }
 
 :root {
   --blue: #3d8fff;
@@ -119,7 +141,8 @@ h2 {
   font-size: 18px;
   font-family: var(--roboto);
   font-weight: 600;
-  color: var(--black); }
+  color: var(--black);
+  margin: 0; }
 
 h3 {
   font-size: 14px;
@@ -131,7 +154,8 @@ h6 {
   font-size: 12px;
   font-family: var(--roboto);
   font-weight: 400;
-  color: var(--black); }
+  color: var(--black);
+  margin: 0; }
 
 p {
   font-family: var(--roboto);
