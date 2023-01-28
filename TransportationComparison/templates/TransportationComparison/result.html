@@ -37,7 +37,7 @@
           <div class="fly-extra-info-div">
             <div class="departing-div">
               <h2>{{ flight.starting_airport_code }}</h2>
-              <h6>{{ flight.departure }} UTC</h6>
+              <h6>{{ flight.departure|date:'M d H:i' }}</h6>
             </div>
             <div class="flight-div">
               <img class="arrow" src="{% static 'icons/arrow.svg' %}" alt="arrow">
@@ -45,7 +45,7 @@
             </div>
             <div class="destination-div">
               <h2>{{ flight.destination_airport_code }}</h2>
-              <h6>{{ flight.arrival }} UTC</h6>
+              <h6>{{ flight.arrival|date:'M d H:i' }}</h6>
             </div>
           </div>
           {% endfor %}

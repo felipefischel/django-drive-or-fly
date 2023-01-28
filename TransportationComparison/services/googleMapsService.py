@@ -3,7 +3,6 @@ from django.conf import settings
 
 gmaps = googlemaps.Client(key=settings.GOOGLE_MAPS_API_KEY)
 
-
 def getLongAndLat(address):
   geocode_result = gmaps.geocode(address)
   return geocode_result[0]['geometry']['location']
@@ -12,9 +11,15 @@ def getLongAndLat(address):
 
 #units is seconds and meters
 def getCarDurationAndDistance(startLatLongDict, endLatLongDict):
-  distance_matrix_result =gmaps.distance_matrix(startLatLongDict,endLatLongDict)
-  return {"duration":  distance_matrix_result['rows'][0]['elements'][0]['duration']['value'],
-  "distance": distance_matrix_result['rows'][0]['elements'][0]['distance']['value']}
+  try:
+    distance_matrix_result =gmaps.distance_matrix(startLatLongDict,endLatLongDict)
+    if(distance_matrix_result['rows'][0]['elements'][0]['status']=='ZERO_RESULTS'):
+      return {"duration":  -1,"distance":-1} 
+    
+    return {"duration":  distance_matrix_result['rows'][0]['elements'][0]['duration']['value'],
+    "distance": distance_matrix_result['rows'][0]['elements'][0]['distance']['value']}
+  finally:
+    return {"duration":  -1,"distance":-1}
 
 
 
