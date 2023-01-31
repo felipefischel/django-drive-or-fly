@@ -27,6 +27,9 @@ def Index(request):
     context = {'form':form, 'backgroundimage': backgroundimage}
     return HttpResponse(template.render(context, request))
 
+def About(request):
+    template = loader.get_template('TransportationComparison/about.html')
+    return HttpResponse(template.render({},request))
 
 def autocomplete(request):
     return render(request, 'googleMap.html', {'google_maps_api_key': settings.GOOGLE_MAPS_API_KEY})
