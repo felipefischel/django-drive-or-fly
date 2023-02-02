@@ -18,7 +18,7 @@ def getCarDurationAndDistance(startLatLongDict, endLatLongDict):
     
     return {"duration":  distance_matrix_result['rows'][0]['elements'][0]['duration']['value'],
     "distance": distance_matrix_result['rows'][0]['elements'][0]['distance']['value']}
-  finally:
+  except:
     return {"duration":  -1,"distance":-1}
 
 
