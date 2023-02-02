@@ -41,7 +41,7 @@ if "myproject" not in INSTALLED_APPS:
 
 GS_BUCKET_NAME = env("GS_BUCKET_NAME")
 STATICFILES_DIRS = [
-    'TransportationComparison/static/test',
+    'TransportationComparison/static',
 ]
 DEFAULT_FILE_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"
 STATICFILES_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"
