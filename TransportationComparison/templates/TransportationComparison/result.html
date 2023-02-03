@@ -11,26 +11,42 @@
         <div class="col-sm-6 fly-icon-div"><img class="icon-result" src="{% static 'icons/fly-icon.svg' %}" alt="drive-icon"></div>
       </div>
       <div class="row results-div time">
-        <div class="col-sm-6 drive-time-div"><h2>{{driveDuration}}</h2></div>
+        <div class="col-sm-6 drive-time-div">
+          {% if driveCost == 0 %}
+            <h2>Not possible to drive.</h2>
+          {% else %}
+            <h2>{{driveDuration}}</h2>
+          {% endif %}
+        </div>
         <div class="col-sm-6 fly-time-div"><h2>{{flightDuration}}</h2></div>
       </div>
       <div class="row results-div price">
-        <div class="col-sm-6 drive-price-div"><h2>${{driveCost}}</h2></div>
+        <div class="col-sm-6 drive-price-div">
+          {% if driveCost == 0 %}
+
+          {% else %}
+            <h2>${{driveCost}}</h2>
+          {% endif %}
+        </div>
         <div class="col-sm-6 fly-price-div"><h2>${{flightCost}}</h2></div>
       </div>
       <div class="row results-div extra-info">
         <div class="col-sm-6">
-          <div class="drive-extra-info-container">
-            <h3>Trip Info</h3>
-            <div class="drive-info-div">
-              <img class="drive-icon" src="{% static 'icons/kms.svg' %}" alt="kms-icon">
-              <h2 class="drive-field">{{ driveDistance }} </h2><h6>kms</h6>
+          {% if driveCost == 0 %}
+
+          {% else %}
+            <div class="drive-extra-info-container">
+              <h3>Trip Info</h3>
+              <div class="drive-info-div">
+                <img class="drive-icon" src="{% static 'icons/kms.svg' %}" alt="kms-icon">
+                <h2 class="drive-field">{{ driveDistance }} </h2><h6>kms</h6>
+              </div>
+              <div class="drive-info-div">
+                <img class="drive-icon" src="{% static 'icons/gas.svg' %}" alt="kms-icon">
+                <h2 class="drive-field">{{ gasPrice }}</h2><h6> $/Galon</h6>
+              </div>
             </div>
-            <div class="drive-info-div">
-              <img class="drive-icon" src="{% static 'icons/gas.svg' %}" alt="kms-icon">
-              <h2 class="drive-field">{{ gasPrice }}</h2><h6> $/Galon</h6>
-            </div>
-          </div>
+          {% endif %}
         </div>
         <div class="col-sm-6">
           {% for flight in flights %}
