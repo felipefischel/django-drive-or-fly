@@ -41,7 +41,7 @@ if "myproject" not in INSTALLED_APPS:
 
 GS_BUCKET_NAME = env("GS_BUCKET_NAME")
 # STATICFILES_DIRS = [
-#     'TransportationComparison/static/',
+#    os.path.join(BASE_DIR, "TransportationComparison", "static")
 # ]
 DEFAULT_FILE_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"
 # STATICFILES_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"
@@ -63,9 +63,9 @@ AMADEUS_API_KEY=env("AMADEUS_API_KEY")
 AMADEUS_API_SECRET=env("AMADEUS_API_SECRET")
 
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'TransportationComparison/static/TransportationComparison/')
+STATIC_ROOT = os.path.join(BASE_DIR, 'TransportationComparison/static/TransportationComparison/test')
 
 
 SASS_PROCESSOR_ENABLED = True
-SASS_PROCESSOR_ROOT = os.path.join(BASE_DIR, 'TransportationComparison/static/css/TransportationComparison/')
+SASS_PROCESSOR_ROOT = os.path.join(BASE_DIR, 'TransportationComparison/static/TransportationComparison/css/')
 SASS_PROCESSOR_OUTPUT_DIR = os.path.join(BASE_DIR, 'TransportationComparison/static/')
