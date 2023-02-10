@@ -7,8 +7,8 @@
   <div class="background-ad-image" style="background-image: {{backgroundimage}}">
     <div class="container result-main-container">
       <div class="row results-div icons">
-        <div class="col-sm-6 drive-icon-div"><img class="icon-result" src="{% static 'icons/drive-icon.svg' %}" alt="drive-icon"></div>
-        <div class="col-sm-6 fly-icon-div"><img class="icon-result" src="{% static 'icons/fly-icon.svg' %}" alt="drive-icon"></div>
+        <div class="col-sm-6 drive-icon-div"><img class="icon-result" src="{% static 'TransportationComparison/icons/drive-icon.svg' %}" alt="drive-icon"></div>
+        <div class="col-sm-6 fly-icon-div"><img class="icon-result" src="{% static 'TransportationComparison/icons/fly-icon.svg' %}" alt="drive-icon"></div>
       </div>
       <div class="row results-div time">
         <div class="col-sm-6 drive-time-div">
@@ -38,11 +38,11 @@
             <div class="drive-extra-info-container">
               <h3>Trip Info</h3>
               <div class="drive-info-div">
-                <img class="drive-icon" src="{% static 'icons/kms.svg' %}" alt="kms-icon">
+                <img class="drive-icon" src="{% static 'TransportationComparison/icons/kms.svg' %}" alt="kms-icon">
                 <h2 class="drive-field">{{ driveDistance }} </h2><h6>kms</h6>
               </div>
               <div class="drive-info-div">
-                <img class="drive-icon" src="{% static 'icons/gas.svg' %}" alt="kms-icon">
+                <img class="drive-icon" src="{% static 'TransportationComparison/icons/gas.svg' %}" alt="kms-icon">
                 <h2 class="drive-field">{{ gasPrice }}</h2><h6> $/Galon</h6>
               </div>
             </div>
@@ -56,7 +56,7 @@
               <h6>{{ flight.departure|date:'M d H:i' }}</h6>
             </div>
             <div class="flight-div">
-              <img class="arrow" src="{% static 'icons/arrow.svg' %}" alt="arrow">
+              <img class="arrow" src="{% static 'TransportationComparison/icons/arrow.svg' %}" alt="arrow">
               <h6>{{ flight.airline_code }}</h6>
             </div>
             <div class="destination-div">

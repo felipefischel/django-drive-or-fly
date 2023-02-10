@@ -17,8 +17,8 @@ SECRET_KEY = env("SECRET_KEY")
 # If defined, add service URL to Django security settings
 CLOUDRUN_SERVICE_URL = env("CLOUDRUN_SERVICE_URL", default=None)
 if CLOUDRUN_SERVICE_URL:
-    ALLOWED_HOSTS = [urlparse(CLOUDRUN_SERVICE_URL).netloc,"127.0.0.1"]
-    CSRF_TRUSTED_ORIGINS = [CLOUDRUN_SERVICE_URL]
+    ALLOWED_HOSTS = [urlparse(CLOUDRUN_SERVICE_URL).netloc,"127.0.0.1","http://driveorfly.io","https://driveorfly.io","driveorfly.io"]
+    CSRF_TRUSTED_ORIGINS = [CLOUDRUN_SERVICE_URL,"http://driveorfly.io","https://driveorfly.io"]
 else:
     ALLOWED_HOSTS = ["*"]
 
@@ -40,11 +40,8 @@ if "myproject" not in INSTALLED_APPS:
 # Define static storage via django-storages[google]
 
 GS_BUCKET_NAME = env("GS_BUCKET_NAME")
-# STATICFILES_DIRS = [
-#     'TransportationComparison/static/',
-# ]
+
 DEFAULT_FILE_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"
-# STATICFILES_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"
 GS_DEFAULT_ACL = "publicRead"
 
 STATICFILES_FINDERS = [
@@ -63,9 +60,26 @@ AMADEUS_API_KEY=env("AMADEUS_API_KEY")
 AMADEUS_API_SECRET=env("AMADEUS_API_SECRET")
 
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'TransportationComparison/static/TransportationComparison/')
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/4.1/howto/static-files/
+
+STATIC_URL = 'static/'
+
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'TransportationComparison/static/TransportationComparison')
 
 
 SASS_PROCESSOR_ENABLED = True
-SASS_PROCESSOR_ROOT = os.path.join(BASE_DIR, 'TransportationComparison/static/css/TransportationComparison/')
-SASS_PROCESSOR_OUTPUT_DIR = os.path.join(BASE_DIR, 'TransportationComparison/static/')
+SASS_PROCESSOR_ROOT = os.path.join(BASE_DIR, 'TransportationComparison/static/TransportationComparison/sass/')
+SASS_PROCESSOR_OUTPUT_DIR = os.path.join(BASE_DIR, 'TransportationComparison/static/TransportationComparison/css')
+
+
+#!!!!!!! FOR DEPLOYMENT UNCOMMENT THESE LINES AND RUN COLLECTSTATIC AND THEN
+
+# STATIC_URL = 'https://storage.googleapis.com/drive-or-fly-368123-media/'
+
+# STATICFILES_DIRS = [
+#    os.path.join(BASE_DIR, "TransportationComparison", "static")
+# ]
+
+# STATICFILES_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"
