@@ -73,12 +73,12 @@
   border-radius: 8px;
   width: auto;
   height: auto;
-  padding-bottom: 20px; }
+  padding: 10px 40px; }
 
 .results-div {
   text-align: center;
   align-items: center;
-  margin-top: 30px; }
+  margin-top: 40px; }
 
 .icon-result {
   width: 50px;
@@ -92,7 +92,7 @@
   margin-bottom: 20px;
   display: flex;
   align-items: center;
-  max-width: 80%;
+  width: auto;
   margin-left: auto;
   margin-right: auto; }
 
@@ -107,9 +107,9 @@
   border: 1px solid var(--blue);
   border-radius: 6px;
   background-color: white;
-  max-width: 60%;
+  width: auto;
   margin-left: auto;
-  margin-right: auto;
+  margin: 0 30px;
   padding: 25px 0; }
 
 .drive-info-div {
@@ -161,6 +161,10 @@ h6 {
 p {
   font-family: var(--roboto);
   color: var(--black); }
+
+a {
+  text-decoration: none;
+  color: white; }
 
 .navigation-div {
   display: flex;

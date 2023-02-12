@@ -12,12 +12,7 @@ from .services import priceCalculationManager
 from django.template.response import TemplateResponse
 from .utils import  dateUtils
 
-
-
-
-
 # Create your views here.
-
 
 def Index(request):
     template = loader.get_template('TransportationComparison/index.html')
