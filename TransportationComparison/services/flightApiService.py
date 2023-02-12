@@ -12,6 +12,7 @@ def ssl_disabled_urlopen(endpoint):
 
 
 amadeus = Client(
+    hostname='production',
     client_id=settings.AMADEUS_API_KEY,
     client_secret=settings.AMADEUS_API_SECRET,
     http=ssl_disabled_urlopen
