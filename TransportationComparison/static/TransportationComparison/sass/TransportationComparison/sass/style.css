@@ -7,8 +7,7 @@
 
 .main-form-container {
   position: absolute;
-  margin-left: 50px;
-  margin-top: 160px;
+  transform: translate(75px, 200px);
   background-color: white;
   box-shadow: 0 0 2px grey;
   padding: 20px;
@@ -66,23 +65,35 @@
 
 .result-main-container {
   position: absolute;
-  margin-left: 50px;
-  margin-top: 160px;
+  transform: translate(65px, 170px);
   background-color: white;
   box-shadow: 0 0 2px grey;
   border-radius: 8px;
-  width: auto;
-  height: auto;
-  padding-bottom: 20px; }
+  width: 600px;
+  height: auto; }
+
+.results-columns-container {
+  margin: 20px 0; }
+
+.drive-column {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-right: 1px solid var(--white); }
 
 .results-div {
   text-align: center;
   align-items: center;
-  margin-top: 30px; }
+  justify-content: center;
+  margin-top: 35px;
+  width: auto; }
+
+.drive-icon-div, .fly-icon-div {
+  margin-top: 0; }
 
 .icon-result {
-  width: 50px;
-  height: 50px; }
+  width: 60px;
+  height: 60px; }
 
 .fly-extra-info-div {
   border-radius: 8px;
@@ -90,11 +101,11 @@
   border-top: 18px solid var(--yellow);
   padding: 15px;
   margin-bottom: 20px;
+  margin-top: 30px;
   display: flex;
   align-items: center;
-  max-width: 80%;
-  margin-left: auto;
-  margin-right: auto; }
+  width: auto;
+  max-width: 250px; }
 
 .departing-div, .flight-div {
   margin-right: 10px; }
@@ -103,14 +114,15 @@
   width: 40px; }
 
 .drive-extra-info-container {
-  box-shadow: 0 0 4px var(--blue);
+  box-shadow: 0 0 2px grey;
   border: 1px solid var(--blue);
   border-radius: 6px;
   background-color: white;
-  max-width: 60%;
+  width: auto;
   margin-left: auto;
-  margin-right: auto;
-  padding: 25px 0; }
+  margin: 0 30px;
+  padding: 25px 15px;
+  margin-bottom: 20px; }
 
 .drive-info-div {
   display: flex;
@@ -124,6 +136,20 @@
 
 .drive-field {
   margin-right: 8px; }
+
+@media (max-width: 767px) {
+  .result-main-container {
+    transform: translate(15px, 150px);
+    width: 350px; }
+  .results-div {
+    margin-top: 25px; }
+  .fly-extra-info-div {
+    margin-top: 0; }
+  .drive-column {
+    border-right: none;
+    border-bottom: 1px solid var(--white); }
+  .background-ad-image {
+    height: 120vh; } }
 
 :root {
   --blue: #3d8fff;
@@ -161,6 +187,10 @@ h6 {
 p {
   font-family: var(--roboto);
   color: var(--black); }
+
+a {
+  text-decoration: none;
+  color: white; }
 
 .navigation-div {
   display: flex;
