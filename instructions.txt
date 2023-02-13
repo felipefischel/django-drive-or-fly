@@ -6,7 +6,23 @@ TO RUN THE PROGRAM LOCALLY:
 2. In a new tab, run the following command, using these local settings and setting the proxy flag:
 USE_CLOUD_SQL_AUTH_PROXY=true APPLICATION_SETTINGS=$(cat .env) python manage.py runserver
 
--------------------------
+// ------------------------- //
+
+TO DEPLOY TO PRODUCTION:
+
+1. In myproject/settings.py, uncomment the commented lines at the end of the file.
+
+2. Build the image - changing the image name, ex: "myimage-17":
+gcloud builds submit --pack image=gcr.io/drive-or-fly-368123/myimage-16
+
+3. Update the cloudrun container with the new image (change image name as well):
+gcloud run services update django-cloudrun   --platform managed   --region us-central1   --image gcr.io/drive-or-fly-368123/myimage-16
+
+4. If image is built and updated sucessfully, go to myproject/settings.py, and commented the lines at the end of the file again.
+
+*** In case the image fails to update correctly -> Run the command in step 3 with the previous image.
+
+// --------------------------- //
 
 FOR FIRST TIME USAGE:
 
