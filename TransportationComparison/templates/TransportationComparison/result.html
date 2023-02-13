@@ -4,76 +4,78 @@
 {% block title %} Result {% endblock %}
 
 {% block content %}
-  <div class="background-ad-image" style="background-image: {{backgroundimage}}">
-    <div class="container result-main-container">
-      <div class="row results-columns-container">
-        <div class="col-md-6 drive-column">
 
-          <div class="row results-div drive-icon-div"><img class="icon-result" src="{% static 'TransportationComparison/icons/drive-icon.svg' %}" alt="drive-icon"></div>
+<div class="background-ad-image" style="background-image: {{backgroundimage}}">
+  <div class="container result-main-container">
+    <div class="row results-columns-container">
+      <div class="col-md-6 drive-column">
 
-          <div class="row results-div drive-time-div">
-            {% if driveCost == 0 %}
-              <h2>Not possible to drive.</h2>
-            {% else %}
-              <h2>{{driveDuration}}</h2>
-            {% endif %}
-          </div>
+        <div class="row results-div drive-icon-div"><img class="icon-result" src="{% static 'TransportationComparison/icons/drive-icon.svg' %}" alt="drive-icon"></div>
 
-          <div class="row results-div drive-price-div">
-            {% if driveCost == 0 %}
-
-            {% else %}
-              <h2>${{driveCost}}</h2>
-            {% endif %}
-          </div>
-
-          <div class="row results-div drive-extra-info">
-            {% if driveCost == 0 %}
-
-            {% else %}
-              <div class="drive-extra-info-container">
-                <h3>Trip Info</h3>
-                <div class="drive-info-div">
-                  <img class="drive-icon" src="{% static 'TransportationComparison/icons/kms.svg' %}" alt="kms-icon">
-                  <h2 class="drive-field">{{ driveDistance }} </h2><h6>kms</h6>
-                </div>
-                <div class="drive-info-div">
-                  <img class="drive-icon" src="{% static 'TransportationComparison/icons/gas.svg' %}" alt="kms-icon">
-                  <h2 class="drive-field">{{ gasPrice }}</h2><h6> $/Galon</h6>
-                </div>
-              </div>
-            {% endif %}
-          </div>
+        <div class="row results-div drive-time-div">
+          {% if driveCost == 0 %}
+            <h2>Not possible to drive.</h2>
+          {% else %}
+            <h2>{{driveDuration}}</h2>
+          {% endif %}
         </div>
 
-        <div class="col-md-6 fly-column">
+        <div class="row results-div drive-price-div">
+          {% if driveCost == 0 %}
 
-          <div class="row results-div fly-icon-div"><img class="icon-result" src="{% static 'TransportationComparison/icons/fly-icon.svg' %}" alt="drive-icon"></div>
+          {% else %}
+            <h2>${{driveCost}}</h2>
+          {% endif %}
+        </div>
 
-          <div class="row results-div fly-time-div"><h2>{{flightDuration}}</h2></div>
+        <div class="row results-div drive-extra-info">
+          {% if driveCost == 0 %}
 
-          <div class="row results-div fly-price-div"><h2>${{flightCost}}</h2></div>
-
-          <div class="row results-div fly-extra-info">
-            {% for flight in flights %}
-            <div class="fly-extra-info-div">
-              <div class="departing-div">
-                <h2>{{ flight.starting_airport_code }}</h2>
-                <h6>{{ flight.departure|date:'M d H:i' }}</h6>
+          {% else %}
+            <div class="drive-extra-info-container">
+              <h3>Trip Info</h3>
+              <div class="drive-info-div">
+                <img class="drive-icon" src="{% static 'TransportationComparison/icons/kms.svg' %}" alt="kms-icon">
+                <h2 class="drive-field">{{ driveDistance }} </h2><h6>kms</h6>
               </div>
-              <div class="flight-div">
-                <img class="arrow" src="{% static 'TransportationComparison/icons/arrow.svg' %}" alt="arrow">
-                <h6>{{ flight.airline_code }}</h6>
-              </div>
-              <div class="destination-div">
-                <h2>{{ flight.destination_airport_code }}</h2>
-                <h6>{{ flight.arrival|date:'M d H:i' }}</h6>
+              <div class="drive-info-div">
+                <img class="drive-icon" src="{% static 'TransportationComparison/icons/gas.svg' %}" alt="kms-icon">
+                <h2 class="drive-field">{{ gasPrice }}</h2><h6> $/Galon</h6>
               </div>
             </div>
-            {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="col-md-6 fly-column">
+
+        <div class="row results-div fly-icon-div"><img class="icon-result" src="{% static 'TransportationComparison/icons/fly-icon.svg' %}" alt="drive-icon"></div>
+
+        <div class="row results-div fly-time-div"><h2>{{flightDuration}}</h2></div>
+
+        <div class="row results-div fly-price-div"><h2>${{flightCost}}</h2></div>
+
+        <div class="row results-div fly-extra-info">
+          {% for flight in flights %}
+          <div class="fly-extra-info-div">
+            <div class="departing-div">
+              <h2>{{ flight.starting_airport_code }}</h2>
+              <h6>{{ flight.departure|date:'M d H:i' }}</h6>
+            </div>
+            <div class="flight-div">
+              <img class="arrow" src="{% static 'TransportationComparison/icons/arrow.svg' %}" alt="arrow">
+              <h6>{{ flight.airline_code }}</h6>
+            </div>
+            <div class="destination-div">
+              <h2>{{ flight.destination_airport_code }}</h2>
+              <h6>{{ flight.arrival|date:'M d H:i' }}</h6>
+            </div>
           </div>
+          {% endfor %}
         </div>
       </div>
     </div>
   </div>
+</div>
+
 {% endblock %}

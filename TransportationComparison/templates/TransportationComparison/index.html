@@ -6,26 +6,26 @@
 {% block keywords %}Flight, Fly, Drive, Cost, Time, Compare, Calculator, Cheapest, Travel, From, To{% endblock %}
 {% block content %}
 
-  <div class="background-ad-image" style="background-image: {{backgroundimage}}">
-    <div class="main-form-container">
-      {{ form.media }}
-      <form action="{% url 'comparison:compare'%}" method="post">
-        {% csrf_token %}
-        <div class="main-form-inputs-container">
-          {% for field in form %}
-            <div class="main-form-fields">
-              {{ field.errors }}
-              {{ field.label_tag }} {{ field }}
-            </div>
-          {% endfor %}
-        </div>
-        <div class="main-form-btn-container">
-          {% buttons %}
-          <button type="submit" class="btn btn-primary main-form-btn">Drive or Fly?</button>
-          {% endbuttons %}
-        </div>
-      </form>
-    </div>
+<div class="background-ad-image" style="background-image: {{backgroundimage}}">
+  <div class="main-form-container">
+    {{ form.media }}
+    <form action="{% url 'comparison:compare'%}" method="post">
+      {% csrf_token %}
+      <div class="main-form-inputs-container">
+        {% for field in form %}
+          <div class="main-form-fields">
+            {{ field.errors }}
+            {{ field.label_tag }} {{ field }}
+          </div>
+        {% endfor %}
+      </div>
+      <div class="main-form-btn-container">
+        {% buttons %}
+        <button type="submit" class="btn btn-primary main-form-btn">Drive or Fly?</button>
+        {% endbuttons %}
+      </div>
+    </form>
   </div>
+</div>
 
 {% endblock %}

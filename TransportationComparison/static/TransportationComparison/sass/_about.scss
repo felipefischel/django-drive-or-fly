@@ -1,1 +1,25 @@
+.about-container {
+  position:absolute;
+  transform: translate(65px, 110px);
+  text-align: left;
+  align-items: center;
+  justify-content: left;
+  max-width: 500px;
+}
 
+.about-header {
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.navbar-text{
+  color: white;
+}
+
+.nav-logo-img {
+  color: black;
+}
+
+// .nav-logo-img{
+//   width: 120px;
+// }
