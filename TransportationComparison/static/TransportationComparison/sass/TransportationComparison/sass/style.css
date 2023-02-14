@@ -154,7 +154,7 @@
 :root {
   --blue: #3d8fff;
   --yellow: #ffba06;
-  --black: #0b0b0b;
+  --black: #161616;
   --white: #e9eaee;
   --roboto: 'Roboto', sans-serif; }
 
@@ -194,7 +194,8 @@ a {
 
 span {
   display: block;
-  line-height: 1.5em; }
+  line-height: 1.5em;
+  color: white; }
 
 .navigation-div {
   display: flex;
@@ -235,7 +236,8 @@ span {
 
 .about-header {
   margin-bottom: 20px;
-  margin-top: 40px; }
+  margin-top: 40px;
+  color: white; }
 
 .navbar-text {
   color: white; }
