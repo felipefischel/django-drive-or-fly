@@ -6,7 +6,7 @@
 {% block keywords %}Flight, Fly, Drive, Cost, Time, Compare, Calculator, Cheapest, Travel, From, To{% endblock %}
 {% block content %}
 
-<div class="background-ad-image" style="background-image: {{backgroundimage}}">
+<div class="background-ad-image" style="background-image: url('{% static 'TransportationComparison/images/DriveOrFly-Background-Image.svg' %}');">
   <div class="main-form-container">
     {{ form.media }}
     <form action="{% url 'comparison:compare'%}" method="post">

@@ -74,7 +74,7 @@ SASS_PROCESSOR_ROOT = os.path.join(BASE_DIR, 'TransportationComparison/static/Tr
 SASS_PROCESSOR_OUTPUT_DIR = os.path.join(BASE_DIR, 'TransportationComparison/static/TransportationComparison/css')
 
 
-#!!!!!!! FOR DEPLOYMENT UNCOMMENT THESE LINES AND RUN COLLECTSTATIC AND THEN
+#!!!!!!! FOR DEPLOYMENT UNCOMMENT THESE LINES
 
 # STATIC_URL = 'https://storage.googleapis.com/drive-or-fly-368123-media/'
 

@@ -17,7 +17,7 @@ from .utils import  dateUtils
 def Index(request):
     template = loader.get_template('TransportationComparison/index.html')
     form = TripForm()
-    backgroundimage = "url('https://www.alistdaily.com/wp-content/uploads/2019/05/WeTransferNewBranding_Feature.jpg')"
+    backgroundimage = "url('https://drive.google.com/file/d/1ofqWqnfwzSzw_Ms-9dAy363nmqCiKeHr/view?usp=sharing')"
     #TODO: Make  backroundImage pull from an image from gcloud randomly
     context = {'form':form, 'backgroundimage': backgroundimage}
     return HttpResponse(template.render(context, request))
@@ -37,7 +37,7 @@ def Result(request, trip_output_id):
       raise Http404("Trip does not exist")
 
     template = loader.get_template('TransportationComparison/result.html')
-    backgroundimage = "url('https://www.alistdaily.com/wp-content/uploads/2019/05/WeTransferNewBranding_Feature.jpg')"
+    backgroundimage = "url('https://drive.google.com/file/d/1ofqWqnfwzSzw_Ms-9dAy363nmqCiKeHr/view?usp=sharing')"
 
     #leemos la base de datos y la guardamos en una variable X
     context = {
@@ -54,7 +54,7 @@ def Result(request, trip_output_id):
 
 
 def Compare(request):
-    backgroundimage = "url('https://www.alistdaily.com/wp-content/uploads/2019/05/WeTransferNewBranding_Feature.jpg')"
+    backgroundimage = "url('https://drive.google.com/file/d/1ofqWqnfwzSzw_Ms-9dAy363nmqCiKeHr/view?usp=sharing')"
     #TODO: Make  backroundImage pull from an image from gcloud randomly
   # if this is a POST request we need to process the form data
     if request.method == 'POST':
