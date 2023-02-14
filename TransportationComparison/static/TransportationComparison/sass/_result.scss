@@ -88,7 +88,7 @@
 
 @media (max-width: 767px) {
   .result-main-container {
-    transform: translate(15px, 150px);
+    transform: translate(20px, 150px);
     width: 350px;
   }
   .results-div{
@@ -102,6 +102,6 @@
     border-bottom: 1px solid var(--white);
   }
   .background-ad-image{
-    height: 120vh;
+    height: 130vh;
   }
 }

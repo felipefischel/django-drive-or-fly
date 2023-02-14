@@ -68,3 +68,9 @@
   margin: 0px;
   width: 180px;
 }
+
+@media (max-width: 767px) {
+  .main-form-container {
+    transform: translate(50px, 200px);
+  }
+}
