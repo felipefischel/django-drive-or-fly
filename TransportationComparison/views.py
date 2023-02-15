@@ -27,7 +27,7 @@ def About(request):
     return HttpResponse(template.render({},request))
 
 def autocomplete(request):
-    return render(request, 'googleMap.html', {'google_maps_api_key': settings.GOOGLE_MAPS_API_KEY})
+    return render(request, 'TransportationComparison/googleMap.html', {'google_maps_api_key': settings.GOOGLE_MAPS_API_KEY})
 
 
 def Result(request, trip_output_id):

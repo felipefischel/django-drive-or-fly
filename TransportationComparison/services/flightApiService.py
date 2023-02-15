@@ -35,8 +35,6 @@ def getFlights(startPlace, destination,  date):
     departureDateTime = datetime.datetime.strptime(departureTime, format_str)
     arrivalDateTime =datetime.datetime.strptime(arrivalTime, format_str)
     duration = arrivalDateTime - departureDateTime
-    print("internal")
-    print(listOfFlights)
     duration_in_s = duration.total_seconds()
     hours = duration_in_s/3600
 
@@ -46,8 +44,12 @@ def getFlights(startPlace, destination,  date):
       "duration":hours
     }
 
-  except ResponseError as error:
-    print(error)
+  except:
+    return {
+      "totalPrice":-1,
+      "flights":list(),
+      "duration":-1
+    }
 
 
 def getAirports(lat, long):
