@@ -7,6 +7,9 @@ from .googleMapsService import getCarDurationAndDistance, getLongAndLat
 def calculateCarCostAndDistanceAndDuration(start, end):
    startLongLat  = getLongAndLat(start)
    endLongLat  =  getLongAndLat(end)
+   if startLongLat['lat'] == "N/A" or endLongLat['lat'] == "N/A":
+      return {"duration": -1, "distance":-1, "cost":-1, "gas_price": -1}
+   
    result =  getCarDurationAndDistance((startLongLat['lat'],startLongLat['lng']),(endLongLat['lat'],endLongLat['lng']))
    gallons = (float(result['distance'])/1000)/38.94
    costPerGallon = getGasPricesByUSState()
@@ -22,6 +25,13 @@ def calculateCarCostAndDistanceAndDuration(start, end):
 def calculateFlightCostAndHours(start, end, date):
     startLongLat  = getLongAndLat(start)
     endLongLat  =  getLongAndLat(end)
+    if startLongLat['lat'] == "N/A" or endLongLat['lat'] == "N/A":
+      return {
+      "totalPrice":-1,
+      "flights":list(),
+      "duration":-1
+    }
+   
     startAirport = getAirports(startLongLat['lat'],startLongLat['lng'])
     endAirport = getAirports(endLongLat['lat'],endLongLat['lng'])
     return getFlights(startAirport, endAirport,date)

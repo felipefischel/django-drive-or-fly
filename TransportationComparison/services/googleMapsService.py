@@ -5,7 +5,10 @@ gmaps = googlemaps.Client(key=settings.GOOGLE_MAPS_API_KEY)
 
 def getLongAndLat(address):
   geocode_result = gmaps.geocode(address)
-  return geocode_result[0]['geometry']['location']
+  if geocode_result:
+    return geocode_result[0]['geometry']['location']
+
+  return {"lat":"N/A"}
 
 
 
