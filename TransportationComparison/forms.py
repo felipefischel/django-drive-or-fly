@@ -10,7 +10,17 @@ class TripForm(forms.Form):
     final_destination = forms.CharField(label='',widget=forms.TextInput(attrs={'placeholder': 'Where To?'}))
     # date_start = forms.DateField(label='', widget = forms.SelectDateWidget(attrs={'placeholder': 'Date'}))
     #date_end = forms.DateField(widget = forms.SelectDateWidget)
-    date_start = forms.DateField(label='', widget=DatePickerInput(attrs={'placeholder': 'Date'}))
+    date_start = forms.DateField(label='', widget=DatePickerInput(
+        options={
+            'showClose': True,
+            'showClear': True,
+            'showTodayButton': True
+        },
+        attrs={
+            'placeholder': 'Date',
+            'addon_before': '<i class="fas fa-calendar-alt"></i>'
+            }
+        ))
     # date_end = forms.DateField()
 
     def clean_date_start(self):

@@ -1,3 +1,10 @@
+.result-background-ad-image{
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .result-main-container{
   position:absolute;
   transform: translate(65px, 170px);
@@ -101,7 +108,7 @@
     border-right: none;
     border-bottom: 1px solid var(--white);
   }
-  .background-ad-image{
+  .result-background-ad-image{
     height: 130vh;
   }
 }

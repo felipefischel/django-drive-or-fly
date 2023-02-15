@@ -1,4 +1,4 @@
-.background-ad-image{
+.index-background-ad-image{
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -14,15 +14,13 @@
   border-radius: 8px;
   width: 280px;
   height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .main-form-inputs-container{
   margin-bottom: 15px;
   border-width: 5px;
   color: black;
+  transform: translate(0, 40px);
 }
 
 .main-form-fields{
@@ -43,7 +41,7 @@
   width: 180px;
   padding: 15px;
   border: 1px solid grey;
-  box-shadow: 0 0 2px grey;
+  box-shadow: 0 0 1px grey;
   border-radius: 4px;
 }
 
