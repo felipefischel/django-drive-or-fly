@@ -45,7 +45,7 @@ src="https://maps.google.com/maps/api/js?key=AIzaSyBjr3Fk_utl5cz-hvNyH2bZRxJ0g0s
     <form action="{% url 'comparison:compare'%}" method="post">
       {% csrf_token %}
       <div class="main-form-inputs-container">
-        <div class="main-form-fields">
+        <div class="main-form-fields" type="text" style="position:relative; z-index:1000;">
           {{ form.starting_destination.errors }}
           {{ form.starting_destination.label_tag }}
           {{ form.starting_destination }}

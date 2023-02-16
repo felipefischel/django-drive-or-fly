@@ -204,9 +204,7 @@ a:hover {
   color: var(--blue); }
 
 span {
-  display: block;
-  line-height: 1.5em;
-  color: white; }
+  color: black; }
 
 .navigation-div {
   display: flex;
@@ -254,6 +252,11 @@ span {
   color: white; }
 
 .nav-logo-img {
+  color: black; }
+
+.white-span {
+  display: block;
+  line-height: 1.5em;
   color: black; }
 
 .footer-div {
@@ -308,7 +311,7 @@ span {
 
 /* Change back-color of arrows */
 .prev, .next {
-  background-color: rgba(61, 143, 255, 0.7); }
+  background-color: rgba(61, 143, 255, 0.6); }
 
 /* Change text color of top bar */
 .datepicker-years, .datepicker-months {
@@ -342,5 +345,32 @@ span {
 .datepicker-years .table-condensed .active.disabled:hover {
   background-color: var(--blue);
   border-color: var(--blue); }
+
+.pac-container {
+  background-color: #FFF;
+  position: absolute;
+  z-index: 1000;
+  border-radius: 2px;
+  border-top: none;
+  font-size: 14px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  margin-top: -1px;
+  color: black; }
+
+.pac-container .pac-item {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  padding: 0.5em 1em;
+  color: black; }
+
+.pac-container .pac-item:hover {
+  background-color: #F5F5F5; }
+
+.pac-container .pac-item-selected {
+  background-color: #E5E5E5; }
 
 /*# sourceMappingURL=style.css.map */
