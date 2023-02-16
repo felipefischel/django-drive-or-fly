@@ -33,3 +33,9 @@
 .footer-menu-item{
   margin-left: 20px;
 }
+
+@media (max-width: 767px) {
+  .footer-div {
+    position: absolute;
+  }
+}
