@@ -12,13 +12,11 @@ class TripForm(forms.Form):
     #date_end = forms.DateField(widget = forms.SelectDateWidget)
     date_start = forms.DateField(label='', widget=DatePickerInput(
         options={
-            'showClose': True,
-            'showClear': True,
-            'showTodayButton': True
+            
         },
         attrs={
             'placeholder': 'Date',
-            'addon_before': '<i class="fas fa-calendar-alt"></i>'
+            'class': 'datepicker-with-icon',
             }
         ))
     # date_end = forms.DateField()

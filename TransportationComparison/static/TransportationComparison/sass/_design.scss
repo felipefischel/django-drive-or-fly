@@ -38,6 +38,11 @@ a{
   color: white;
 }
 
+a:hover {
+  color: var(--blue);
+}
+
+
 span {
   display: block;
   line-height: 1.5em;

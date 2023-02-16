@@ -200,6 +200,9 @@ a {
   text-decoration: none;
   color: white; }
 
+a:hover {
+  color: var(--blue); }
+
 span {
   display: block;
   line-height: 1.5em;
@@ -286,5 +289,58 @@ span {
 @media (max-width: 767px) {
   .footer-div {
     position: absolute; } }
+
+.datepicker-with-icon .input-group-addon {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 34px;
+  line-height: 34px;
+  text-align: center;
+  border: 1px solid grey;
+  border-left: none;
+  background-color: none; }
+
+.datepicker-with-icon .form-control {
+  padding-right: 34px; }
+
+/* Change back-color of arrows */
+.prev, .next {
+  background-color: rgba(61, 143, 255, 0.7); }
+
+/* Change text color of top bar */
+.datepicker-years, .datepicker-months {
+  color: rgba(61, 143, 255, 0.7); }
+
+/* Change bck-color of buttons */
+.datepicker-years .year, .datepicker-months .month, .datepicker-decades .decade, .datepicker-centuries .century {
+  background-color: rgba(61, 143, 255, 0.7); }
+
+/* Change color of selected day */
+.datepicker-days .table-condensed .today,
+.datepicker-days .table-condensed .active,
+.datepicker-days .table-condensed .active:hover,
+.datepicker-days .table-condensed .active.disabled,
+.datepicker-days .table-condensed .active.disabled:hover {
+  background-color: var(--blue);
+  border-color: var(--blue); }
+
+/* Change color of selected month */
+.datepicker-months .table-condensed .active,
+.datepicker-months .table-condensed .active:hover,
+.datepicker-months .table-condensed .active.disabled,
+.datepicker-months .table-condensed .active.disabled:hover {
+  background-color: var(--blue);
+  border-color: var(--blue); }
+
+/* Change color of selected year */
+.datepicker-years .table-condensed .active,
+.datepicker-years .table-condensed .active:hover,
+.datepicker-years .table-condensed .active.disabled,
+.datepicker-years .table-condensed .active.disabled:hover {
+  background-color: var(--blue);
+  border-color: var(--blue); }
 
 /*# sourceMappingURL=style.css.map */

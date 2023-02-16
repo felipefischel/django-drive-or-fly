@@ -46,20 +46,23 @@ src="https://maps.google.com/maps/api/js?key=AIzaSyBjr3Fk_utl5cz-hvNyH2bZRxJ0g0s
       {% csrf_token %}
       <div class="main-form-inputs-container">
         <div class="main-form-fields">
-            {{ form.starting_destination.errors }}
-            {{ form.starting_destination.label_tag }}
-            {{ form.starting_destination }}
+          {{ form.starting_destination.errors }}
+          {{ form.starting_destination.label_tag }}
+          {{ form.starting_destination }}
+        </div>
+        <div class="main-form-fields">
+          {{ form.final_destination.errors }}
+          {{ form.final_destination.label_tag }}
+          {{ form.final_destination }}
+        </div>
+        <div class="main-form-fields">
+          {{ form.date_start.errors }}
+          {{ form.date_start.label_tag }}
+          <div class="input-group date datepicker-with-icon">
+            {{ form.date_start }}
+            {% comment %} <span class="input-group-addon"><i class="fas fa-calendar-alt"></i></span> {% endcomment %}
           </div>
-          <div class="main-form-fields">
-              {{ form.final_destination.errors }}
-              {{ form.final_destination.label_tag }}
-              {{ form.final_destination }}
-            </div>
-            <div class="main-form-fields">
-              {{ form.date_start.errors }}
-              {{ form.date_start.label_tag }}
-              {{ form.date_start }}
-            </div>
+        </div>
       </div>
       <div class="main-form-btn-container">
         {% buttons %}
