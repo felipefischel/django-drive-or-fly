@@ -311,7 +311,7 @@ span {
 
 /* Change back-color of arrows */
 .prev, .next {
-  background-color: rgba(61, 143, 255, 0.6); }
+  background-color: #e6e6e6; }
 
 /* Change text color of top bar */
 .datepicker-years, .datepicker-months {
