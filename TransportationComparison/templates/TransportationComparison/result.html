@@ -15,13 +15,15 @@
         <div class="row results-div drive-time-div">
           {% if driveCost == 0 %}
             <h2>Not possible to drive.</h2>
+          {% elif driveCost == -1 %}
+            <h2>Please provide a more specific location.</h2>
           {% else %}
             <h2>{{driveDuration}}</h2>
           {% endif %}
         </div>
 
         <div class="row results-div drive-price-div">
-          {% if driveCost == 0 %}
+          {% if driveCost == 0 or driveCost == -1 %}
 
           {% else %}
             <h2>${{driveCost}}</h2>
@@ -29,7 +31,7 @@
         </div>
 
         <div class="row results-div drive-extra-info">
-          {% if driveCost == 0 %}
+          {% if driveCost == 0 or driveCost == -1 %}
 
           {% else %}
             <div class="drive-extra-info-container">
@@ -51,9 +53,21 @@
 
         <div class="row results-div fly-icon-div"><img class="icon-result" src="{% static 'TransportationComparison/icons/fly-icon.svg' %}" alt="drive-icon"></div>
 
-        <div class="row results-div fly-time-div"><h2>{{flightDuration}}</h2></div>
+        <div class="row results-div fly-time-div">
+          {% if driveCost == -1 %}
+            <h2>Please provide a more specific location.</h2>
+          {% else %}
+            <h2>{{flightDuration}}</h2>
+          {% endif %}
+        </div>
 
-        <div class="row results-div fly-price-div"><h2>${{flightCost}}</h2></div>
+        <div class="row results-div fly-price-div">
+          {% if driveCost == -1 %}
+            
+          {% else %}
+            <h2>${{flightCost}}</h2>
+          {% endif %}
+        </div>
 
         <div class="row results-div fly-extra-info">
           {% for flight in flights %}
