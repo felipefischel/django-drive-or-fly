@@ -103,6 +103,12 @@
   margin-right: 8px;
 }
 
+@media (max-width: 1135px) {
+  .results-text-container{
+    margin-top: 120px;
+  }
+}
+
 @media (max-width: 767px) {
   .result-main-container {
     transform: translate(20px, 150px);
@@ -122,12 +128,6 @@
   .drive-column {
     border-right: none;
     border-bottom: 1px solid var(--white);
-  }
-}
-
-@media (max-width: 1135px) {
-  .results-text-container{
-    margin-top: 120px;
   }
   .result-background-ad-image{
     height: 165vh;
