@@ -154,6 +154,10 @@
 .drive-field {
   margin-right: 8px; }
 
+@media (max-width: 1135px) {
+  .results-text-container {
+    margin-top: 120px; } }
+
 @media (max-width: 767px) {
   .result-main-container {
     transform: translate(20px, 150px);
@@ -168,11 +172,7 @@
     margin-top: 0; }
   .drive-column {
     border-right: none;
-    border-bottom: 1px solid var(--white); } }
-
-@media (max-width: 1135px) {
-  .results-text-container {
-    margin-top: 120px; }
+    border-bottom: 1px solid var(--white); }
   .result-background-ad-image {
     height: 165vh; } }
 
@@ -282,6 +282,14 @@ span {
   line-height: 1.5em;
   color: white; }
 
+@media (max-width: 767px) {
+  .about-container {
+    transform: translate(0, 120px);
+    justify-content: space-between;
+    padding: 20px; }
+  .about-bck {
+    height: 130vh; } }
+
 .footer-div {
   display: flex;
   position: fixed;
@@ -307,7 +315,8 @@ span {
   color: white; }
 
 .footer-text {
-  color: var(--black); }
+  color: var(--black);
+  font-size: 14px; }
 
 .footer-link {
   color: var(--black); }

@@ -1,5 +1,5 @@
 .about-container {
-  position:absolute;
+  position: absolute;
   transform: translate(65px, 110px);
   text-align: left;
   align-items: center;
@@ -31,4 +31,15 @@
   display: block;
   line-height: 1.5em;
   color: white;
+}
+
+@media (max-width: 767px) {
+  .about-container {
+    transform: translate(0, 120px);
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .about-bck{
+    height: 130vh;
+  }
 }
