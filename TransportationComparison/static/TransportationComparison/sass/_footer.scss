@@ -1,11 +1,14 @@
 .footer-div{
   display: flex;
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  height: 50px;
+  left: 0;
+  right: 0;
   align-items: center;
   z-index: 1;
   width: 100%;
+  background-color: var(--white);
+  height: 45px;
 }
 
 .footer-container{
@@ -23,19 +26,13 @@
 }
 
 .footer-text{
-  color: white;
+  color: var(--black);
 }
 
-.footer-logo-img{
-  width: 120px;
+.footer-link{
+  color: var(--black);
 }
 
 .footer-menu-item{
   margin-left: 20px;
-}
-
-@media (max-width: 767px) {
-  .footer-div {
-    position: absolute;
-  }
 }
