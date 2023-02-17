@@ -55,15 +55,15 @@
           <div class="row results-div fly-icon-div"><img class="icon-result" src="{% static 'TransportationComparison/icons/fly-icon.svg' %}" alt="drive-icon"></div>
 
           <div class="row results-div fly-time-div">
-            {% if driveCost == -1 %}
-              <h2>Please provide a more specific location.</h2>
+            {% if flightCost == -1 %}
+              <h2>No flights to this location.</h2>
             {% else %}
               <h2>{{flightDuration}}</h2>
             {% endif %}
           </div>
 
           <div class="row results-div fly-price-div">
-            {% if driveCost == -1 %}
+            {% if flightCost == -1 %}
 
             {% else %}
               <h2>${{flightCost}}</h2>

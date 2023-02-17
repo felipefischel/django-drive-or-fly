@@ -22,6 +22,9 @@ gcloud run services update django-cloudrun   --platform managed   --region us-ce
 
 *** In case the image fails to update correctly -> Run the command in step 3 with the previous image.
 
+*** In case the CSS files don't update, you can run the following command:
+USE_CLOUD_SQL_AUTH_PROXY=true APPLICATION_SETTINGS=$(cat .env) python manage.py collectstatic
+
 // --------------------------- //
 
 FOR FIRST TIME USAGE:
