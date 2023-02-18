@@ -2,8 +2,8 @@ from urllib.request import urlopen
 from amadeus import Client, ResponseError
 import ssl
 from django.conf import settings
-import datetime
 import json
+import re
 
 #only  needed for running  the api call locally
 def ssl_disabled_urlopen(endpoint):
@@ -29,14 +29,8 @@ def getFlights(startPlace, destination,  date):
         adults=1)
     flights = map(getFlightInformation, response.data[0]['itineraries'][0]['segments'] )
     listOfFlights = list(flights)
-    departureTime = listOfFlights[0]['departureTime']
-    arrivalTime = listOfFlights[-1]['arrivalTime']
-    format_str = "%Y-%m-%dT%H:%M:%S"
-    departureDateTime = datetime.datetime.strptime(departureTime, format_str)
-    arrivalDateTime =datetime.datetime.strptime(arrivalTime, format_str)
-    duration = arrivalDateTime - departureDateTime
-    duration_in_s = duration.total_seconds()
-    hours = duration_in_s/3600
+    duration = response.data[0]['itineraries'][0]['duration']
+    hours = formatDuration(duration)
 
     return {
       "totalPrice":response.data[0]['price']['grandTotal'],
@@ -83,6 +77,11 @@ def getCarrierName(carrierCode):
     jsonReader = open('TransportationComparison/static/TransportationComparison/data/airlines.json')
     carrierData = json.load(jsonReader)
     return carrierData[carrierCode]['Description']
+
+
+def formatDuration(duration):
+  h, m = re.findall('PT(\d+)H(\d+)M',duration)[0]
+  return int(h) + float(m)/60
 
 
 
