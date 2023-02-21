@@ -82,4 +82,4 @@ SASS_PROCESSOR_OUTPUT_DIR = os.path.join(BASE_DIR, 'TransportationComparison/sta
 #    os.path.join(BASE_DIR, "TransportationComparison", "static")
 # ]
 
-# STATICFILES_STORAGE = "storages.backends.gcloud.GoogleCloudStorage" 
+# STATICFILES_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"

@@ -65,15 +65,20 @@
   .main-form-container {
     transform: translate(50px, 200px); } }
 
-.result-background-ad-image {
-  height: 120vh;
+.result-background {
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-color: var(--black);
+  overflow: hidden;
+  min-height: 100vh; }
 
 .result-main-container {
-  transform: translate(0, 170px);
   justify-content: space-between;
+  position: relative;
+  text-align: left;
+  margin-top: 110px;
+  margin-bottom: 100px;
   padding: 0 85px;
   margin-left: 0;
   margin-right: 0; }
@@ -86,8 +91,10 @@
   height: auto; }
 
 .results-text-container {
-  width: 350px;
-  color: white; }
+  width: 450px;
+  color: white;
+  margin-left: 50px;
+  margin-top: 120px; }
 
 .results-columns-container {
   margin: 20px 0; }
@@ -154,9 +161,10 @@
 .drive-field {
   margin-right: 8px; }
 
-@media (max-width: 1135px) {
+@media (max-width: 1200px) {
   .results-text-container {
-    margin-top: 120px; } }
+    margin-left: 0;
+    margin-bottom: 130px; } }
 
 @media (max-width: 767px) {
   .result-main-container {
@@ -172,9 +180,7 @@
     margin-top: 0; }
   .drive-column {
     border-right: none;
-    border-bottom: 1px solid var(--white); }
-  .result-background-ad-image {
-    height: 165vh; } }
+    border-bottom: 1px solid var(--white); } }
 
 :root {
   --blue: #3d8fff;
@@ -253,13 +259,22 @@ span {
 .nav-menu-item {
   margin-left: 20px; }
 
+.about-background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--black);
+  overflow: hidden; }
+
 .about-container {
-  position: absolute;
-  transform: translate(65px, 110px);
+  position: relative;
   text-align: left;
-  align-items: center;
-  justify-content: left;
-  max-width: 500px; }
+  max-width: 700px;
+  margin-top: 130px;
+  margin-bottom: 100px;
+  padding: 0 85px;
+  margin-left: 0;
+  margin-right: 0; }
 
 .about-header {
   margin-bottom: 20px;
@@ -282,13 +297,9 @@ span {
   line-height: 1.5em;
   color: white; }
 
-@media (max-width: 767px) {
+@media (max-width: 776px) {
   .about-container {
-    transform: translate(0, 120px);
-    justify-content: space-between;
-    padding: 20px; }
-  .about-bck {
-    height: 130vh; } }
+    padding: 0 45px; } }
 
 .footer-div {
   display: flex;
