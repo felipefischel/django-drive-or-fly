@@ -1,10 +1,20 @@
+.about-background{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--black);
+  overflow: hidden;
+}
+
 .about-container {
-  position: absolute;
-  transform: translate(65px, 110px);
+  position: relative;
   text-align: left;
-  align-items: center;
-  justify-content: left;
-  max-width: 500px;
+  max-width: 700px;
+  margin-top: 130px;
+  margin-bottom: 100px;
+  padding: 0 85px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .about-header {
@@ -33,13 +43,7 @@
   color: white;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 776px) {
   .about-container {
-    transform: translate(0, 120px);
-    justify-content: space-between;
-    padding: 20px;
-  }
-  .about-bck{
-    height: 130vh;
-  }
+    padding: 0 45px;  }
 }
