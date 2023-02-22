@@ -1,8 +1,8 @@
-# django-drive-or-fly
-Web app in Django
-
 # Drive or Fly
-A tool that compares the cost and time of driving versus flying from one location to another. <br> 
+
+### Web app built on Django and Deployed in Google Cloud Run. 
+
+'Drive or Fly' is a tool that compares the cost and time of driving versus flying from one location to another. <br> 
 Whether you're planning a road trip or trying to decide the best way to get to your next business meeting, our app can help you make an informed choice.
 
 ## Screenshots
