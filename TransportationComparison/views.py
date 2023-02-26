@@ -39,6 +39,19 @@ def Result(request, trip_output_id):
     template = loader.get_template('TransportationComparison/result.html')
     backgroundimage = "url('https://drive.google.com/file/d/1ofqWqnfwzSzw_Ms-9dAy363nmqCiKeHr/view?usp=sharing')"
 
+    # Calculating the layover time
+    seconds_in_layover = 0
+    flights = trip.flights.all()
+    flight_list = list(flights)
+    if len(flight_list) >= 2:
+        for i in range(0, len(flight_list) - 1):
+            diff = flight_list[i+1].departure - flight_list[i].arrival
+            seconds_in_layover = seconds_in_layover + diff.seconds
+
+    hours_in_layover = seconds_in_layover/3600
+    hours_flying = trip.flight_duration - hours_in_layover
+
+
     #leemos la base de datos y la guardamos en una variable X
     context = {
         "flightDuration":dateUtils.transformHoursFloatIntoTime(trip.flight_duration),
@@ -48,9 +61,15 @@ def Result(request, trip_output_id):
         "flights":trip.flights.all(),
         "driveDistance":trip.drive_distance,
         "gasPrice":trip.gas_price,
-        "backgroundimage":backgroundimage
+        "backgroundimage":backgroundimage,
+        "carCO2Emissions":round(float(trip.drive_distance*0.1276),1),
+        "flightCO2Emissions":round(float(hours_flying*125),1)
     }
     return HttpResponse(template.render(context, request))
+
+
+
+
 
 
 def Compare(request):
@@ -85,7 +104,7 @@ def Compare(request):
       flight_duration=round(float(flight_cost_and_distance['duration']),2),
       drive_duration=round(float(car_cost_and_distance['duration']/3600 ),2),
       drive_distance=round(float(car_cost_and_distance['distance']/1000),2),
-      gas_price=round(float(car_cost_and_distance['gas_price']),2)
+      gas_price=round(float(car_cost_and_distance['gas_price']),2),
       )
 
 

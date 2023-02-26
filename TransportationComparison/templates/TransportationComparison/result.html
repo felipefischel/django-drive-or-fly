@@ -5,7 +5,7 @@
 
 {% block content %}
 
-<div class="result-background">
+<div class="result-background" style="background-color: var(--black);">
   <div class="row align-items-center result-main-container">
     <div class="col-md-6 result-info-container">
       <div class="row results-columns-container">
@@ -48,6 +48,21 @@
               </div>
             {% endif %}
           </div>
+
+          <div class="row results-div drive-co2-emissions">
+            {% if driveCost == 0 or driveCost == -1 %}
+
+            {% else %}
+              <div class="co2-emissions-container">
+                <div class="co2-info-div">
+                  <img class="drive-icon" src="{% static 'TransportationComparison/icons/co2-grey.svg' %}" alt="kms-icon">
+                  <h2 class="drive-field">{{carCO2Emissions}}</h2><h6>kg</h6>
+                </div>
+              </div>
+            {% endif %}
+
+          </div>
+
         </div>
 
         <div class="col-md-6 fly-column">
@@ -88,7 +103,25 @@
             </div>
             {% endfor %}
           </div>
+
+          <div class="row results-div fly-co2-emissions">
+            {% if flightCost == -1 %}
+
+            {% else %}
+              <div class="co2-emissions-container flight-emissions">
+                <div class="co2-info-div">
+                  <img class="drive-icon" src="{% static 'TransportationComparison/icons/co2-grey.svg' %}" alt="kms-icon">
+                  <h2 class="drive-field">{{flightCO2Emissions}}</h2><h6>kg</h6>
+                </div>
+              </div>
+            {% endif %}
+
+          </div>
+
+
+
         </div>
+
       </div>
     </div>
     <div class="col-md-6 results-text-container">
