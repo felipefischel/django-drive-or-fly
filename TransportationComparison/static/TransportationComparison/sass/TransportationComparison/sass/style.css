@@ -69,7 +69,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: var(--black);
   overflow: hidden;
   min-height: 100vh; }
 
@@ -161,6 +160,25 @@
 .drive-field {
   margin-right: 8px; }
 
+.co2-emissions-container {
+  box-shadow: 0 0 2px grey;
+  border: 1px solid var(--grey);
+  border-radius: 6px;
+  background-color: var(white);
+  width: auto;
+  margin-left: auto;
+  margin: 0 30px;
+  padding: 25px 15px;
+  margin-bottom: 20px; }
+
+.flight-emissions {
+  margin-top: 30px; }
+
+.co2-info-div {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 @media (max-width: 1200px) {
   .results-text-container {
     margin-left: 0;
@@ -180,7 +198,9 @@
     margin-top: 0; }
   .drive-column {
     border-right: none;
-    border-bottom: 1px solid var(--white); } }
+    border-bottom: 1px solid var(--white); }
+  .flight-emissions {
+    margin-top: 0; } }
 
 :root {
   --blue: #3d8fff;

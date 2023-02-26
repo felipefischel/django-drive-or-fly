@@ -2,3 +2,4 @@
 venv
 *.pyc
 cloud_sql_proxy
+__pycache__
