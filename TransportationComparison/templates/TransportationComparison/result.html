@@ -54,9 +54,14 @@
 
             {% else %}
               <div class="co2-emissions-container">
+                <h3>CO2 Emissions</h3>
                 <div class="co2-info-div">
-                  <img class="drive-icon" src="{% static 'TransportationComparison/icons/co2-grey.svg' %}" alt="kms-icon">
+                  <img class="drive-icon" src="{% static 'TransportationComparison/icons/co2-grey.svg' %}" alt="co2">
                   <h2 class="drive-field">{{carCO2Emissions}}</h2><h6>kg</h6>
+                </div>
+                <div class="co2-info-div">
+                  <img class="drive-icon price-tag" src="{% static 'TransportationComparison/icons/price-tag.svg' %}" alt="price-tag">
+                  <h2>$</h2><h2 class="drive-field">{{driveCarbonPrice}}</h2>
                 </div>
               </div>
             {% endif %}
@@ -109,9 +114,14 @@
 
             {% else %}
               <div class="co2-emissions-container flight-emissions">
+                <h3>CO2 Emissions</h3>
                 <div class="co2-info-div">
                   <img class="drive-icon" src="{% static 'TransportationComparison/icons/co2-grey.svg' %}" alt="kms-icon">
                   <h2 class="drive-field">{{flightCO2Emissions}}</h2><h6>kg</h6>
+                </div>
+                <div class="co2-info-div">
+                  <img class="drive-icon price-tag" src="{% static 'TransportationComparison/icons/price-tag.svg' %}" alt="price-tag">
+                  <h2>$</h2><h2 class="drive-field">{{flightCarbonPrice}}</h2>
                 </div>
               </div>
             {% endif %}

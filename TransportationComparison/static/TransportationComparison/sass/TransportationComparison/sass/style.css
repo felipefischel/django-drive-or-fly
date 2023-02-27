@@ -144,7 +144,7 @@
   width: auto;
   margin-left: auto;
   margin: 0 30px;
-  padding: 25px 15px;
+  padding: 25px 35px;
   margin-bottom: 20px; }
 
 .drive-info-div {
@@ -168,7 +168,7 @@
   width: auto;
   margin-left: auto;
   margin: 0 30px;
-  padding: 25px 15px;
+  padding: 25px 35px;
   margin-bottom: 20px; }
 
 .flight-emissions {
@@ -177,7 +177,11 @@
 .co2-info-div {
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 25px; }
+
+.price-tag {
+  margin-right: 20px; }
 
 @media (max-width: 1200px) {
   .results-text-container {

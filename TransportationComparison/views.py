@@ -29,7 +29,6 @@ def About(request):
 def autocomplete(request):
     return render(request, 'TransportationComparison/googleMap.html', {'google_maps_api_key': settings.GOOGLE_MAPS_API_KEY})
 
-
 def Result(request, trip_output_id):
     try:
       trip = TripOutput.objects.get(pk=trip_output_id)
@@ -51,31 +50,27 @@ def Result(request, trip_output_id):
     hours_in_layover = seconds_in_layover/3600
     hours_flying = trip.flight_duration - hours_in_layover
 
-
     #leemos la base de datos y la guardamos en una variable X
     context = {
         "flightDuration":dateUtils.transformHoursFloatIntoTime(trip.flight_duration),
-        "driveDuration": dateUtils.transformHoursFloatIntoTime( trip.drive_duration),
-        "flightCost":trip.flight_cost,
-        "driveCost":trip.drive_cost,
+        "driveDuration": dateUtils.transformHoursFloatIntoTime(trip.drive_duration),
+        "flightCost":round(float(trip.flight_cost),1),
+        "driveCost":round(float(trip.drive_cost),1),
         "flights":trip.flights.all(),
-        "driveDistance":trip.drive_distance,
-        "gasPrice":trip.gas_price,
+        "driveDistance":round(float(trip.drive_distance),1),
+        "gasPrice":round(float(trip.gas_price),1),
         "backgroundimage":backgroundimage,
-        "carCO2Emissions":round(float(trip.drive_distance*0.1276),1),
-        "flightCO2Emissions":round(float(hours_flying*125),1)
+        "carCO2Emissions":round(float(trip.drive_distance*0.1147),1),
+        "flightCO2Emissions":round(float(hours_flying*125),1),
+        "driveCarbonPrice":round(float(trip.drive_distance*0.1147*0.0363),1),
+        "flightCarbonPrice":round(float(hours_flying*125*0.0363),1),
     }
     return HttpResponse(template.render(context, request))
 
-
-
-
-
-
 def Compare(request):
     backgroundimage = "url('https://drive.google.com/file/d/1ofqWqnfwzSzw_Ms-9dAy363nmqCiKeHr/view?usp=sharing')"
-    #TODO: Make  backroundImage pull from an image from gcloud randomly
-  # if this is a POST request we need to process the form data
+    # Todo, Make  backroundImage pull from an image from gcloud randomly
+    # If this is a POST request we need to process the form data
     if request.method == 'POST':
         # create a form instance and populate it with data from the request:
         form = TripForm(request.POST)
@@ -107,7 +102,6 @@ def Compare(request):
       gas_price=round(float(car_cost_and_distance['gas_price']),2),
       )
 
-
     tripOutput.save()
     for flight in flight_cost_and_distance['flights']:
       flightModel = Flight(
@@ -120,8 +114,5 @@ def Compare(request):
       flightModel.save()
       tripOutput.flights.add(flightModel)
       tripOutput.save()
-
-
-
 
     return HttpResponseRedirect(reverse('comparison:result', args=( tripOutput.id, )))
