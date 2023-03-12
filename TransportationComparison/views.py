@@ -4,13 +4,12 @@ from django.template import loader
 from django.urls import reverse
 from .models import TripOutput, Flight
 from django.http import Http404
-import datetime
-from .services import gasApiService
 from .forms import TripForm
 from django.conf import settings
 from .services import priceCalculationManager
-from django.template.response import TemplateResponse
 from .utils import  dateUtils
+import time
+import multiprocessing
 
 # Create your views here.
 
@@ -95,8 +94,26 @@ def Compare(request):
         form = TripForm(None)
         return render(request, "TransportationComparison/index.html",{'form':form, 'backgroundimage': backgroundimage})
 
-    car_cost_and_distance = priceCalculationManager.calculateCarCostAndDistanceAndDuration(starting_destination,final_destination)
-    flight_cost_and_distance  = priceCalculationManager.calculateFlightCostAndHours(starting_destination, final_destination,date_start)
+   
+    start_geo_code = priceCalculationManager.getGeoCodeResult(starting_destination)
+    final_geo_code = priceCalculationManager.getGeoCodeResult(final_destination)
+    
+    carQueue = multiprocessing.Queue()
+    flightQueue = multiprocessing.Queue()
+    carProcess = multiprocessing.Process(target=priceCalculationManager.calculateCarCostAndDistanceAndDuration, args=(start_geo_code,final_geo_code,carQueue))
+    flightProcess = multiprocessing.Process(target=priceCalculationManager.calculateFlightCostAndHours, args=(start_geo_code, final_geo_code,date_start,flightQueue))
+    # # Start both processes
+    carProcess.start()
+    flightProcess.start()
+
+    car_cost_and_distance = carQueue.get()
+    flight_cost_and_distance = flightQueue.get()
+    # # Wait for both processes to finish and retrieve their results
+    carProcess.join()
+    flightProcess.join()
+
+
+
 
     tripOutput = TripOutput(
       flight_cost=round(float(flight_cost_and_distance['totalPrice']),2),
