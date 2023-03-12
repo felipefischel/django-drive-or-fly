@@ -3,7 +3,7 @@ from amadeus import Client, ResponseError
 import ssl
 from django.conf import settings
 import json
-import re
+import isodate
 
 #only  needed for running  the api call locally
 def ssl_disabled_urlopen(endpoint):
@@ -38,7 +38,10 @@ def getFlights(startPlace, destination,  date):
       "duration":hours
     }
 
-  except:
+    
+  except Exception as err:
+
+    print(f"Unexpected {err=}, {type(err)=}")   
     return {
       "totalPrice":-1,
       "flights":list(),
@@ -80,9 +83,9 @@ def getCarrierName(carrierCode):
 
 
 def formatDuration(duration):
-  h, m = re.findall('PT(\d+)H(\d+)M',duration)[0]
-  return int(h) + float(m)/60
-
+  duration_td = isodate.parse_duration(duration)
+  total_minutes = int(duration_td.total_seconds() / 60)
+  return float(total_minutes)/60
 
 
 #EXAMPLE API CALLS:
