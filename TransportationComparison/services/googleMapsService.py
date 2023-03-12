@@ -3,13 +3,39 @@ from django.conf import settings
 
 gmaps = googlemaps.Client(key=settings.GOOGLE_MAPS_API_KEY)
 
-def getLongAndLat(address):
-  geocode_result = gmaps.geocode(address)
+def getGeoCodeResult(address):
+  return gmaps.geocode(address)
+  
+
+def getLongAndLat(geocode_result):
   if geocode_result:
     return geocode_result[0]['geometry']['location']
 
   return {"lat":"N/A"}
 
+
+
+def getCountry(geocode_result):
+  components = geocode_result[0]['address_components']
+  country_component= filter(lambda component: checkGeocodeComponent(component,"country"),components)
+  country_component_list = list(country_component)
+  if len(country_component_list) == 1:
+    return country_component_list[0]['short_name']
+  return "N/A"
+
+def getUSState(geocode_result):
+  components = geocode_result[0]['address_components']
+  country_component= filter(lambda component: checkGeocodeComponent(component,"administrative_area_level_1"),components)
+  country_component_list = list(country_component)
+  if len(country_component_list) == 1:
+    return country_component_list[0]['short_name']
+  return "N/A"
+
+
+def checkGeocodeComponent(component, type):
+  if type in component['types']:
+    return True
+  return False
 
 
 #units is seconds and meters
