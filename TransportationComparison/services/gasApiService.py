@@ -36,7 +36,7 @@ def getGasPricesByCoordinates(long, lat):
     
     headers = {
         'content-type': "application/json",
-        'authorization': "apikey 34W4lQPvSG3GDXJID7EBt0:1joGbDBEY89Sa00Ch8lUXo"
+        'authorization': settings.COLLECT_API_KEY
     }
     
     conn.request("GET", "/gasPrice/fromCoordinates?lng="+str(long)+"&lat="+str(lat), headers=headers)
