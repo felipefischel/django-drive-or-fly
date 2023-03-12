@@ -44,7 +44,9 @@ def getGasPricesByCoordinates(long, lat):
     res = conn.getresponse()
     data = res.read()
     data_as_json = json.loads(data)
-    return data_as_json['result']['gasoline']
+
+
+    return float(data_as_json['result']['gasoline']) * 3.78541
   
   except:
     return 3.217
